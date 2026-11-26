@@ -1,0 +1,97 @@
+{
+  "docket": "12-88-LNG, 12-156-LNG",
+  "project": "Golden Pass LNG Terminal LLC, Golden Pass LNG Export Project",
+  "report_date": "2024-10-01",
+  "progress_note": "골든 패스 LNG 수출 프로젝트는 전 부지 공사와 트레인 1·2·3의 철골·용기·배관 설치가 계속 진행 중이며, 트레인 3의 주요 콘크리트 기초 작업과 부지 포장, 영구 건물 및 관련 시스템, 부지 제방 공사도 지속되고 있다.",
+  "authorized_mtpa": 18.1,
+  "terminal_location": "Sabine Pass, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2027-03-31",
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.955,
+      "page": 2
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8587,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9925,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2498,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9894,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9816,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9847,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "high",
+      "score": 0.9959,
+      "page": 3
+    }
+  },
+  "evidence": [
+    {
+      "page": 2,
+      "field": "docket",
+      "text": "12-88-LNG, 12-156-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Golden Pass LNG Terminal LLC, Golden Pass LNG Export Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "골든 패스 LNG 수출 프로젝트는 전 부지 공사와 트레인 1·2·3의 철골·용기·배관 설치가 계속 진행 중이며, 트레인 3의 주요 콘크리트 기초 작업과 부지 포장, 영구 건물 및 관련 시스템, 부지 제방 공사도 지속되고 있다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "18.1"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Sabine Pass, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "expected_operational_date",
+      "text": "2027-03-31"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "GPLNG_DO-FE_Semi-Annual_Report_100112024.pdf"
+}

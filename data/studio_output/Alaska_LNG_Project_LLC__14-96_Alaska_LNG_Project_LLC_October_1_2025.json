@@ -1,0 +1,93 @@
+{
+  "docket": "14-96-LNG",
+  "project": "Alaska LNG Project LLC",
+  "report_date": "2025-10-01",
+  "progress_note": "프로젝트는 FEED를 위한 자본 조달과 투자자 실사를 진행 중이며, 2025년 3월 Glenfarne이 리드 개발자로 참여했고 5월 추가 엔지니어링 및 최종 원가 산정이 진행되었으며 6월과 9월에는 잠정적 협력·오프테이크 논의가 있었지만 장기계약은 아직 체결되지 않았다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Alaska",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9884,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9916,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.991,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0542,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9541,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9893,
+      "page": 3
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9448,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9438,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "14-96-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Alaska LNG Project LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-10-01"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "프로젝트는 FEED를 위한 자본 조달과 투자자 실사를 진행 중이며, 2025년 3월 Glenfarne이 리드 개발자로 참여했고 5월 추가 엔지니어링 및 최종 원가 산정이 진행되었으며 6월과 9월에는 잠정적 협력·오프테이크 논의가 있었지만 장기계약은 아직 체결되지 않았다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "terminal_location",
+      "text": "Alaska"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "14-96_Alaska_LNG_Project_LLC_October_1_2025.pdf",
+  "source_folder": "Alaska_LNG_Project_LLC"
+}

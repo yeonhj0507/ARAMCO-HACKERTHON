@@ -1,0 +1,89 @@
+{
+  "docket": "4994",
+  "project": "Power LNG LLC",
+  "report_date": "2024-10-20",
+  "progress_note": "FEED 엔지니어링은 일정대로 진행 중이며 현재 FEL1 엔지니어링이 진행 중이고, 남은 FEED 엔지니어링 완료는 2025년 2분기 말로 예상되며 공기 인허가 절차는 2025년 2분기에 시작되고 FID는 2025년 3분기 말까지 도달할 것으로 예상된다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9901,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9919,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9964,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.3453,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9706,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9637,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9667,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9489,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "4994"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Power LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-20"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "FEED 엔지니어링은 일정대로 진행 중이며 현재 FEL1 엔지니어링이 진행 중이고, 남은 FEED 엔지니어링 완료는 2025년 2분기 말로 예상되며 공기 인허가 절차는 2025년 2분기에 시작되고 FID는 2025년 3분기 말까지 도달할 것으로 예상된다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "PLNG_-_Order_No._4994_-_Semi_Annual_Report_Final_10.20.24_-_Receipt.pdf",
+  "source_folder": "Power_LNG_LLC"
+}

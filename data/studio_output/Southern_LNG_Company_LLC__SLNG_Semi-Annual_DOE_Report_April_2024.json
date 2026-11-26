@@ -1,0 +1,147 @@
+{
+  "docket": "12-54-LNG, 12-100-LNG, 22-166-LNG",
+  "project": "Southern LNG Company, L.L.C., Elba Island Terminal",
+  "report_date": "2024-04-01",
+  "progress_note": "SLNG와 ELC는 2019년 9월 30일 Balance of Plant, Terminal Upgrades, MMLS Unit No. 1을 in-service 상태로 두었고, 2020년 8월 27일 최종 MMLS Unit의 in-service로 건설을 완료했으며, 현재 ELC는 LNG를 계속 생산하고 Southern LNG는 고객을 대신해 LNG를 수출하고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Savannah, Georgia, Chatham County, Georgia",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "Shell NA LNG LLC",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9303,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8291,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9858,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2056,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9556,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9278,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9655,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9202,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9505,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9814,
+      "page": 2
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "low",
+      "score": 0.9659,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.9884,
+      "page": 2
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9103,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-54-LNG, 12-100-LNG, 22-166-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Southern LNG Company, L.L.C., Elba Island Terminal"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "SLNG와 ELC는 2019년 9월 30일 Balance of Plant, Terminal Upgrades, MMLS Unit No. 1을 in-service 상태로 두었고, 2020년 8월 27일 최종 MMLS Unit의 in-service로 건설을 완료했으며, 현재 ELC는 LNG를 계속 생산하고 Southern LNG는 고객을 대신해 LNG를 수출하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Savannah, Georgia, Chatham County, Georgia"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Shell NA LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].term_years",
+      "text": "20"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "SLNG_Semi-Annual_DOE_Report_April_2024.pdf",
+  "source_folder": "Southern_LNG_Company_LLC"
+}

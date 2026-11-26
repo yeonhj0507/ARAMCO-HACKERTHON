@@ -1,0 +1,94 @@
+{
+  "docket": "15-190-LNG",
+  "project": "Rio Grande LNG, LLC, Rio Grande LNG Terminal Project",
+  "report_date": "2024-04-01",
+  "progress_note": "리오그란데 LNG는 보고 기간 동안 FERC에 18건의 이행계획을 제출했으며, 부지 전역에서 심층혼합공법 토양 안정화, 지중 배관 설치, 자재 하역시설 및 콘크리트 기초 공사, 주변 제방 시공, LNG 탱크와 파이프랙 구조물용 말뚝 시공, 현장 야적장과 작업 패드 정비, 임시시설 배치, LNG 선석 1의 브레스팅 돌핀 템플릿 파일 설치 등 건설 활동을 진행했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9921,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.931,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9932,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0859,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9443,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9873,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9392,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9163,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-190-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Rio Grande LNG, LLC, Rio Grande LNG Terminal Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "리오그란데 LNG는 보고 기간 동안 FERC에 18건의 이행계획을 제출했으며, 부지 전역에서 심층혼합공법 토양 안정화, 지중 배관 설치, 자재 하역시설 및 콘크리트 기초 공사, 주변 제방 시공, LNG 탱크와 파이프랙 구조물용 말뚝 시공, 현장 야적장과 작업 패드 정비, 임시시설 배치, LNG 선석 1의 브레스팅 돌핀 템플릿 파일 설치 등 건설 활동을 진행했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "RGLNG_-_Semi-Annual_Report_to_DOE_(April_1_2024).pdf",
+  "source_folder": "Rio_Grande_LNG_LLC"
+}

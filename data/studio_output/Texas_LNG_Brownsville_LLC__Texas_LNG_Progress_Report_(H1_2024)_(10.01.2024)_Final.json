@@ -1,0 +1,134 @@
+{
+  "docket": "15-062-LNG",
+  "project": "Texas LNG Brownsville LLC, Texas LNG Project",
+  "report_date": "2024-09-30",
+  "progress_note": "텍사스 LNG 프로젝트는 FEED 설계가 99.7% 완료되었고 건설 계약자 선정 협의, 주요 인허가 대응 및 오프테이크 계약 체결을 진행하며 상업운전으로 꾸준히 진전하고 있다.",
+  "authorized_mtpa": 5.4,
+  "terminal_location": "Port of Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9885,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9349,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.992,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2072,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.5217,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9854,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9415,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9567,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9492,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9676,
+      "page": -1
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "low",
+      "score": 0.9489,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "low",
+      "score": 0.9666,
+      "page": 3
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9379,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-062-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Texas LNG Brownsville LLC, Texas LNG Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-09-30"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "텍사스 LNG 프로젝트는 FEED 설계가 99.7% 완료되었고 건설 계약자 선정 협의, 주요 인허가 대응 및 오프테이크 계약 체결을 진행하며 상업운전으로 꾸준히 진전하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "5.4"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Port of Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[0].term_years",
+      "text": "20"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "Texas_LNG_Progress_Report_(H1_2024)_(10.01.2024)_Final.pdf",
+  "source_folder": "Texas_LNG_Brownsville_LLC"
+}

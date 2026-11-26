@@ -1,0 +1,36 @@
+{
+  "plan_name": "제16차 장기 천연가스 수급계획",
+  "plan_start_year": 2026,
+  "plan_end_year": 2038,
+  "base_demand_rows": [
+    "2026,23560,22350,45910",
+    "2032,27310,20820,48130",
+    "2038,28160,12840,41000"
+  ],
+  "mgmt_demand_rows": [
+    "2026,23560,24060,47620",
+    "2032,27310,23270,50580",
+    "2038,28160,19510,47670"
+  ],
+  "actual_demand_rows": [
+    "2021,22000,23730,45730",
+    "2022,22310,23090,45400",
+    "2023,21860,21970,43830",
+    "2024,23210,22930,46140",
+    "2025,23710,22640,46350"
+  ],
+  "terminal_rows": [
+    "INCHEON,KOGAS,1540,0",
+    "PYEONGTAEK,KOGAS,1500,0",
+    "TONGYEONG,KOGAS,1160,0",
+    "SAMCHEOK,KOGAS,1160,0",
+    "DANGJIN,KOGAS,0,1200",
+    "JEJU,KOGAS,40,0",
+    "BORYEONG,PRIVATE,620,0",
+    "GWANGYANG,PRIVATE,410,180",
+    "YEOSU,PRIVATE,0,360",
+    "ULSAN,PRIVATE,190,190",
+    "TONGYEONG_PRIVATE,PRIVATE,90,0"
+  ],
+  "source": "제16차 장기 천연가스 수급계획 (산업통상자원부 고시) 수요 전망과 기지 설비 표. 이미 전산화된 기준 자료라 Studio로 읽지 않는다."
+}

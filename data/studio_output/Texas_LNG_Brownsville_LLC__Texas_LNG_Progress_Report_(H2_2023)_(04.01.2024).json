@@ -1,0 +1,94 @@
+{
+  "docket": "15-062-LNG",
+  "project": "Texas LNG Brownsville LLC, Texas LNG Project",
+  "report_date": "2024-04-01",
+  "progress_note": "텍사스 LNG 프로젝트는 FEED 설계가 99.7% 완료되었고 주요 장비·자재·건설 계약 입찰과 시공사 선정 논의를 진행 중이며, 인허가 측면에서는 USACE 최종 허가를 확보했다.",
+  "authorized_mtpa": 5.4136,
+  "terminal_location": "Port of Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.99,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8301,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9839,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1834,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.061,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9807,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9471,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9405,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-062-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Texas LNG Brownsville LLC, Texas LNG Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "텍사스 LNG 프로젝트는 FEED 설계가 99.7% 완료되었고 주요 장비·자재·건설 계약 입찰과 시공사 선정 논의를 진행 중이며, 인허가 측면에서는 USACE 최종 허가를 확보했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "5.4136"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Port of Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "Texas_LNG_Progress_Report_(H2_2023)_(04.01.2024).pdf",
+  "source_folder": "Texas_LNG_Brownsville_LLC"
+}

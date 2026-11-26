@@ -1,0 +1,199 @@
+{
+  "docket": "18-70-LNG, 22-167-LNG",
+  "project": "Mexico Pacific Limited LLC, Saguaro Energa LNG Facility",
+  "report_date": "2026-10-01",
+  "progress_note": "멕시코 연방·주·지방정부와 협력해 사구아로 에네르가 LNG 시설과 관련 파이프라인 개발을 추진 중이며, 핵심 멕시코 인허가는 유지되고 있고 FERC는 국경시설 건설 기한을 2030-02-15까지 연장했으며 장기 오프테이크 계약 12 mtpa 초과분을 체결했다.",
+  "authorized_mtpa": 12,
+  "terminal_location": "Sonora, Mexico",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "ExxonMobil",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "ConocoPhillips",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9325,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9271,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9937,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2249,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.7294,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.5046,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9535,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9324,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9661,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.986,
+      "page": 2
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "low",
+      "score": 0.9603,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "low",
+      "score": 0.9543,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9376,
+      "page": -1
+    },
+    "long_term_contracts[1].mtpa": {
+      "confidence": "low",
+      "score": 0.9661,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer": {
+      "confidence": "low",
+      "score": 0.9595,
+      "page": 2
+    },
+    "long_term_contracts[1].start_year": {
+      "confidence": "low",
+      "score": 0.9603,
+      "page": 1
+    },
+    "long_term_contracts[1].term_years": {
+      "confidence": "low",
+      "score": 0.9542,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer_country": {
+      "confidence": "low",
+      "score": 0.9376,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "18-70-LNG, 22-167-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Mexico Pacific Limited LLC, Saguaro Energa LNG Facility"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "멕시코 연방·주·지방정부와 협력해 사구아로 에네르가 LNG 시설과 관련 파이프라인 개발을 추진 중이며, 핵심 멕시코 인허가는 유지되고 있고 FERC는 국경시설 건설 기한을 2030-02-15까지 연장했으며 장기 오프테이크 계약 12 mtpa 초과분을 체결했다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "12"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Sonora, Mexico"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].buyer",
+      "text": "ExxonMobil"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[1].buyer",
+      "text": "ConocoPhillips"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "2026.10.01_MXP_Oct_2026_Semi-Annual_Report.pdf",
+  "source_folder": "Mexico_Pacific_Limited_LLC"
+}

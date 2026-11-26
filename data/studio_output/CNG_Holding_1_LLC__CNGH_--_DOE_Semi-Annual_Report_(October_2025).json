@@ -1,0 +1,88 @@
+{
+  "docket": "22-13-CNG",
+  "project": "CNG HOLDING 1 LLC",
+  "report_date": "2025-10-01",
+  "progress_note": "CNG Holding은 장기 CNG 판매계약을 위한 상업적 논의를 진행 중이며 시설 개발이 진행되고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9884,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9878,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9973,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.5937,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9496,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9616,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.962,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.945,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "22-13-CNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "CNG HOLDING 1 LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-10-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "CNG Holding은 장기 CNG 판매계약을 위한 상업적 논의를 진행 중이며 시설 개발이 진행되고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "CNGH_--_DOE_Semi-Annual_Report_(October_2025).pdf",
+  "source_folder": "CNG_Holding_1_LLC"
+}

@@ -1,0 +1,308 @@
+{
+  "docket": "15-062-LNG",
+  "project": "Texas LNG Brownsville LLC",
+  "report_date": "2026-09-30",
+  "progress_note": "텍사스 LNG는 2026년 7월 Kiewit에 제한적 착공지시를 발행해 장기 납기 기자재 구매와 EPC 단계 엔지니어링, 지반조사 작업을 진행했고, 주요 인허가 및 환경 조건 준수도 계속 추진했다.",
+  "authorized_mtpa": 5.4,
+  "terminal_location": "Port of Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.5,
+      "buyer": "EQT",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.5,
+      "buyer": "Gunvor",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 1.0,
+      "buyer": "RWE",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": "DE"
+    },
+    {
+      "mtpa": 0.5,
+      "buyer": "Macquarie",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9928,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9947,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9966,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0709,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.4179,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9937,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9875,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.853,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "high",
+      "score": 0.9799,
+      "page": 3
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.996,
+      "page": 3
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.9807,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.9878,
+      "page": 3
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "high",
+      "score": 0.986,
+      "page": -1
+    },
+    "long_term_contracts[1].mtpa": {
+      "confidence": "high",
+      "score": 0.9799,
+      "page": 3
+    },
+    "long_term_contracts[1].buyer": {
+      "confidence": "high",
+      "score": 0.9961,
+      "page": 3
+    },
+    "long_term_contracts[1].start_year": {
+      "confidence": "high",
+      "score": 0.9807,
+      "page": 1
+    },
+    "long_term_contracts[1].term_years": {
+      "confidence": "high",
+      "score": 0.9878,
+      "page": 3
+    },
+    "long_term_contracts[1].buyer_country": {
+      "confidence": "high",
+      "score": 0.986,
+      "page": -1
+    },
+    "long_term_contracts[2].mtpa": {
+      "confidence": "high",
+      "score": 0.9909,
+      "page": 3
+    },
+    "long_term_contracts[2].buyer": {
+      "confidence": "high",
+      "score": 0.9955,
+      "page": 3
+    },
+    "long_term_contracts[2].start_year": {
+      "confidence": "high",
+      "score": 0.9807,
+      "page": 1
+    },
+    "long_term_contracts[2].term_years": {
+      "confidence": "high",
+      "score": 0.9878,
+      "page": 3
+    },
+    "long_term_contracts[2].buyer_country": {
+      "confidence": "high",
+      "score": 0.9835,
+      "page": 3
+    },
+    "long_term_contracts[3].mtpa": {
+      "confidence": "high",
+      "score": 0.9799,
+      "page": 3
+    },
+    "long_term_contracts[3].buyer": {
+      "confidence": "high",
+      "score": 0.9959,
+      "page": 3
+    },
+    "long_term_contracts[3].start_year": {
+      "confidence": "high",
+      "score": 0.9807,
+      "page": 1
+    },
+    "long_term_contracts[3].term_years": {
+      "confidence": "high",
+      "score": 0.9878,
+      "page": 3
+    },
+    "long_term_contracts[3].buyer_country": {
+      "confidence": "high",
+      "score": 0.986,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-062-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Texas LNG Brownsville LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-09-30"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "텍사스 LNG는 2026년 7월 Kiewit에 제한적 착공지시를 발행해 장기 납기 기자재 구매와 EPC 단계 엔지니어링, 지반조사 작업을 진행했고, 주요 인허가 및 환경 조건 준수도 계속 추진했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "5.4"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Port of Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0.5"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[0].buyer",
+      "text": "EQT"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[0].term_years",
+      "text": "20"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[1].mtpa",
+      "text": "0.5"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[1].buyer",
+      "text": "Gunvor"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].start_year",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[1].term_years",
+      "text": "20"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[2].mtpa",
+      "text": "1"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[2].buyer",
+      "text": "RWE"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[2].start_year",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[2].term_years",
+      "text": "20"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[2].buyer_country",
+      "text": "DE"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[3].mtpa",
+      "text": "0.5"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[3].buyer",
+      "text": "Macquarie"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[3].start_year",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[3].term_years",
+      "text": "20"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Texas_LNG_Progress_Report_(H1_2026)_Final.pdf",
+  "source_folder": "Texas_LNG_Brownsville_LLC"
+}

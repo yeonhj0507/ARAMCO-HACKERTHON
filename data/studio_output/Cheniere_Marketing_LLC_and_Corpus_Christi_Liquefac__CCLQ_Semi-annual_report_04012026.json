@@ -1,0 +1,94 @@
+{
+  "docket": "12-97-LNG, 12-99-LNG, 19-124-LNG, 18-78-LNG, 23-46-LNG",
+  "project": "Cheniere Marketing, LLC, Corpus Christi Liquefaction, LLC, Corpus Christi Liquefaction Stage 3 Project, Corpus Christi Liquefaction Midscale Trains 8 & 9 Project, CCL Midscale 8-9, LLC",
+  "report_date": "2026-04-01",
+  "progress_note": "코퍼스 크리스티 액화 3단계 프로젝트는 2026년 2월 기준 전체 공정률 95.7%이며, 미드스케일 8·9호기 프로젝트는 35.6%로 기초, 배관, 파일 및 관련 건설 작업이 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Corpus Christi, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9135,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.7149,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "low",
+      "score": 0.9574,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1529,
+      "page": 60
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9424,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.976,
+      "page": 3
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9541,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9439,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-97-LNG, 12-99-LNG, 19-124-LNG, 18-78-LNG, 23-46-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Cheniere Marketing, LLC, Corpus Christi Liquefaction, LLC, Corpus Christi Liquefaction Stage 3 Project, Corpus Christi Liquefaction Midscale Trains 8 & 9 Project, CCL Midscale 8-9, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 60,
+      "field": "progress_note",
+      "text": "코퍼스 크리스티 액화 3단계 프로젝트는 2026년 2월 기준 전체 공정률 95.7%이며, 미드스케일 8·9호기 프로젝트는 35.6%로 기초, 배관, 파일 및 관련 건설 작업이 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "terminal_location",
+      "text": "Corpus Christi, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "CCLQ_Semi-annual_report_04012026.pdf",
+  "source_folder": "Cheniere_Marketing_LLC_and_Corpus_Christi_Liquefac"
+}

@@ -1,0 +1,94 @@
+{
+  "docket": "20-131-LNG",
+  "project": "Bradford County LNG Marketing LLC",
+  "report_date": "2024-03-29",
+  "progress_note": "제안된 액화시설은 FERC 관할 제외 여부에 대한 절차가 진행 중이며 후속 개발활동과 시장·규제 여건에 따라 상업운전은 2027년 이전에는 어려울 것으로 예상되고, Gibbstown Facility 완공은 Bradford 시설 일정에 맞춰질 예정이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Gibbstown, New Jersey",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2027-12-01",
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9899,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9928,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9927,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1095,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9661,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.7478,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9638,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9262,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-131-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Bradford County LNG Marketing LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-03-29"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "제안된 액화시설은 FERC 관할 제외 여부에 대한 절차가 진행 중이며 후속 개발활동과 시장·규제 여건에 따라 상업운전은 2027년 이전에는 어려울 것으로 예상되고, Gibbstown Facility 완공은 Bradford 시설 일정에 맞춰질 예정이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Gibbstown, New Jersey"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "expected_operational_date_inferred": true,
+  "source_file": "Bradford_County_LNG_Marketing_LLC_DOE_Semi-Annual_Report_(Spring_2024)_.pdf",
+  "source_folder": "Bradford_County_LNG_Marketing_LLC"
+}

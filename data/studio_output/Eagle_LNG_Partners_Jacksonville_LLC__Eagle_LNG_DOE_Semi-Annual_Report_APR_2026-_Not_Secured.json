@@ -1,0 +1,89 @@
+{
+  "docket": "16-15-LNG",
+  "project": "Eagle LNG Partners Jacksonville LLC",
+  "report_date": "2026-04-01",
+  "progress_note": "연방에너지규제위원회로부터 시설 입지·건설·운영 승인 명령을 받았으나 아직 건설을 시작하지 않았고, 잠재 구매자들과 상업 논의를 계속 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9879,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9912,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9933,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1853,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9496,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9584,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.962,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9449,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "16-15-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Eagle LNG Partners Jacksonville LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "연방에너지규제위원회로부터 시설 입지·건설·운영 승인 명령을 받았으나 아직 건설을 시작하지 않았고, 잠재 구매자들과 상업 논의를 계속 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Eagle_LNG_DOE_Semi-Annual_Report_APR_2026-_Not_Secured.pdf",
+  "source_folder": "Eagle_LNG_Partners_Jacksonville_LLC"
+}

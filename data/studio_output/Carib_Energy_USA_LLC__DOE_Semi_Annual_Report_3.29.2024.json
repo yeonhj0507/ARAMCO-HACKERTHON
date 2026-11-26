@@ -1,0 +1,88 @@
+{
+  "docket": "16-98-LNG",
+  "project": "Carib Energy (USA) LLC",
+  "report_date": "2024-03-29",
+  "progress_note": "장기 LNG 수출 계약 관련 선적이 없으며 시설 관련 정보 제출이 필요하지 않다고 보고했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9866,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9834,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9965,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0867,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9603,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.958,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9612,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9437,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "16-98-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Carib Energy (USA) LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-03-29"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "장기 LNG 수출 계약 관련 선적이 없으며 시설 관련 정보 제출이 필요하지 않다고 보고했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "DOE_Semi_Annual_Report_3.29.2024.pdf",
+  "source_folder": "Carib_Energy_USA_LLC"
+}

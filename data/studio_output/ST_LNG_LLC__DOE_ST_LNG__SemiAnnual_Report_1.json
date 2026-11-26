@@ -1,0 +1,94 @@
+{
+  "docket": "25-155-LNG",
+  "project": "ST LNG, LLC, ST LNG DWP Development Project",
+  "report_date": "2026-10-12",
+  "progress_note": "프로젝트는 보고기간 동안 pre-FID 개발을 지속하며 FEED를 포함한 전단설계와 연방·주 인허가를 진행했고, 최종 EIS가 2026-07-24에 발행되었으며 최종 연방 결정이 대기 중이다.",
+  "authorized_mtpa": 8.4,
+  "terminal_location": "Federal waters at Brazos Block BA-476, off the southeast coast of Matagorda, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9904,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9028,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9907,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2629,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9758,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9601,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9389,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9198,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "25-155-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "ST LNG, LLC, ST LNG DWP Development Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-12"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트는 보고기간 동안 pre-FID 개발을 지속하며 FEED를 포함한 전단설계와 연방·주 인허가를 진행했고, 최종 EIS가 2026-07-24에 발행되었으며 최종 연방 결정이 대기 중이다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "8.4"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Federal waters at Brazos Block BA-476, off the southeast coast of Matagorda, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "DOE_ST_LNG__SemiAnnual_Report_1.pdf",
+  "source_folder": "ST_LNG_LLC"
+}

@@ -1,0 +1,94 @@
+{
+  "docket": "12-183-LNG, 13-131-LNG",
+  "project": "Magnolia LNG LLC",
+  "report_date": "2026-03-31",
+  "progress_note": "프로젝트 개발은 규제 지연 등으로 늦어졌으나 FERC 건설기한 연장 신청과 주·연방 인허가 연장 및 수질인증 재발급이 진행되었다.",
+  "authorized_mtpa": 8.8,
+  "terminal_location": "Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.939,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9937,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.988,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0921,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9749,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9922,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.954,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9194,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-183-LNG, 13-131-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Magnolia LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-03-31"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트 개발은 규제 지연 등으로 늦어졌으나 FERC 건설기한 연장 신청과 주·연방 인허가 연장 및 수질인증 재발급이 진행되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "8.8"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "MLNG_DOE_Semi_Annual_Report_(2H_2025)_Final_Magnolia.pdf",
+  "source_folder": "Magnolia_LNG_LLC"
+}

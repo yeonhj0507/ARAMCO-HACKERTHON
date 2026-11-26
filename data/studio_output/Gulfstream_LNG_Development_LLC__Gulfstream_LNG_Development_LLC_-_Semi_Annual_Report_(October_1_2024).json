@@ -1,0 +1,93 @@
+{
+  "docket": "23-34-LNG",
+  "project": "Gulfstream LNG Development, LLC",
+  "report_date": "2024-10-03",
+  "progress_note": "프로젝트 자금조달, 엔지니어링 협력, 가스 수송 및 FERC 사전신청 절차에서 진전이 있었으나 장기 LNG 구매계약 협의는 아직 시작되지 않았다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Plaquemines Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9886,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9897,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9945,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2221,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9579,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.984,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9444,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.919,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "23-34-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Gulfstream LNG Development, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-03"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트 자금조달, 엔지니어링 협력, 가스 수송 및 FERC 사전신청 절차에서 진전이 있었으나 장기 LNG 구매계약 협의는 아직 시작되지 않았다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Plaquemines Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "Gulfstream_LNG_Development_LLC_-_Semi_Annual_Report_(October_1_2024).pdf",
+  "source_folder": "Gulfstream_LNG_Development_LLC"
+}

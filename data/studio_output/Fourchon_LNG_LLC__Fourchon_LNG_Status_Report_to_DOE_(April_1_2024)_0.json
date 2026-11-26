@@ -1,0 +1,93 @@
+{
+  "docket": "17-105-LNG",
+  "project": "Fourchon LNG LLC",
+  "report_date": "2024-04-01",
+  "progress_note": "FERC가 Fourchon LNG 프로젝트의 사전심사 절차를 진척 부족으로 종료했고, 고객사로부터 향후 계획에 대한 응답이 없어 DOE에 보고할 프로젝트 진행 상황이 없다고 밝혔다.",
+  "authorized_mtpa": 1.9764383561643837,
+  "terminal_location": "Port Fourchon, Lafourche Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9907,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9888,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9866,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1107,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.3161,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9794,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9406,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9179,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "17-105-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Fourchon LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "FERC가 Fourchon LNG 프로젝트의 사전심사 절차를 진척 부족으로 종료했고, 고객사로부터 향후 계획에 대한 응답이 없어 DOE에 보고할 프로젝트 진행 상황이 없다고 밝혔다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "1.9764383561643837"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Port Fourchon, Lafourche Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "Fourchon_LNG_Status_Report_to_DOE_(April_1_2024)_0.pdf",
+  "source_folder": "Fourchon_LNG_LLC"
+}

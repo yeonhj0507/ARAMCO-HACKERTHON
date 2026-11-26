@@ -1,0 +1,89 @@
+{
+  "docket": "4994",
+  "project": "Power LNG LLC",
+  "report_date": "2024-04-10",
+  "progress_note": "Cryosys 액화 기술 채택으로 생산능력이 증가했고 FEL1 엔지니어링이 진행 중이며 나머지 FEED 엔지니어링은 2024년 11월 완료 예정이고 EPC로 Primoris Services Corporation과 Cryosys가 선정되었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.988,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9929,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9951,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.3307,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9723,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9464,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9684,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9351,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "4994"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Power LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-10"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "Cryosys 액화 기술 채택으로 생산능력이 증가했고 FEL1 엔지니어링이 진행 중이며 나머지 FEED 엔지니어링은 2024년 11월 완료 예정이고 EPC로 Primoris Services Corporation과 Cryosys가 선정되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "PLNG_-_Order_No._4994_-_Semi_Annual_Report_Final.pdf",
+  "source_folder": "Power_LNG_LLC"
+}

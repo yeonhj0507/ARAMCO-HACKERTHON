@@ -1,0 +1,94 @@
+{
+  "docket": "15-190-LNG",
+  "project": "Rio Grande LNG Project",
+  "report_date": "2026-04-01",
+  "progress_note": "보고기간 동안 프로젝트 전역에서 토목, 기초, 철골, 배관·설비, 저장탱크, 준설, 부대건물 및 안전설비 설치 등 건설 공사가 계속 진행되었고, 자재하역시설 준설은 완료되었으며 Train 4 토양 안정화와 Train 1 및 OSBL 설비 설치가 착수되었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9927,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9867,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9916,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1446,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9704,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9856,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9633,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9195,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-190-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Rio Grande LNG Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "보고기간 동안 프로젝트 전역에서 토목, 기초, 철골, 배관·설비, 저장탱크, 준설, 부대건물 및 안전설비 설치 등 건설 공사가 계속 진행되었고, 자재하역시설 준설은 완료되었으며 Train 4 토양 안정화와 Train 1 및 OSBL 설비 설치가 착수되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Rio_Grande_Semi-Annual_Report_April_2026.pdf",
+  "source_folder": "Rio_Grande_LNG_LLC"
+}

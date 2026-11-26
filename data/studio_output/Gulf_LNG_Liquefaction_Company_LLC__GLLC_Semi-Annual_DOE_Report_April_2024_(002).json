@@ -1,0 +1,93 @@
+{
+  "docket": "12-47-LNG, 12-101-LNG",
+  "project": "Gulf LNG Liquefaction Company, LLC",
+  "report_date": "2024-04-01",
+  "progress_note": "GLLC는 장기 액화 수수료 서비스 또는 장기 LNG 공급 서비스를 위한 상업 계약을 계속 추진 중이며, 필요한 계약·동의·승인을 확보할 경우 제안된 액화 프로젝트의 Phase I 및 Phase II를 2029년 말 이전에 가동할 것으로 예상한다.",
+  "authorized_mtpa": 4.161,
+  "terminal_location": "Pascagoula, Mississippi",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9471,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9839,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9865,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2728,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9437,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9795,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9539,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9179,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-47-LNG, 12-101-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Gulf LNG Liquefaction Company, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "GLLC는 장기 액화 수수료 서비스 또는 장기 LNG 공급 서비스를 위한 상업 계약을 계속 추진 중이며, 필요한 계약·동의·승인을 확보할 경우 제안된 액화 프로젝트의 Phase I 및 Phase II를 2029년 말 이전에 가동할 것으로 예상한다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "4.161"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Pascagoula, Mississippi"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "GLLC_Semi-Annual_DOE_Report_April_2024_(002).pdf",
+  "source_folder": "Gulf_LNG_Liquefaction_Company_LLC"
+}

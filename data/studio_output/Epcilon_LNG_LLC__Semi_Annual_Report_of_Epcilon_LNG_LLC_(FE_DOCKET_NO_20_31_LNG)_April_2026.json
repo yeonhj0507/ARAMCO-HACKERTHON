@@ -1,0 +1,213 @@
+{
+  "docket": "20-31-LNG",
+  "project": "Epcilon LNG LLC",
+  "report_date": "2026-04-01",
+  "progress_note": "토지이용변경 기술타당성 검토와 고고학 허가가 승인되었고, 환경영향평가와 사회영향평가 개정본이 각각 2025년 11월과 2026년 3월에 제출되었으며, 자산관리회사와의 운영 관련 계약 협상이 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Mexico",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2028-10-21",
+  "long_term_contracts": [
+    {
+      "mtpa": 0.9,
+      "buyer": "OQ Trading Ltd",
+      "start_year": null,
+      "term_years": 15,
+      "buyer_country": "OM"
+    },
+    {
+      "mtpa": 1.0,
+      "buyer": "IRH Global Trading Ltd",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": "AE"
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9954,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9966,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9957,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1738,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9962,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9964,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9947,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "high",
+      "score": 0.9972,
+      "page": 1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "high",
+      "score": 0.9857,
+      "page": 2
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9834,
+      "page": 2
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.9957,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.9915,
+      "page": 2
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "high",
+      "score": 0.995,
+      "page": 2
+    },
+    "long_term_contracts[1].mtpa": {
+      "confidence": "high",
+      "score": 0.9972,
+      "page": 2
+    },
+    "long_term_contracts[1].buyer": {
+      "confidence": "high",
+      "score": 0.9772,
+      "page": 2
+    },
+    "long_term_contracts[1].start_year": {
+      "confidence": "high",
+      "score": 0.9957,
+      "page": 1
+    },
+    "long_term_contracts[1].term_years": {
+      "confidence": "high",
+      "score": 0.9949,
+      "page": 2
+    },
+    "long_term_contracts[1].buyer_country": {
+      "confidence": "high",
+      "score": 0.995,
+      "page": 2
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-31-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Epcilon LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "토지이용변경 기술타당성 검토와 고고학 허가가 승인되었고, 환경영향평가와 사회영향평가 개정본이 각각 2025년 11월과 2026년 3월에 제출되었으며, 자산관리회사와의 운영 관련 계약 협상이 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Mexico"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "expected_operational_date",
+      "text": "2028-10-21"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0.9"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].buyer",
+      "text": "OQ Trading Ltd"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].term_years",
+      "text": "15"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].buyer_country",
+      "text": "OM"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[1].mtpa",
+      "text": "1"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[1].buyer",
+      "text": "IRH Global Trading Ltd"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].start_year",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[1].term_years",
+      "text": "20"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[1].buyer_country",
+      "text": "AE"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "Semi_Annual_Report_of_Epcilon_LNG_LLC_(FE_DOCKET_NO_20_31_LNG)_April_2026.pdf",
+  "source_folder": "Epcilon_LNG_LLC"
+}

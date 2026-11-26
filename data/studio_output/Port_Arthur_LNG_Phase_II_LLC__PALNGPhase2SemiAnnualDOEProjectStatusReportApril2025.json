@@ -1,0 +1,89 @@
+{
+  "docket": "20-23-LNG",
+  "project": "Port Arthur LNG Phase II, LLC",
+  "report_date": "2025-04-01",
+  "progress_note": "2024년 7월 Bechtel과 고정가 EPC 계약을 체결했고, 2024년 6월 Saudi Aramco 자회사와 20년간 연 5.0 MTPA 규모의 비구속적 HoA를 체결해 구속력 있는 SPA 및 지분 계약 체결을 추진 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9882,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9911,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9933,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2363,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9803,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9434,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9752,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9386,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-23-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Port Arthur LNG Phase II, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "2024년 7월 Bechtel과 고정가 EPC 계약을 체결했고, 2024년 6월 Saudi Aramco 자회사와 20년간 연 5.0 MTPA 규모의 비구속적 HoA를 체결해 구속력 있는 SPA 및 지분 계약 체결을 추진 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "PALNGPhase2SemiAnnualDOEProjectStatusReportApril2025.pdf",
+  "source_folder": "Port_Arthur_LNG_Phase_II_LLC"
+}

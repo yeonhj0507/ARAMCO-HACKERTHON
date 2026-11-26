@@ -1,0 +1,94 @@
+{
+  "docket": "12-97-LNG, 12-99-LNG, 19-124-LNG, 18-78-LNG, 23-46-LNG",
+  "project": "Cheniere Marketing, LLC, Corpus Christi Liquefaction, LLC, CCL Midscale 8-9, LLC, Corpus Christi Liquefaction Stage 3 Project",
+  "report_date": "2025-03-31",
+  "progress_note": "코퍼스 크리스티 액화 3단계 프로젝트는 2025년 2월 기준 전체 공정률 80.0%이며, 배관·콘크리트·철골·지중배관·설비 설치 공사가 계속 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Corpus Christi, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9199,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8167,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9753,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.3716,
+      "page": 51
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9434,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.973,
+      "page": 4
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9551,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.944,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-97-LNG, 12-99-LNG, 19-124-LNG, 18-78-LNG, 23-46-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Cheniere Marketing, LLC, Corpus Christi Liquefaction, LLC, CCL Midscale 8-9, LLC, Corpus Christi Liquefaction Stage 3 Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-03-31"
+    },
+    {
+      "page": 51,
+      "field": "progress_note",
+      "text": "코퍼스 크리스티 액화 3단계 프로젝트는 2025년 2월 기준 전체 공정률 80.0%이며, 배관·콘크리트·철골·지중배관·설비 설치 공사가 계속 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "terminal_location",
+      "text": "Corpus Christi, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "CCL_03-31-25_DOEsemi-annual.pdf",
+  "source_folder": "Cheniere_Marketing_LLC_and_Corpus_Christi_Liquefac"
+}

@@ -1,0 +1,89 @@
+{
+  "docket": "20-23-LNG",
+  "project": "Port Arthur LNG Phase II, LLC",
+  "report_date": "2026-10-01",
+  "progress_note": "보고 기간 동안 액화 프로젝트의 건설 활동이 계속되었고, 기초 공사, 파일 항타, 철골 설치, 토양 안정화, 그리고 가능한 구역에서 주요 철골 구조 설치 착수가 진행되었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9898,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9913,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9959,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2447,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9725,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9493,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9687,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9421,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-23-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Port Arthur LNG Phase II, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "보고 기간 동안 액화 프로젝트의 건설 활동이 계속되었고, 기초 공사, 파일 항타, 철골 설치, 토양 안정화, 그리고 가능한 구역에서 주요 철골 구조 설치 착수가 진행되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "PALNGPhase2SemiAnnualDOEProjectStatusReportOctober2026.pdf",
+  "source_folder": "Port_Arthur_LNG_Phase_II_LLC"
+}

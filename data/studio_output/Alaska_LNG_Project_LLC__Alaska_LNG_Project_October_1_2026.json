@@ -1,0 +1,94 @@
+{
+  "docket": "14-96-LNG",
+  "project": "Alaska LNG Project LLC",
+  "report_date": "2026-10-01",
+  "progress_note": "프로젝트는 2025년 개발 주체 변경과 단계별 개발 계획 수립 이후, 2026년 2월 FERC 이행계획 제출을 거쳐 현재 1단계 파이프라인 건설이 예비 계획 단계에 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Nikiski",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9887,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9929,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9932,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1992,
+      "page": 4
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9564,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9925,
+      "page": 3
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9471,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9405,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "14-96-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Alaska LNG Project LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 4,
+      "field": "progress_note",
+      "text": "프로젝트는 2025년 개발 주체 변경과 단계별 개발 계획 수립 이후, 2026년 2월 FERC 이행계획 제출을 거쳐 현재 1단계 파이프라인 건설이 예비 계획 단계에 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "terminal_location",
+      "text": "Nikiski"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Alaska_LNG_Project_October_1_2026.pdf",
+  "source_folder": "Alaska_LNG_Project_LLC"
+}

@@ -1,0 +1,142 @@
+{
+  "docket": "10-85-LNG, 10-111-LNG, 13-30-LNG, 13-42-LNG, 13-121-LNG, 14-92-LNG, 15-63-LNG, 19-125-LNG, 24-27-LNG",
+  "project": "Sabine Pass Liquefaction, LLC, Sabine Pass Liquefaction Stage V, LLC",
+  "report_date": "2025-10-01",
+  "progress_note": "Stage 5 Project 확장은 FERC에서 계류 중이며 이번 보고기간에는 Stage 5 Project 건설 활동이 없었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "Jera Co., Inc.",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9125,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9657,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9928,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2412,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9665,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9312,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9623,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9206,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9607,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9832,
+      "page": 1
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.9722,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "low",
+      "score": 0.9651,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9127,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "10-85-LNG, 10-111-LNG, 13-30-LNG, 13-42-LNG, 13-121-LNG, 14-92-LNG, 15-63-LNG, 19-125-LNG, 24-27-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Sabine Pass Liquefaction, LLC, Sabine Pass Liquefaction Stage V, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-10-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "Stage 5 Project 확장은 FERC에서 계류 중이며 이번 보고기간에는 Stage 5 Project 건설 활동이 없었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Jera Co., Inc."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "SPLQ_Semi-annual_report_10.01.25.pdf",
+  "source_folder": "Sabine_Pass_Liquefaction_LLC"
+}

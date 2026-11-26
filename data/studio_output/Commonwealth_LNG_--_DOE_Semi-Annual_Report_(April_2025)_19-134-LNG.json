@@ -1,0 +1,92 @@
+{
+  "docket": "19-134-LNG",
+  "project": "Commonwealth LNG, LLC",
+  "report_date": "2025-04-01",
+  "progress_note": "커먼웰스 LNG는 장기 LNG 판매를 위한 상업 협의를 진행 중이며, 시설의 계획·개발을 계속 추진하면서 초기 부지 준비와 건설을 향해 FERC 직원과 협력하고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Camreron Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9934,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9918,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9948,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2667,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9589,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9185,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9543,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9137,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "19-134-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Commonwealth LNG, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "커먼웰스 LNG는 장기 LNG 판매를 위한 상업 협의를 진행 중이며, 시설의 계획·개발을 계속 추진하면서 초기 부지 준비와 건설을 향해 FERC 직원과 협력하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Camreron Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "Commonwealth_LNG_--_DOE_Semi-Annual_Report_(April_2025)_19-134-LNG.pdf"
+}

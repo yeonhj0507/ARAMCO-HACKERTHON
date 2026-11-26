@@ -1,0 +1,99 @@
+{
+  "docket": "20-31-LNG",
+  "project": "Epcilon LNG LLC, Amigo LNG project",
+  "report_date": "2025-04-01",
+  "progress_note": "멕시코 측 인허가·평가 제출과 일부 승인, 주요 장비 공급사 선정, 전력·가스 공급 및 EPC·운영 관련 절차가 진행 중이며 LNG 수출 개시는 2027-11-01로 예상된다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Mexico",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2027-11-01",
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.995,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9601,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9933,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0393,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9911,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.997,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9889,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "high",
+      "score": 0.996,
+      "page": 2
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-31-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Epcilon LNG LLC, Amigo LNG project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "멕시코 측 인허가·평가 제출과 일부 승인, 주요 장비 공급사 선정, 전력·가스 공급 및 EPC·운영 관련 절차가 진행 중이며 LNG 수출 개시는 2027-11-01로 예상된다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Mexico"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "expected_operational_date",
+      "text": "2027-11-01"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "Semi_Annual_Report_of_Epcilon_LNG_LLC_(FE_DOCKET_NO_20_31_LNG)_April_25_0.pdf",
+  "source_folder": "Epcilon_LNG_LLC"
+}

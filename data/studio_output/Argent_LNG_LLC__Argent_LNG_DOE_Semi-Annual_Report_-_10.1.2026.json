@@ -1,0 +1,94 @@
+{
+  "docket": "26-28-LNG",
+  "project": "Argent LNG, LLC",
+  "report_date": "2026-10-01",
+  "progress_note": "프로젝트는 일정에 맞춰 진행 중이며 2027년 12월 착공과 2030년 1분기 가동을 예상하고 있다.",
+  "authorized_mtpa": 25,
+  "terminal_location": "Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9828,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9893,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9957,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.7713,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9818,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.992,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9529,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9132,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "26-28-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Argent LNG, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트는 일정에 맞춰 진행 중이며 2027년 12월 착공과 2030년 1분기 가동을 예상하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "25"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Argent_LNG_DOE_Semi-Annual_Report_-_10.1.2026.pdf",
+  "source_folder": "Argent_LNG_LLC"
+}

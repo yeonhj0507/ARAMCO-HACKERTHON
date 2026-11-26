@@ -1,0 +1,94 @@
+{
+  "docket": "4994",
+  "project": "Power LNG LLC",
+  "report_date": "2026-10-01",
+  "progress_note": "Power LNG는 펠리컨 아일랜드 포트 오브 갤버스턴의 LNG 액화·벙커링·수출 시설에 대해 FEL3 상세설계와 인허가, 지반조사, 유틸리티 연계, 부지 정리 및 임대 절차를 진행하며 연말 최종투자결정(FID)을 목표로 진전을 이어가고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Pelican Island, Port of Galveston",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9848,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9896,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.995,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.146,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9493,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.985,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9436,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9163,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "4994"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Power LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "Power LNG는 펠리컨 아일랜드 포트 오브 갤버스턴의 LNG 액화·벙커링·수출 시설에 대해 FEL3 상세설계와 인허가, 지반조사, 유틸리티 연계, 부지 정리 및 임대 절차를 진행하며 연말 최종투자결정(FID)을 목표로 진전을 이어가고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Pelican Island, Port of Galveston"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "10.1.2026_-_PLNG_-_Order_No._4994_-_Semi-Annual_Report.pdf",
+  "source_folder": "Power_LNG_LLC"
+}

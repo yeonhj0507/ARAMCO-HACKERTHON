@@ -1,0 +1,94 @@
+{
+  "docket": "13-69-LNG, 14-88-LNG, 15-25-LNG",
+  "project": "Venture Global Calcasieu Pass, LLC, Calcasieu Pass Project",
+  "report_date": "2024-10-01",
+  "progress_note": "Calcasieu Pass는 대부분의 수출터미널 건설을 완료했고 첫 시운전 화물을 2022년 3월 1일 선적한 이후 시운전을 계속하면서 단계적 운영 개시를 진행 중이며, 완전한 상업운전을 위해 주요 발전설비의 수리·교체를 수행하고 있다.",
+  "authorized_mtpa": 10,
+  "terminal_location": "Cameron, LA",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9287,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8629,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9844,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0763,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.945,
+      "page": 3
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9936,
+      "page": 4
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.963,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9407,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "13-69-LNG, 14-88-LNG, 15-25-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Venture Global Calcasieu Pass, LLC, Calcasieu Pass Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "Calcasieu Pass는 대부분의 수출터미널 건설을 완료했고 첫 시운전 화물을 2022년 3월 1일 선적한 이후 시운전을 계속하면서 단계적 운영 개시를 진행 중이며, 완전한 상업운전을 위해 주요 발전설비의 수리·교체를 수행하고 있다."
+    },
+    {
+      "page": 3,
+      "field": "authorized_mtpa",
+      "text": "10"
+    },
+    {
+      "page": 4,
+      "field": "terminal_location",
+      "text": "Cameron, LA"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "commissioning",
+  "source_file": "VG_Calcasieu_Pass_Oct_2024_DOE_Progress_Report_(final).pdf",
+  "source_folder": "Venture_Global_Calcasieu_Pass_LLC"
+}

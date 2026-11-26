@@ -1,0 +1,89 @@
+{
+  "docket": "16-28-LNG",
+  "project": "Venture Global Plaquemines LNG, LLC, Plaquemines LNG Project",
+  "report_date": "2024-04-01",
+  "progress_note": "Plaquemines LNG 프로젝트는 2021년 8월 18일 수출터미널 건설을 시작해 건설을 진행 중이며, FERC 승인 절차와 이행계획 제출도 계속되고 있다.",
+  "authorized_mtpa": 20,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9859,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8345,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.991,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2438,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9724,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9771,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.948,
+      "page": 3
+    },
+    "expected_operational_date": {
+      "confidence": "high",
+      "score": 0.97,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "16-28-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Venture Global Plaquemines LNG, LLC, Plaquemines LNG Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "Plaquemines LNG 프로젝트는 2021년 8월 18일 수출터미널 건설을 시작해 건설을 진행 중이며, FERC 승인 절차와 이행계획 제출도 계속되고 있다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "20"
+    },
+    {
+      "page": 3,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "VG_Plaquemines_April_1_24_DOE_Progress_Report_(Final)_(002).pdf",
+  "source_folder": "Venture_Global_Plaquemines_LNG_LLC"
+}

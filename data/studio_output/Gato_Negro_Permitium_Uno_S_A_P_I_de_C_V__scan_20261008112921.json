@@ -1,0 +1,95 @@
+{
+  "docket": "24-43-LNG",
+  "project": "Gato Negro Manzanillo Liquefied Natural Gas Facility",
+  "report_date": "2026-10-08",
+  "progress_note": "부지는 확보되었고 멕시코 환경 인허가는 완료되었으며, 비FTA 수출허가를 신청한 상태에서 가스 공급사·보험 브로커 선정과 운송 계약, Pre-FEED/FEED/EPC 및 금융자문 업무가 진행 중이고 COD는 2031년 말로 목표하고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Manzanillo, Colima, Mexico Area",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2031-12-01",
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9893,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9661,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "low",
+      "score": 0.6032,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2024,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9711,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9866,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9642,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9275,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "24-43-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Gato Negro Manzanillo Liquefied Natural Gas Facility"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-08"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "부지는 확보되었고 멕시코 환경 인허가는 완료되었으며, 비FTA 수출허가를 신청한 상태에서 가스 공급사·보험 브로커 선정과 운송 계약, Pre-FEED/FEED/EPC 및 금융자문 업무가 진행 중이고 COD는 2031년 말로 목표하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Manzanillo, Colima, Mexico Area"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "expected_operational_date_inferred": true,
+  "source_file": "scan_20261008112921.pdf",
+  "source_folder": "Gato_Negro_Permitium_Uno_S_A_P_I_de_C_V"
+}

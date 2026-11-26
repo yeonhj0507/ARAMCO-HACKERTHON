@@ -1,0 +1,152 @@
+{
+  "docket": "16-144-LNG",
+  "project": "Woodside Louisiana LNG Project, Louisiana LNG Infrastructure LLC",
+  "report_date": "2026-04-01",
+  "progress_note": "토목 및 부지 정지 공사가 계속 진행되었고, 선석·변전소 말뚝 설치와 Train 1·OSBL 콘크리트 작업이 진척되었으며, Trains 1-2 및 MOF 관련 일부 작업은 완료되었고 Train 2 콘크리트와 Train 1·OSBL 철골 설치, 준설 작업이 새로 시작되었고 첫 수출은 2029년으로 예상된다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Calcasieu Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2029-12-31",
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "Williams Louisiana LNG LLC",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9905,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.7408,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.983,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0641,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.961,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9871,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9559,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "high",
+      "score": 0.9919,
+      "page": 1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9598,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9873,
+      "page": 2
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.969,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "low",
+      "score": 0.9616,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9199,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "16-144-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Woodside Louisiana LNG Project, Louisiana LNG Infrastructure LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "토목 및 부지 정지 공사가 계속 진행되었고, 선석·변전소 말뚝 설치와 Train 1·OSBL 콘크리트 작업이 진척되었으며, Trains 1-2 및 MOF 관련 일부 작업은 완료되었고 Train 2 콘크리트와 Train 1·OSBL 철골 설치, 준설 작업이 새로 시작되었고 첫 수출은 2029년으로 예상된다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Calcasieu Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "expected_operational_date",
+      "text": "2029-12-31"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Williams Louisiana LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "2026.04.01_Louisiana_LNG_Infrastructure_LLC_Semi-Annual_Report.pdf",
+  "source_folder": "Louisiana_LNG_Infrastructure_LLC_formerly_Driftwoo"
+}

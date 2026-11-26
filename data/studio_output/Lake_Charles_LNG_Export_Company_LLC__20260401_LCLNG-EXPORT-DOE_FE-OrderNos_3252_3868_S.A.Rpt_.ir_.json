@@ -1,0 +1,93 @@
+{
+  "docket": "13-04-LNG",
+  "project": "Lake Charles LNG Export Company, LLC, Lake Charles LNG Terminal",
+  "report_date": "2026-04-01",
+  "progress_note": "프로젝트는 일부 배관 개조 시설이 2024년 1월 1일 서비스에 투입되었으나, 2025년 12월 개발 중단 발표와 함께 향후 활동 전까지 월간 보고가 유예된 상태이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9853,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8338,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.987,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0961,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9511,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.7621,
+      "page": 6
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9456,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9598,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "13-04-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Lake Charles LNG Export Company, LLC, Lake Charles LNG Terminal"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트는 일부 배관 개조 시설이 2024년 1월 1일 서비스에 투입되었으나, 2025년 12월 개발 중단 발표와 함께 향후 활동 전까지 월간 보고가 유예된 상태이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 6,
+      "field": "terminal_location",
+      "text": "Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "20260401_LCLNG-EXPORT-DOE_FE-OrderNos_3252_3868_S.A.Rpt_.ir_.pdf",
+  "source_folder": "Lake_Charles_LNG_Export_Company_LLC"
+}

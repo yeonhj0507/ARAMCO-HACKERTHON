@@ -1,0 +1,88 @@
+{
+  "docket": "22-39-LNG",
+  "project": "New Fortress Energy Louisiana FLNG LLC, New Fortress Energy Louisiana FLNG Project",
+  "report_date": "2026-10-14",
+  "progress_note": "프로젝트와 관련해 이전 반기보고서 이후 추가 업데이트가 없으며 장기 공급 및 수출 계약은 아직 체결되지 않았다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.989,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9518,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9971,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.3807,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9798,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9632,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9781,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9504,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "22-39-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "New Fortress Energy Louisiana FLNG LLC, New Fortress Energy Louisiana FLNG Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-14"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "프로젝트와 관련해 이전 반기보고서 이후 추가 업데이트가 없으며 장기 공급 및 수출 계약은 아직 체결되지 않았다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "NFE_LA_-_Semi-Annual_Report_October_2026.pdf",
+  "source_folder": "New_Fortress_Energy_Louisiana_FLNG_LLC"
+}

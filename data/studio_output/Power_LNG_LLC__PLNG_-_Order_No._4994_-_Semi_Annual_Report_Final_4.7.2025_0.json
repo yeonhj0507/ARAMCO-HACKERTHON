@@ -1,0 +1,89 @@
+{
+  "docket": "4994",
+  "project": "Power LNG LLC",
+  "report_date": "2025-04-07",
+  "progress_note": "FEED 엔지니어링과 FEL1 엔지니어링이 진행 중이며, 남은 FEED는 2025년 3분기 말 완료 예정이고 TCEQ 대기 인허가는 2025년 3분기에 시작 예정이며 FID는 2025년 4분기 말까지 도달할 것으로 예상된다고 보고했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9902,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9913,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9975,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2964,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9706,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9647,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9666,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9489,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "4994"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Power LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-07"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "FEED 엔지니어링과 FEL1 엔지니어링이 진행 중이며, 남은 FEED는 2025년 3분기 말 완료 예정이고 TCEQ 대기 인허가는 2025년 3분기에 시작 예정이며 FID는 2025년 4분기 말까지 도달할 것으로 예상된다고 보고했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "PLNG_-_Order_No._4994_-_Semi_Annual_Report_Final_4.7.2025_0.pdf",
+  "source_folder": "Power_LNG_LLC"
+}

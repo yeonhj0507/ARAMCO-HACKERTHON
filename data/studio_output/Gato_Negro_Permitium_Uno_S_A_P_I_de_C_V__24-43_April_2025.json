@@ -1,0 +1,95 @@
+{
+  "docket": "24-43-LNG",
+  "project": "Gato Negro Permitium Uno, S.A.P.I. de C.V., Gato Negro Manzanillo Liquefied Natural Gas Facility",
+  "report_date": "2025-04-08",
+  "progress_note": "토지는 확보되었고 멕시코 인허가의 90% 이상이 승인되었으며 비FTA 수출허가 신청, 공급사·EPC·보험중개사 선정, 액화기술 및 재무자문사 선정이 진행 중이고 FID는 2025년 말 또는 2026년 초, COD는 2029년 말 또는 2030년 초로 목표하고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Manzanilla, Colima, Mexico Area",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2030-12-01",
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9891,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9253,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.994,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1994,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9567,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9807,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9521,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9143,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "24-43-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Gato Negro Permitium Uno, S.A.P.I. de C.V., Gato Negro Manzanillo Liquefied Natural Gas Facility"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-08"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "토지는 확보되었고 멕시코 인허가의 90% 이상이 승인되었으며 비FTA 수출허가 신청, 공급사·EPC·보험중개사 선정, 액화기술 및 재무자문사 선정이 진행 중이고 FID는 2025년 말 또는 2026년 초, COD는 2029년 말 또는 2030년 초로 목표하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Manzanilla, Colima, Mexico Area"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "expected_operational_date_inferred": true,
+  "source_file": "24-43_April_2025.pdf",
+  "source_folder": "Gato_Negro_Permitium_Uno_S_A_P_I_de_C_V"
+}

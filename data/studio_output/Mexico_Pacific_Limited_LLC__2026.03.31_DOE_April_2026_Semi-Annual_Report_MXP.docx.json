@@ -1,0 +1,94 @@
+{
+  "docket": "18-70-LNG, 22-167-LNG",
+  "project": "Mexico Pacific Limited LLC, Saguaro Energa LNG Facility",
+  "report_date": "2026-04-01",
+  "progress_note": "멕시코 소노라주에 위치한 Saguaro Energa LNG Facility는 건설 착수에 필요한 연방·주·지방 허가를 모두 취득해 유효한 상태이며, 멕시코 각급 정부와 협력하며 개발과 상업화를 계속 진전시키고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "State of Sonora, Mexico",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9469,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9449,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9949,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0429,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9417,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9799,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9406,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9179,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "18-70-LNG, 22-167-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Mexico Pacific Limited LLC, Saguaro Energa LNG Facility"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "멕시코 소노라주에 위치한 Saguaro Energa LNG Facility는 건설 착수에 필요한 연방·주·지방 허가를 모두 취득해 유효한 상태이며, 멕시코 각급 정부와 협력하며 개발과 상업화를 계속 진전시키고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "State of Sonora, Mexico"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "2026.03.31_DOE_April_2026_Semi-Annual_Report_MXP.docx.pdf",
+  "source_folder": "Mexico_Pacific_Limited_LLC"
+}

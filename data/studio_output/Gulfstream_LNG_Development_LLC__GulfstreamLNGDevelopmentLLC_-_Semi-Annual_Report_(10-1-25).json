@@ -1,0 +1,94 @@
+{
+  "docket": "23-34-LNG",
+  "project": "Gulfstream LNG Development, LLC",
+  "report_date": "2025-10-01",
+  "progress_note": "지난 6개월 동안 자금조달, 엔지니어링, 인허가 측면에서 진전이 있었고 1단계 FERC FEED를 완료했으며 FERC 신청이 접수되어 2단계 엔지니어링과 질의응답을 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Plaquemines Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9879,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9653,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9952,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.3721,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9496,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.989,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9395,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9139,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "23-34-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Gulfstream LNG Development, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "지난 6개월 동안 자금조달, 엔지니어링, 인허가 측면에서 진전이 있었고 1단계 FERC FEED를 완료했으며 FERC 신청이 접수되어 2단계 엔지니어링과 질의응답을 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Plaquemines Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "GulfstreamLNGDevelopmentLLC_-_Semi-Annual_Report_(10-1-25).pdf",
+  "source_folder": "Gulfstream_LNG_Development_LLC"
+}

@@ -1,0 +1,147 @@
+{
+  "docket": "16-144-LNG",
+  "project": "Woodside Louisiana LNG Project, Louisiana LNG Infrastructure LLC",
+  "report_date": "2025-10-01",
+  "progress_note": "프로젝트 건설이 계속 진행되었으며 부지 정지, 우수 관리, 토양 안정화, 해상 철거, 토공사와 함께 자재 하역 시설, 공정 구역, 머드 매트 설치, 파일 항타, 지하 배관, 윅 드레인, 철근·거푸집 및 Plant 1·탱크·배터리 리밋 외부의 기초 타설 작업이 진행되었고 비관할 건설 활동도 지속되었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Calcasieu Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "Uniper Global Commodities SE",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.991,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9069,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9899,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0419,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9466,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9836,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9455,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9245,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9441,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9851,
+      "page": 2
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "low",
+      "score": 0.9584,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "low",
+      "score": 0.9503,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9128,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "16-144-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Woodside Louisiana LNG Project, Louisiana LNG Infrastructure LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-10-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "프로젝트 건설이 계속 진행되었으며 부지 정지, 우수 관리, 토양 안정화, 해상 철거, 토공사와 함께 자재 하역 시설, 공정 구역, 머드 매트 설치, 파일 항타, 지하 배관, 윅 드레인, 철근·거푸집 및 Plant 1·탱크·배터리 리밋 외부의 기초 타설 작업이 진행되었고 비관할 건설 활동도 지속되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Calcasieu Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Uniper Global Commodities SE"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "LALNG_Semi-Annual_Report_(October_2025).pdf",
+  "source_folder": "Louisiana_LNG_Infrastructure_LLC_formerly_Driftwoo"
+}

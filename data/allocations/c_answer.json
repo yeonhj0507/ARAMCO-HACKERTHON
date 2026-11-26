@@ -1,0 +1,219 @@
+{
+  "task": "LNG 배분 실행안을 승인 전에 검증하고 현물 구매 요청과 재계획 여부를 판정",
+  "unit": "실행안 1건 = 케이스 1건",
+  "output_keys": [
+    "plan_id",
+    "period_start",
+    "period_end",
+    "total_planned_kt",
+    "spot_cargoes",
+    "shortage_rows",
+    "over_contract_rows",
+    "capacity_rows",
+    "safety_rows",
+    "mismatch_rows",
+    "decision",
+    "reason"
+  ],
+  "decision_values": [
+    "승인 요청",
+    "재계획 필요"
+  ],
+  "cases": [
+    {
+      "case_id": "C1",
+      "file": "C_set01.pdf",
+      "documents": [
+        "LNG 배분 실행안"
+      ],
+      "type": "① 단순",
+      "purpose": "깨끗한 실행안을 승인 요청으로 넘기는지",
+      "answer": {
+        "plan_id": "ALLOC-202701-C1",
+        "period_start": "2027-01",
+        "period_end": "2027-03",
+        "total_planned_kt": 10640,
+        "spot_cargoes": 6,
+        "shortage_rows": [],
+        "over_contract_rows": [],
+        "capacity_rows": [],
+        "safety_rows": [],
+        "mismatch_rows": [],
+        "decision": "승인 요청",
+        "reason": "깨끗한 실행안을 승인 요청으로 넘기는지"
+      }
+    },
+    {
+      "case_id": "C2",
+      "file": "C_set02.pdf",
+      "documents": [
+        "LNG 배분 실행안"
+      ],
+      "type": "① 단순",
+      "purpose": "카타르 물량이 0인 달과 현물 카고 합계를 읽는지",
+      "answer": {
+        "plan_id": "ALLOC-202701-C2",
+        "period_start": "2027-01",
+        "period_end": "2027-03",
+        "total_planned_kt": 10640,
+        "spot_cargoes": 30,
+        "shortage_rows": [],
+        "over_contract_rows": [],
+        "capacity_rows": [],
+        "safety_rows": [],
+        "mismatch_rows": [],
+        "decision": "승인 요청",
+        "reason": "카타르 물량이 0인 달과 현물 카고 합계를 읽는지"
+      }
+    },
+    {
+      "case_id": "C3",
+      "file": "C_set03.pdf",
+      "documents": [
+        "LNG 배분 실행안"
+      ],
+      "type": "③ 예외",
+      "purpose": "부족이 나도 오류는 아니므로 승인 요청으로 두고 부족 월을 적는지",
+      "answer": {
+        "plan_id": "ALLOC-202701-C3",
+        "period_start": "2027-01",
+        "period_end": "2027-03",
+        "total_planned_kt": 11690,
+        "spot_cargoes": 45,
+        "shortage_rows": [
+          "2027-02,73",
+          "2027-03,83"
+        ],
+        "over_contract_rows": [],
+        "capacity_rows": [],
+        "safety_rows": [],
+        "mismatch_rows": [],
+        "decision": "승인 요청",
+        "reason": "부족이 나도 오류는 아니므로 승인 요청으로 두고 부족 월을 적는지"
+      }
+    },
+    {
+      "case_id": "C4",
+      "file": "C_set04.pdf",
+      "documents": [
+        "LNG 배분 실행안"
+      ],
+      "type": "③ 예외",
+      "purpose": "월말 재고가 저장용량을 넘는 수정을 잡는지",
+      "answer": {
+        "plan_id": "ALLOC-202701-C4",
+        "period_start": "2027-01",
+        "period_end": "2027-03",
+        "total_planned_kt": 10640,
+        "spot_cargoes": 6,
+        "shortage_rows": [],
+        "over_contract_rows": [],
+        "capacity_rows": [
+          "INCHEON,2027-02,1350,1300"
+        ],
+        "safety_rows": [],
+        "mismatch_rows": [],
+        "decision": "재계획 필요",
+        "reason": "월말 재고가 저장용량을 넘는 수정을 잡는지"
+      }
+    },
+    {
+      "case_id": "C5",
+      "file": "C_set05.pdf",
+      "documents": [
+        "LNG 배분 실행안"
+      ],
+      "type": "③ 예외",
+      "purpose": "가용 카고가 0인 카타르에 카고를 잡은 수정을 잡는지",
+      "answer": {
+        "plan_id": "ALLOC-202701-C5",
+        "period_start": "2027-01",
+        "period_end": "2027-03",
+        "total_planned_kt": 11130,
+        "spot_cargoes": 30,
+        "shortage_rows": [],
+        "over_contract_rows": [
+          "QATAR_LT,2027-02,7,0"
+        ],
+        "capacity_rows": [],
+        "safety_rows": [],
+        "mismatch_rows": [],
+        "decision": "재계획 필요",
+        "reason": "가용 카고가 0인 카타르에 카고를 잡은 수정을 잡는지"
+      }
+    },
+    {
+      "case_id": "C6",
+      "file": "C_set06.pdf",
+      "documents": [
+        "LNG 배분 실행안"
+      ],
+      "type": "③ 예외",
+      "purpose": "요약 표 합계가 1번 표 합계와 다른 것을 잡는지",
+      "answer": {
+        "plan_id": "ALLOC-202701-C6",
+        "period_start": "2027-01",
+        "period_end": "2027-03",
+        "total_planned_kt": 10640,
+        "spot_cargoes": 6,
+        "shortage_rows": [],
+        "over_contract_rows": [],
+        "capacity_rows": [],
+        "safety_rows": [],
+        "mismatch_rows": [
+          "2027-03,3780,4480"
+        ],
+        "decision": "재계획 필요",
+        "reason": "요약 표 합계가 1번 표 합계와 다른 것을 잡는지"
+      }
+    },
+    {
+      "case_id": "C7",
+      "file": "C_set07.pdf",
+      "documents": [
+        "LNG 배분 실행안"
+      ],
+      "type": "③ 예외",
+      "purpose": "안전재고 아래로 내려간 재고를 잡는지",
+      "answer": {
+        "plan_id": "ALLOC-202701-C7",
+        "period_start": "2027-01",
+        "period_end": "2027-03",
+        "total_planned_kt": 10640,
+        "spot_cargoes": 6,
+        "shortage_rows": [],
+        "over_contract_rows": [],
+        "capacity_rows": [],
+        "safety_rows": [
+          "PYEONGTAEK,2027-01,150,210"
+        ],
+        "mismatch_rows": [],
+        "decision": "재계획 필요",
+        "reason": "안전재고 아래로 내려간 재고를 잡는지"
+      }
+    },
+    {
+      "case_id": "C8",
+      "file": "C_set08.pdf",
+      "documents": [
+        "LNG 배분 실행안"
+      ],
+      "type": "④ 저품질",
+      "purpose": "기울고 흐린 스캔본에서 C2와 같은 값을 읽는지",
+      "answer": {
+        "plan_id": "ALLOC-202701-C8",
+        "period_start": "2027-01",
+        "period_end": "2027-03",
+        "total_planned_kt": 10640,
+        "spot_cargoes": 30,
+        "shortage_rows": [],
+        "over_contract_rows": [],
+        "capacity_rows": [],
+        "safety_rows": [],
+        "mismatch_rows": [],
+        "decision": "승인 요청",
+        "reason": "기울고 흐린 스캔본에서 C2와 같은 값을 읽는지"
+      }
+    }
+  ]
+}

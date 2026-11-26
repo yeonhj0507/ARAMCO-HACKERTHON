@@ -1,0 +1,93 @@
+{
+  "docket": "15-19-LNG",
+  "project": "American LNG Marketing LLC",
+  "report_date": "2026-09-25",
+  "progress_note": "Titusville 시설의 개발 활동이 진행 중이며, American LNG와 계열사는 LNG 수출 판매를 위한 잠재적 거래상대방과 협상 중이고 수출 개시는 그 결과에 달려 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Titusville",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9893,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9959,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.4731,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9295,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9959,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9416,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9183,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-19-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "American LNG Marketing LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-09-25"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "Titusville 시설의 개발 활동이 진행 중이며, American LNG와 계열사는 LNG 수출 판매를 위한 잠재적 거래상대방과 협상 중이고 수출 개시는 그 결과에 달려 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Titusville"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "American_LNG_Marketing_LLC_DOE.FE_Docket_No._15-19-LNG_Semi-Annual_Report_-_September_2026_Titusville.pdf",
+  "source_folder": "American_LNG_Marketing_LLC_Titusville_Facility"
+}

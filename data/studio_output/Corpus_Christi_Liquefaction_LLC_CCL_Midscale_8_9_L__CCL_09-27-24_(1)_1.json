@@ -1,0 +1,146 @@
+{
+  "docket": "12-97-LNG, 12-99-LNG, 19-124-LNG, 18-78-LNG, 23-46-LNG",
+  "project": "Cheniere Marketing, LLC and Corpus Christi Liquefaction, LLC, Corpus Christi Liquefaction, LLC; CCL Midscale 8-9, LLC and Cheniere Marketing, LLC, Corpus Christi Liquefaction Stage 3 Project",
+  "report_date": "2024-09-27",
+  "progress_note": "코퍼스 크리스티 액화 Stage 3 프로젝트는 2024년 8월 기준 전체 공정 65.9%로, 지상·지중 배관, 콘크리트, 구조물 설치와 주요 장비 설치가 Trains 1~6 및 OSBL 전반에서 계속 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Corpus Christi, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "Galp Trading S.A.",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9121,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.5927,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9741,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0801,
+      "page": 53
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9424,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9708,
+      "page": 3
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9532,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9413,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9475,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9715,
+      "page": 1
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "low",
+      "score": 0.9625,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "low",
+      "score": 0.9577,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9222,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-97-LNG, 12-99-LNG, 19-124-LNG, 18-78-LNG, 23-46-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Cheniere Marketing, LLC and Corpus Christi Liquefaction, LLC, Corpus Christi Liquefaction, LLC; CCL Midscale 8-9, LLC and Cheniere Marketing, LLC, Corpus Christi Liquefaction Stage 3 Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-09-27"
+    },
+    {
+      "page": 53,
+      "field": "progress_note",
+      "text": "코퍼스 크리스티 액화 Stage 3 프로젝트는 2024년 8월 기준 전체 공정 65.9%로, 지상·지중 배관, 콘크리트, 구조물 설치와 주요 장비 설치가 Trains 1~6 및 OSBL 전반에서 계속 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "terminal_location",
+      "text": "Corpus Christi, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Galp Trading S.A."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "CCL_09-27-24_(1).pdf",
+  "source_folder": "Cheniere_Marketing_LLC_and_Corpus_Christi_Liquefac"
+}

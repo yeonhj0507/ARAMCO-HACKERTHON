@@ -1,0 +1,38 @@
+{
+  "doc_type": "semi_annual_report",
+  "project": "US Project A (sample)",
+  "docket": "00-000-LNG",
+  "terminal_location": "Texas",
+  "report_date": "2026-04-01",
+  "authorized_mtpa": 15.0,
+  "expected_operational_date": "2026-12-01",
+  "progress_note": "Train 1 first LNG expected Q4 2026.",
+  "long_term_contracts": [
+    {
+      "buyer": "KOGAS",
+      "buyer_country": "KR",
+      "mtpa": 2.0,
+      "start_year": 2027,
+      "term_years": 15
+    },
+    {
+      "buyer": "Buyer X",
+      "buyer_country": "JP",
+      "mtpa": 3.0,
+      "start_year": 2027,
+      "term_years": 20
+    }
+  ],
+  "uncontracted_mtpa": 4.0,
+  "evidence": [
+    {
+      "page": 1,
+      "text": "[SAMPLE] Train 1 first LNG expected Q4 2026."
+    },
+    {
+      "page": 2,
+      "text": "[SAMPLE] The facility is expected to be operational by 2026-12-01."
+    }
+  ],
+  "source_file": "sample_00-000-LNG_2026-04-01.pdf"
+}

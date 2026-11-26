@@ -1,0 +1,31 @@
+{
+  "doc_type": "semi_annual_report",
+  "project": "US Project B (sample)",
+  "docket": "00-001-LNG",
+  "terminal_location": "Louisiana",
+  "report_date": "2025-10-01",
+  "authorized_mtpa": 20.0,
+  "expected_operational_date": "2025-12-01",
+  "progress_note": "Commercial operation on schedule.",
+  "long_term_contracts": [
+    {
+      "buyer": "KR Private Buyer (sample)",
+      "buyer_country": "KR",
+      "mtpa": 1.5,
+      "start_year": 2026,
+      "term_years": 20
+    }
+  ],
+  "uncontracted_mtpa": null,
+  "evidence": [
+    {
+      "page": 1,
+      "text": "[SAMPLE] Commercial operation on schedule."
+    },
+    {
+      "page": 2,
+      "text": "[SAMPLE] The facility is expected to be operational by 2025-12-01."
+    }
+  ],
+  "source_file": "sample_00-001-LNG_2025-10-01.pdf"
+}

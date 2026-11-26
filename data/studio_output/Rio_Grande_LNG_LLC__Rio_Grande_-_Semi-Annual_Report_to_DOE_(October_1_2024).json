@@ -1,0 +1,147 @@
+{
+  "docket": "15-190-LNG",
+  "project": "Rio Grande LNG, LLC, Rio Grande LNG Terminal Project",
+  "report_date": "2024-10-01",
+  "progress_note": "보고기간 동안 Rio Grande LNG는 제티, 배관, 기초, 하역시설, Train 1 구조물 및 LNG 유출 트렌치 시공과 함께 파일 항타, 임시 시설·유틸리티 정비, 제방, 배수 및 현장 도로 공사를 계속 진행했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 1.9,
+      "buyer": "Abu Dhabi National Oil Company",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9907,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9264,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9891,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0465,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9553,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.985,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9506,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9152,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9437,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9891,
+      "page": 1
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "low",
+      "score": 0.9638,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.9804,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9103,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-190-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Rio Grande LNG, LLC, Rio Grande LNG Terminal Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "보고기간 동안 Rio Grande LNG는 제티, 배관, 기초, 하역시설, Train 1 구조물 및 LNG 유출 트렌치 시공과 함께 파일 항타, 임시 시설·유틸리티 정비, 제방, 배수 및 현장 도로 공사를 계속 진행했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "1.9"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Abu Dhabi National Oil Company"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "20"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Rio_Grande_-_Semi-Annual_Report_to_DOE_(October_1_2024).pdf",
+  "source_folder": "Rio_Grande_LNG_LLC"
+}

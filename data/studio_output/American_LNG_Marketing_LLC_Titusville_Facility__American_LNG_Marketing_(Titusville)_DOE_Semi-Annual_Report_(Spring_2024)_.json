@@ -1,0 +1,93 @@
+{
+  "docket": "15-19-LNG",
+  "project": "American LNG Marketing LLC",
+  "report_date": "2024-03-29",
+  "progress_note": "타이터스빌 시설의 개발 활동이 진행 중이며, 상업운전일은 현재 시장 상황과 규제 절차로 인해 2027년보다 이르지 않을 것으로 평가되고 있고 LNG 수출 판매를 위한 협상이 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Titusville",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9868,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.99,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.993,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2936,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9425,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9956,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9428,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9199,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-19-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "American LNG Marketing LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-03-29"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "타이터스빌 시설의 개발 활동이 진행 중이며, 상업운전일은 현재 시장 상황과 규제 절차로 인해 2027년보다 이르지 않을 것으로 평가되고 있고 LNG 수출 판매를 위한 협상이 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Titusville"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "American_LNG_Marketing_(Titusville)_DOE_Semi-Annual_Report_(Spring_2024)_.pdf",
+  "source_folder": "American_LNG_Marketing_LLC_Titusville_Facility"
+}

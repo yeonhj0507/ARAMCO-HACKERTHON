@@ -1,0 +1,93 @@
+{
+  "docket": "19-147-CGL",
+  "project": "SeaOne Corpus Christi, LLC",
+  "report_date": "2025-03-31",
+  "progress_note": "SeaOne는 카리브해·중남미 연료공급 프로젝트의 상업화를 위해 시장 개발, 콜롬비아 전력·항만 관련 계약 협상, 코퍼스 크리스티 시설 부지선정과 설계, 선박 설계 및 FEED를 계속 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Corpus Christi",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9899,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9873,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9932,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0167,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9418,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9938,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9354,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9195,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "19-147-CGL"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "SeaOne Corpus Christi, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-03-31"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "SeaOne는 카리브해·중남미 연료공급 프로젝트의 상업화를 위해 시장 개발, 콜롬비아 전력·항만 관련 계약 협상, 코퍼스 크리스티 시설 부지선정과 설계, 선박 설계 및 FEED를 계속 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Corpus Christi"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "SeaOne_Corpus_Christi_Semiannual_Report_(APR_2025)_19-147-CGL.pdf",
+  "source_folder": "SeaOne_Corpus_Christi_LLC"
+}

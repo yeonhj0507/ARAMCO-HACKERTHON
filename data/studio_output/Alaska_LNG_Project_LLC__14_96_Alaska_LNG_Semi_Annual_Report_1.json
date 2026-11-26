@@ -1,0 +1,94 @@
+{
+  "docket": "14-96-LNG",
+  "project": "Alaska LNG Project LLC",
+  "report_date": "2025-03-28",
+  "progress_note": "프로젝트는 FERC 및 DOE/FECM 관련 인허가와 소송 절차가 진행 중이며, AGDC는 FEED 단계 자금 조달을 추진하고 2025년 3월 Glenfarne Group 계열사와 프로젝트 주도 개발자가 되는 최종 계약을 체결했다고 밝혔다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Alaska",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9895,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9927,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.989,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1067,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9518,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9915,
+      "page": 3
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9426,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9194,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "14-96-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Alaska LNG Project LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-03-28"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "프로젝트는 FERC 및 DOE/FECM 관련 인허가와 소송 절차가 진행 중이며, AGDC는 FEED 단계 자금 조달을 추진하고 2025년 3월 Glenfarne Group 계열사와 프로젝트 주도 개발자가 되는 최종 계약을 체결했다고 밝혔다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "terminal_location",
+      "text": "Alaska"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "14_96_Alaska_LNG_Semi_Annual_Report_1.pdf",
+  "source_folder": "Alaska_LNG_Project_LLC"
+}

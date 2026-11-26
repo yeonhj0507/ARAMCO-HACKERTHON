@@ -1,0 +1,89 @@
+{
+  "docket": "20-23-LNG",
+  "project": "Port Arthur LNG Phase II, LLC",
+  "report_date": "2024-10-01",
+  "progress_note": "FERC는 2023년 9월 21일 해당 액화 프로젝트의 부지선정·건설·운영을 승인했고, 2024년 6월 사우디 아람코 자회사와 20년간 5.0 MTPA 규모의 비구속적 HoA를 체결했으며, 2024년 7월 Bechtel과 고정가 EPC 계약을 체결했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9882,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.979,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9938,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2307,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9803,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9434,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9752,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9386,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-23-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Port Arthur LNG Phase II, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "FERC는 2023년 9월 21일 해당 액화 프로젝트의 부지선정·건설·운영을 승인했고, 2024년 6월 사우디 아람코 자회사와 20년간 5.0 MTPA 규모의 비구속적 HoA를 체결했으며, 2024년 7월 Bechtel과 고정가 EPC 계약을 체결했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "PALNGPhase2SemiAnnualDOEProjectStatusReportSeptember2024.pdf",
+  "source_folder": "Port_Arthur_LNG_Phase_II_LLC"
+}

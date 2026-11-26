@@ -1,0 +1,141 @@
+{
+  "docket": "19-134-LNG",
+  "project": "Commonwealth LNG, LLC, Commonwealth LNG Project",
+  "report_date": "2026-10-01",
+  "progress_note": "2026년 5월 15일 Commonwealth LNG 프로젝트의 FID와 97억5천만 달러 규모의 건설금융 종결이 발표되었고, 약 9.5 MTPA 허가용량 중 8.5 MTPA를 확보했으며, 건설은 일정대로 진행 중이고 상업운전은 2030년을 목표로 하고 있다.",
+  "authorized_mtpa": 9.5,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2030-12-01",
+  "long_term_contracts": [
+    {
+      "mtpa": 1.0,
+      "buyer": "Glencore LTD",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9861,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.7006,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9954,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0977,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9681,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9319,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9601,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9174,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9645,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9934,
+      "page": 1
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.9731,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.9856,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9111,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "19-134-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Commonwealth LNG, LLC, Commonwealth LNG Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "2026년 5월 15일 Commonwealth LNG 프로젝트의 FID와 97억5천만 달러 규모의 건설금융 종결이 발표되었고, 약 9.5 MTPA 허가용량 중 8.5 MTPA를 확보했으며, 건설은 일정대로 진행 중이고 상업운전은 2030년을 목표로 하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "9.5"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "1"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Glencore LTD"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "20"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "expected_operational_date_inferred": true,
+  "source_file": "Commonwealth_LNG_--_DOE_Semi-Annual_Report_(Oct_2026).pdf"
+}

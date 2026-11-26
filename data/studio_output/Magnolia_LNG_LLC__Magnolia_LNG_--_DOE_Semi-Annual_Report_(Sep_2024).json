@@ -1,0 +1,89 @@
+{
+  "docket": "12-183-LNG, 13-131-LNG",
+  "project": "Magnolia LNG LLC",
+  "report_date": "2024-10-01",
+  "progress_note": "매그놀리아 LNG는 추가 장기 오프테이크 계약 확보가 지연되어 아직 4개 트레인 중 어떤 것도 건설을 시작하지 않았고, 최종투자결정(FID) 전까지 건설 활동을 시작할 계획이 없다.",
+  "authorized_mtpa": 8.8,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9202,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.989,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9939,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0949,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9719,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9559,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9557,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9467,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-183-LNG, 13-131-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Magnolia LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "매그놀리아 LNG는 추가 장기 오프테이크 계약 확보가 지연되어 아직 4개 트레인 중 어떤 것도 건설을 시작하지 않았고, 최종투자결정(FID) 전까지 건설 활동을 시작할 계획이 없다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "8.8"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Magnolia_LNG_--_DOE_Semi-Annual_Report_(Sep_2024).pdf",
+  "source_folder": "Magnolia_LNG_LLC"
+}

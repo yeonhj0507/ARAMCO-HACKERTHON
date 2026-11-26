@@ -1,0 +1,208 @@
+{
+  "docket": "13-117-LNG",
+  "project": "Barca LNG LLC",
+  "report_date": "2024-04-19",
+  "progress_note": "프로젝트는 아직 사전 개발 단계에 있으며, 현재 오프테이커와 자금 조달을 적극적으로 확보 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 2.0,
+      "buyer": "Jinhou Group",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": "CN"
+    },
+    {
+      "mtpa": 10.0,
+      "buyer": "Guoyang Energy Reserve Co., Ltd.",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": "CN"
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9888,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9942,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9966,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.274,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9338,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9921,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9448,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9362,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9514,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9915,
+      "page": 1
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.9763,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.9865,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "high",
+      "score": 0.975,
+      "page": 1
+    },
+    "long_term_contracts[1].mtpa": {
+      "confidence": "low",
+      "score": 0.9521,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer": {
+      "confidence": "high",
+      "score": 0.9839,
+      "page": 1
+    },
+    "long_term_contracts[1].start_year": {
+      "confidence": "high",
+      "score": 0.9763,
+      "page": 1
+    },
+    "long_term_contracts[1].term_years": {
+      "confidence": "high",
+      "score": 0.9865,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer_country": {
+      "confidence": "high",
+      "score": 0.975,
+      "page": 1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "13-117-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Barca LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-19"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "프로젝트는 아직 사전 개발 단계에 있으며, 현재 오프테이커와 자금 조달을 적극적으로 확보 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "2"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Jinhou Group"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "20"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].buyer_country",
+      "text": "CN"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].mtpa",
+      "text": "10"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].buyer",
+      "text": "Guoyang Energy Reserve Co., Ltd."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].term_years",
+      "text": "20"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].buyer_country",
+      "text": "CN"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "DOE_Update_for_April_2024_-_Barca_LNG_LLC.pdf",
+  "source_folder": "Barca_LNG_LLC"
+}

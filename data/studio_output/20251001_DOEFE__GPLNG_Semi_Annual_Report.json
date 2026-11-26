@@ -1,0 +1,92 @@
+{
+  "docket": "12-88-LNG, 12-156-LNG",
+  "project": "Golden Pass LNG Export Project, Golden Pass LNG Terminal LLC",
+  "report_date": "2025-10-01",
+  "progress_note": "GPLNG는 Train 1 장비 시운전을 시작했고 현장 전반의 토목·배관·구조물·유틸리티 공사를 진전시키는 한편 일부 승인된 시스템의 커미셔닝을 진행했다.",
+  "authorized_mtpa": 18.1,
+  "terminal_location": "Sabine Pass, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.953,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8735,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.991,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1497,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9712,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9804,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9448,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9438,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-88-LNG, 12-156-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Golden Pass LNG Export Project, Golden Pass LNG Terminal LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-10-01"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "GPLNG는 Train 1 장비 시운전을 시작했고 현장 전반의 토목·배관·구조물·유틸리티 공사를 진전시키는 한편 일부 승인된 시스템의 커미셔닝을 진행했다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "18.1"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Sabine Pass, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "20251001_DOEFE__GPLNG_Semi_Annual_Report.pdf"
+}

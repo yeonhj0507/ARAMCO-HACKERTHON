@@ -1,0 +1,89 @@
+{
+  "docket": "14-209-LNG",
+  "project": "American LNG Marketing LLC",
+  "report_date": "2026-03-19",
+  "progress_note": "하이얼리어 시설의 건설은 완료되었고 현재 LNG를 생산·수출하고 있으며, 추가 장기 판매를 위해 잠재적 거래상대방과 협상 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9915,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9916,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9973,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.25,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9496,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9539,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.962,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.945,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "14-209-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "American LNG Marketing LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-03-19"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "하이얼리어 시설의 건설은 완료되었고 현재 LNG를 생산·수출하고 있으며, 추가 장기 판매를 위해 잠재적 거래상대방과 협상 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "American_LNG_Marketing_LLC_DOE.FE_Docket_No._14-209-LNG_Semi-Annual_Report_-_March_2026.pdf",
+  "source_folder": "American_LNG_Marketing_LLC_Hialeah_Facility"
+}

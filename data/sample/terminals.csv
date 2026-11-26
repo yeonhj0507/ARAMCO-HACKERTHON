@@ -1,0 +1,6 @@
+terminal,storage_kt,max_cargo_per_month,init_inv_ratio,demand_share
+PYEONGTAEK,1400,30,0.5,0.32
+INCHEON,1300,28,0.5,0.3
+TONGYEONG,1000,20,0.5,0.2
+SAMCHEOK,900,16,0.5,0.16
+JEJU,90,0,0.5,0.02

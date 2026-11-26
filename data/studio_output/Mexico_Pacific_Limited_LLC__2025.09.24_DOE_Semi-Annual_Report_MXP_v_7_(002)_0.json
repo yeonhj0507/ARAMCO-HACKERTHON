@@ -1,0 +1,93 @@
+{
+  "docket": "18-70-LNG, 22-167-LNG",
+  "project": "Mexico Pacific Limited LLC, Saguaro Energa LNG Facility",
+  "report_date": "2025-09-30",
+  "progress_note": "멕시코 퍼시픽은 소노라주의 Saguaro Energa LNG Facility 개발과 상업화를 계속 추진 중이며, 장기 오프테이크 계약을 유지하고 관련 파이프라인 및 수출 개시일 연장 절차를 진행하고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "State of Sonora, Mexico",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9366,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.936,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2864,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9592,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.8091,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9556,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9181,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "18-70-LNG, 22-167-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Mexico Pacific Limited LLC, Saguaro Energa LNG Facility"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-09-30"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "멕시코 퍼시픽은 소노라주의 Saguaro Energa LNG Facility 개발과 상업화를 계속 추진 중이며, 장기 오프테이크 계약을 유지하고 관련 파이프라인 및 수출 개시일 연장 절차를 진행하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "State of Sonora, Mexico"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "2025.09.24_DOE_Semi-Annual_Report_MXP_v_7_(002).pdf",
+  "source_folder": "Mexico_Pacific_Limited_LLC"
+}

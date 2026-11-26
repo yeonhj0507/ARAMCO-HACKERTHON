@@ -1,0 +1,94 @@
+{
+  "docket": "21-131-LNG",
+  "project": "Venture Global CP2 LNG, LLC",
+  "report_date": "2024-04-01",
+  "progress_note": "CP2 LNG 프로젝트는 FERC 신청이 계속 계류 중인 가운데 2023년 7월 최종 환경영향평가서가 발행되었고, 주요 장비·시공사에 20억 달러 이상을 투입하며 승인 즉시 현장 건설을 시작할 준비가 되어 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Cameron Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9931,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9819,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.3322,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9518,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9835,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9426,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9268,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "21-131-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Venture Global CP2 LNG, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "CP2 LNG 프로젝트는 FERC 신청이 계속 계류 중인 가운데 2023년 7월 최종 환경영향평가서가 발행되었고, 주요 장비·시공사에 20억 달러 이상을 투입하며 승인 즉시 현장 건설을 시작할 준비가 되어 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Cameron Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "CP2_April_1__2024_DOE_Progress_Report_Draft_(final)_(002).pdf",
+  "source_folder": "Venture_Global_CP2_LNG_LLC"
+}

@@ -1,0 +1,64 @@
+# ---------- 비밀 값 (절대 올리지 않음) ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*.json
+service-account*.json
+.claude/settings.local.json
+
+# ---------- 파이썬 ----------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# ---------- 실행하면 생기는 결과물 (다시 만들 수 있음) ----------
+orders/
+data/uploads/
+data/exec/
+data/studio_raw/
+data/studio_raw_v1/
+data/studio_params/
+data/plan_params/
+submission/runs/
+data/*/runs/
+*.log
+
+# ---------- 용량이 큰 원본과 중간 파일 ----------
+# DOE 공개 보고서 원본 (scripts로 다시 받기), 합본 케이스 (scripts/make_a_cases.py로 다시 만들기)
+data/doe/
+data/a_cases/
+
+# ---------- 작업용 임시 파일 ----------
+work_scan/
+_backup/
+_to_delete/
+app/_old/
+*.tmp
+~$*
+
+# ---------- Flutter 앱 (app/.gitignore에도 있음) ----------
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/windows/flutter/ephemeral/
+app/.idea/
+*.iml
+
+# ---------- OS, 편집기 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

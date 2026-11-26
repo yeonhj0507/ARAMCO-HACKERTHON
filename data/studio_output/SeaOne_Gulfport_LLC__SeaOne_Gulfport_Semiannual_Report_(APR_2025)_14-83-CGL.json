@@ -1,0 +1,93 @@
+{
+  "docket": "14-83-CGL",
+  "project": "SeaOne Gulfport, LLC",
+  "report_date": "2025-03-31",
+  "progress_note": "SeaOne은 Caribbean, Central and South American Fuels Supply Project 상업화를 위한 시장개발을 계속하고 있으며, 수출시설을 Port of Mobile, Alabama 인근으로 이전해 관련 신청 준비를 진행하는 한편 선박 설계·FEED를 완료했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Port of Mobile, Alabama",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9894,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9866,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9857,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0353,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9518,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.8988,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9426,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9268,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "14-83-CGL"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "SeaOne Gulfport, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-03-31"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "SeaOne은 Caribbean, Central and South American Fuels Supply Project 상업화를 위한 시장개발을 계속하고 있으며, 수출시설을 Port of Mobile, Alabama 인근으로 이전해 관련 신청 준비를 진행하는 한편 선박 설계·FEED를 완료했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Port of Mobile, Alabama"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "SeaOne_Gulfport_Semiannual_Report_(APR_2025)_14-83-CGL.pdf",
+  "source_folder": "SeaOne_Gulfport_LLC"
+}

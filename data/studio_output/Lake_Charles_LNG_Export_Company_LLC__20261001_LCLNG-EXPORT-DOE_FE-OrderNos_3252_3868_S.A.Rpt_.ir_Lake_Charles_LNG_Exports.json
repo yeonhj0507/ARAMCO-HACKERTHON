@@ -1,0 +1,94 @@
+{
+  "docket": "13-04-LNG",
+  "project": "Lake Charles LNG Export Company, LLC, Lake Charles LNG Terminal",
+  "report_date": "2026-10-01",
+  "progress_note": "프로젝트는 2024년 EPC 계약 체결 이후 2025년 말 개발 중단 발표가 있었고, 부지 정지·시험말뚝·도로개선·인에이블링 프로젝트 및 배관 개조 일부는 완료되었으나 본 액화시설의 본격 건설과 가동 개시일은 아직 확정되지 않았다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9853,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8035,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9869,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0527,
+      "page": 6
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9511,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.7667,
+      "page": 6
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9456,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9598,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "13-04-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Lake Charles LNG Export Company, LLC, Lake Charles LNG Terminal"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 6,
+      "field": "progress_note",
+      "text": "프로젝트는 2024년 EPC 계약 체결 이후 2025년 말 개발 중단 발표가 있었고, 부지 정지·시험말뚝·도로개선·인에이블링 프로젝트 및 배관 개조 일부는 완료되었으나 본 액화시설의 본격 건설과 가동 개시일은 아직 확정되지 않았다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 6,
+      "field": "terminal_location",
+      "text": "Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "20261001_LCLNG-EXPORT-DOE_FE-OrderNos_3252_3868_S.A.Rpt_.ir_Lake_Charles_LNG_Exports.pdf",
+  "source_folder": "Lake_Charles_LNG_Export_Company_LLC"
+}

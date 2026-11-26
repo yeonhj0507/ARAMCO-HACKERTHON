@@ -1,0 +1,93 @@
+{
+  "docket": "12-123-LNG",
+  "project": "CE FLNG, LLC",
+  "report_date": "2026-10-01",
+  "progress_note": "프로젝트는 글로벌 에너지 시장 변화와 연방 허가 중단의 영향을 재평가 중이며, 가스 공급·파이프라인 용량 계약과 신규 LNG 판매 기회를 검토하고 있어 운영 일정은 TBD로 지연된 상태이다.",
+  "authorized_mtpa": 8,
+  "terminal_location": "Plaquemines Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9924,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9813,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9879,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0486,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9844,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9821,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9546,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9139,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-123-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "CE FLNG, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트는 글로벌 에너지 시장 변화와 연방 허가 중단의 영향을 재평가 중이며, 가스 공급·파이프라인 용량 계약과 신규 LNG 판매 기회를 검토하고 있어 운영 일정은 TBD로 지연된 상태이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "8"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Plaquemines Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "CE_FLNG_Semi-Annual_Report_Oct_1_2026.pdf",
+  "source_folder": "CE_FLNG_LLC"
+}

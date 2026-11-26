@@ -1,0 +1,93 @@
+{
+  "docket": "23-34-LNG",
+  "project": "Gulfstream LNG Development, LLC",
+  "report_date": "2024-03-27",
+  "progress_note": "지난 6개월 동안 걸프스트림 LNG 터미널 프로젝트는 자금조달, 엔지니어링, 피드가스 운송, FERC 사전협의 등 여러 측면에서 진전이 있었으나 장기 LNG 구매계약 논의는 아직 시작되지 않았다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Plaquemines Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9885,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8814,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9916,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2603,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9494,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9862,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9392,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9137,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "23-34-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Gulfstream LNG Development, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-03-27"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "지난 6개월 동안 걸프스트림 LNG 터미널 프로젝트는 자금조달, 엔지니어링, 피드가스 운송, FERC 사전협의 등 여러 측면에서 진전이 있었으나 장기 LNG 구매계약 논의는 아직 시작되지 않았다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Plaquemines Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "Gulfstream_LNG_Development_LLC_Semi-Annual_Report_Regarding_Gulfstream_LNG_Terminal.pdf",
+  "source_folder": "Gulfstream_LNG_Development_LLC"
+}

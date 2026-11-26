@@ -1,0 +1,94 @@
+{
+  "docket": "22-110-LNG",
+  "project": "NFE Altamira FLNG, S. de R.L. de C.V.",
+  "report_date": "2024-04-01",
+  "progress_note": "프로젝트는 2024년 1월 시운전을 시작했고 세 개의 리그 연결과 최종 펀치리스트 완료 후 추가 시운전을 진행했으며 2024년 4월 가동 및 첫 LNG 생산이 예상된다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Altamira Tamaulipas, Mexico",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9908,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9765,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9887,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.5049,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9589,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.7422,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9543,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9163,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "22-110-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "NFE Altamira FLNG, S. de R.L. de C.V."
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트는 2024년 1월 시운전을 시작했고 세 개의 리그 연결과 최종 펀치리스트 완료 후 추가 시운전을 진행했으며 2024년 4월 가동 및 첫 LNG 생산이 예상된다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Altamira Tamaulipas, Mexico"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "commissioning",
+  "source_file": "NFE_Altamira_DOE_April_2024_Semi-Annual_Report_date.pdf",
+  "source_folder": "NFE_Altamira_FLNG_S_de_R_L_de_C_V"
+}

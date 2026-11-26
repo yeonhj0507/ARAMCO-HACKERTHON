@@ -1,0 +1,194 @@
+{
+  "docket": "18-144-LNG",
+  "project": "ECA Mid-Scale Project, ECA Liquefaction, S. de R.L. de C.V.",
+  "report_date": "2024-10-01",
+  "progress_note": "프로젝트는 수직 건설 단계에서 상당한 진척을 보이고 있으며, 사전 시운전 활동이 시작되었고 구조용 철골 설치와 현장 자재 반입이 계속되고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "Total Gas & Power, Asia Private Limited",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "Mitsui & Co., Ltd.",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9912,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9495,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9915,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.09,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9662,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9171,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9619,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9234,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "high",
+      "score": 0.9728,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9782,
+      "page": 2
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.9731,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.968,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.923,
+      "page": -1
+    },
+    "long_term_contracts[1].mtpa": {
+      "confidence": "high",
+      "score": 0.9728,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer": {
+      "confidence": "low",
+      "score": 0.9629,
+      "page": 2
+    },
+    "long_term_contracts[1].start_year": {
+      "confidence": "high",
+      "score": 0.9732,
+      "page": 1
+    },
+    "long_term_contracts[1].term_years": {
+      "confidence": "high",
+      "score": 0.968,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer_country": {
+      "confidence": "low",
+      "score": 0.923,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "18-144-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "ECA Mid-Scale Project, ECA Liquefaction, S. de R.L. de C.V."
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트는 수직 건설 단계에서 상당한 진척을 보이고 있으며, 사전 시운전 활동이 시작되었고 구조용 철골 설치와 현장 자재 반입이 계속되고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Total Gas & Power, Asia Private Limited"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[1].buyer",
+      "text": "Mitsui & Co., Ltd."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "commissioning",
+  "source_file": "ECAMidScaleSemiAnnualDOEProjectStatusReportOct2024.pdf",
+  "source_folder": "ECA_Liquefaction_S_de_R_L_de_C_V"
+}

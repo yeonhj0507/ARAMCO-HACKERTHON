@@ -1,0 +1,89 @@
+{
+  "docket": "20-153-LNG",
+  "project": "Vista Pacifico LNG, S.A.P.I. de C.V., VPLNG Mid-Scale Project",
+  "report_date": "2026-04-01",
+  "progress_note": "2025년 12월 SI Partners와 CFE가 기존 개발계약 종료에 합의했고 일부 멕시코 인허가 절차도 종료되어, 현재 VPLNG 프로젝트는 추진되고 있지 않다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9935,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9422,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9959,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.5604,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9798,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9436,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9781,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9504,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-153-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Vista Pacifico LNG, S.A.P.I. de C.V., VPLNG Mid-Scale Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "2025년 12월 SI Partners와 CFE가 기존 개발계약 종료에 합의했고 일부 멕시코 인허가 절차도 종료되어, 현재 VPLNG 프로젝트는 추진되고 있지 않다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "VPLNGSemiAnnualDOEProjectStatusReportApril2026.pdf",
+  "source_folder": "Vista_Pacifico_LNG_S_A_P_I_de_C_V"
+}

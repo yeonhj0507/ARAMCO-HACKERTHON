@@ -1,0 +1,93 @@
+{
+  "docket": "12-123-LNG",
+  "project": "CE FLNG, LLC",
+  "report_date": "2025-04-15",
+  "progress_note": "프로젝트는 연방 허가 중단과 시장 변화 영향을 검토하며, 천연가스 공급·수송 계약과 신규 LNG 공급계약을 추진하고 있어 일정이 지연된 상태이다.",
+  "authorized_mtpa": 8,
+  "terminal_location": "Plaquemines Parish, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9785,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "low",
+      "score": 0.6019,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1322,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.983,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9765,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9491,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9134,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-123-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "CE FLNG, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-15"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트는 연방 허가 중단과 시장 변화 영향을 검토하며, 천연가스 공급·수송 계약과 신규 LNG 공급계약을 추진하고 있어 일정이 지연된 상태이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "8"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Plaquemines Parish, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "CE_FLNG_Semi-Annual_Report_April_1_2025.pdf",
+  "source_folder": "CE_FLNG_LLC"
+}

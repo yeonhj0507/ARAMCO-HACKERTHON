@@ -1,0 +1,89 @@
+{
+  "docket": "10-85-LNG, 10-111-LNG, 13-30-LNG, 13-42-LNG, 13-121-LNG, 14-92-LNG, 15-63-LNG, 19-125-LNG, 24-27-LNG",
+  "project": "Sabine Pass Liquefaction, LLC, Sabine Pass Liquefaction Stage V, LLC",
+  "report_date": "2026-04-01",
+  "progress_note": "Stage 5 Project 확장에 대한 FERC 인허가가 아직 계류 중이어서 이번 보고기간에는 Stage 5 Project의 건설 활동이 없었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9207,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9729,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9939,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1299,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9685,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9431,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9647,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9321,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "10-85-LNG, 10-111-LNG, 13-30-LNG, 13-42-LNG, 13-121-LNG, 14-92-LNG, 15-63-LNG, 19-125-LNG, 24-27-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Sabine Pass Liquefaction, LLC, Sabine Pass Liquefaction Stage V, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "Stage 5 Project 확장에 대한 FERC 인허가가 아직 계류 중이어서 이번 보고기간에는 Stage 5 Project의 건설 활동이 없었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "SPLQ_Semi-annual_report_04012026.pdf",
+  "source_folder": "Sabine_Pass_Liquefaction_LLC"
+}

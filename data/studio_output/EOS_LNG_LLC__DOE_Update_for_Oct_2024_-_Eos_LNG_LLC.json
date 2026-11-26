@@ -1,0 +1,93 @@
+{
+  "docket": "13-115-LNG",
+  "project": "Eos LNG LLC",
+  "report_date": "2024-10-30",
+  "progress_note": "프로젝트는 아직 사전 개발 단계이며, 오프테이커와 자금 조달을 계속 추진 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9926,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9917,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9961,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.5571,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.928,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9916,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9414,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9185,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "13-115-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Eos LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-30"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "프로젝트는 아직 사전 개발 단계이며, 오프테이커와 자금 조달을 계속 추진 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "DOE_Update_for_Oct_2024_-_Eos_LNG_LLC.pdf",
+  "source_folder": "EOS_LNG_LLC"
+}

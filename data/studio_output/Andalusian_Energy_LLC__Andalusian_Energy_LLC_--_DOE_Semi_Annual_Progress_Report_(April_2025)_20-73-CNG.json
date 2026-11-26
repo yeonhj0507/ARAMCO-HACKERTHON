@@ -1,0 +1,94 @@
+{
+  "docket": "20-73-CNG",
+  "project": "Andalusian Energy, LLC",
+  "report_date": "2025-04-01",
+  "progress_note": "안달루시안 에너지는 장기 CNG 판매계약을 위한 상업 협의를 계속 진행 중이며, CNG 시설 개발도 진전되고 있고, 기존 브라운스빌 항만 부지는 반환한 뒤 더 유리한 대체 부지를 확보하기 위해 항만과 협의 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Port of Brownsville",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9874,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9784,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9957,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1446,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9458,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9792,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9455,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9203,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-73-CNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Andalusian Energy, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "안달루시안 에너지는 장기 CNG 판매계약을 위한 상업 협의를 계속 진행 중이며, CNG 시설 개발도 진전되고 있고, 기존 브라운스빌 항만 부지는 반환한 뒤 더 유리한 대체 부지를 확보하기 위해 항만과 협의 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Port of Brownsville"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "Andalusian_Energy_LLC_--_DOE_Semi_Annual_Progress_Report_(April_2025)_20-73-CNG.pdf",
+  "source_folder": "Andalusian_Energy_LLC"
+}

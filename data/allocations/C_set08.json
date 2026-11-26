@@ -1,0 +1,332 @@
+{
+  "plan_id": "ALLOC-202701-C8",
+  "scenario_text": "호르무즈 해협 3개월 차단",
+  "scenario": {
+    "name": "hormuz3",
+    "start_month": "2027-01",
+    "horizon": 12,
+    "hormuz_blocked_months": 3,
+    "spot_price_multiplier": 1.0,
+    "spot_volume_multiplier": 1.0,
+    "us_extra_delay_months": 0,
+    "demand_multiplier": 1.0,
+    "use_studio": false,
+    "notes": []
+  },
+  "tables": {
+    "months": [
+      "2027-01",
+      "2027-02",
+      "2027-03"
+    ],
+    "supply": [
+      {
+        "source": "AUSTRALIA_LT",
+        "month": "2027-01",
+        "avail_cargoes": 11,
+        "plan_cargoes": 11,
+        "plan_kt": 770
+      },
+      {
+        "source": "AUSTRALIA_LT",
+        "month": "2027-02",
+        "avail_cargoes": 11,
+        "plan_cargoes": 11,
+        "plan_kt": 770
+      },
+      {
+        "source": "AUSTRALIA_LT",
+        "month": "2027-03",
+        "avail_cargoes": 11,
+        "plan_cargoes": 11,
+        "plan_kt": 770
+      },
+      {
+        "source": "MALAYSIA_LT",
+        "month": "2027-01",
+        "avail_cargoes": 5,
+        "plan_cargoes": 5,
+        "plan_kt": 350
+      },
+      {
+        "source": "MALAYSIA_LT",
+        "month": "2027-02",
+        "avail_cargoes": 5,
+        "plan_cargoes": 5,
+        "plan_kt": 350
+      },
+      {
+        "source": "MALAYSIA_LT",
+        "month": "2027-03",
+        "avail_cargoes": 5,
+        "plan_cargoes": 5,
+        "plan_kt": 350
+      },
+      {
+        "source": "OMAN_LT",
+        "month": "2027-01",
+        "avail_cargoes": 5,
+        "plan_cargoes": 5,
+        "plan_kt": 350
+      },
+      {
+        "source": "OMAN_LT",
+        "month": "2027-02",
+        "avail_cargoes": 5,
+        "plan_cargoes": 5,
+        "plan_kt": 350
+      },
+      {
+        "source": "OMAN_LT",
+        "month": "2027-03",
+        "avail_cargoes": 5,
+        "plan_cargoes": 5,
+        "plan_kt": 350
+      },
+      {
+        "source": "OTHER_LT",
+        "month": "2027-01",
+        "avail_cargoes": 15,
+        "plan_cargoes": 15,
+        "plan_kt": 1050
+      },
+      {
+        "source": "OTHER_LT",
+        "month": "2027-02",
+        "avail_cargoes": 15,
+        "plan_cargoes": 15,
+        "plan_kt": 1050
+      },
+      {
+        "source": "OTHER_LT",
+        "month": "2027-03",
+        "avail_cargoes": 15,
+        "plan_cargoes": 15,
+        "plan_kt": 1050
+      },
+      {
+        "source": "SPOT",
+        "month": "2027-01",
+        "avail_cargoes": 29,
+        "plan_cargoes": 0,
+        "plan_kt": 0
+      },
+      {
+        "source": "SPOT",
+        "month": "2027-02",
+        "avail_cargoes": 29,
+        "plan_cargoes": 17,
+        "plan_kt": 1190
+      },
+      {
+        "source": "SPOT",
+        "month": "2027-03",
+        "avail_cargoes": 29,
+        "plan_cargoes": 13,
+        "plan_kt": 910
+      },
+      {
+        "source": "US_LT",
+        "month": "2027-01",
+        "avail_cargoes": 3,
+        "plan_cargoes": 3,
+        "plan_kt": 210
+      },
+      {
+        "source": "US_LT",
+        "month": "2027-02",
+        "avail_cargoes": 4,
+        "plan_cargoes": 4,
+        "plan_kt": 280
+      },
+      {
+        "source": "US_LT",
+        "month": "2027-03",
+        "avail_cargoes": 4,
+        "plan_cargoes": 4,
+        "plan_kt": 280
+      },
+      {
+        "source": "US_UNCONTRACTED",
+        "month": "2027-01",
+        "avail_cargoes": 1,
+        "plan_cargoes": 1,
+        "plan_kt": 70
+      },
+      {
+        "source": "US_UNCONTRACTED",
+        "month": "2027-02",
+        "avail_cargoes": 1,
+        "plan_cargoes": 1,
+        "plan_kt": 70
+      },
+      {
+        "source": "US_UNCONTRACTED",
+        "month": "2027-03",
+        "avail_cargoes": 1,
+        "plan_cargoes": 1,
+        "plan_kt": 70
+      }
+    ],
+    "stock": [
+      {
+        "terminal": "INCHEON",
+        "month": "2027-01",
+        "demand_kt": 1288,
+        "inventory_kt": 195,
+        "capacity_kt": 1300,
+        "safety_kt": 195,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "INCHEON",
+        "month": "2027-02",
+        "demand_kt": 1252,
+        "inventory_kt": 195,
+        "capacity_kt": 1300,
+        "safety_kt": 195,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "INCHEON",
+        "month": "2027-03",
+        "demand_kt": 1138,
+        "inventory_kt": 195,
+        "capacity_kt": 1300,
+        "safety_kt": 195,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "JEJU",
+        "month": "2027-01",
+        "demand_kt": 86,
+        "inventory_kt": 14,
+        "capacity_kt": 90,
+        "safety_kt": 14,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "JEJU",
+        "month": "2027-02",
+        "demand_kt": 84,
+        "inventory_kt": 14,
+        "capacity_kt": 90,
+        "safety_kt": 14,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "JEJU",
+        "month": "2027-03",
+        "demand_kt": 76,
+        "inventory_kt": 33,
+        "capacity_kt": 90,
+        "safety_kt": 14,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "PYEONGTAEK",
+        "month": "2027-01",
+        "demand_kt": 1374,
+        "inventory_kt": 210,
+        "capacity_kt": 1400,
+        "safety_kt": 210,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "PYEONGTAEK",
+        "month": "2027-02",
+        "demand_kt": 1336,
+        "inventory_kt": 210,
+        "capacity_kt": 1400,
+        "safety_kt": 210,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "PYEONGTAEK",
+        "month": "2027-03",
+        "demand_kt": 1214,
+        "inventory_kt": 210,
+        "capacity_kt": 1400,
+        "safety_kt": 210,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "SAMCHEOK",
+        "month": "2027-01",
+        "demand_kt": 687,
+        "inventory_kt": 282,
+        "capacity_kt": 900,
+        "safety_kt": 135,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "SAMCHEOK",
+        "month": "2027-02",
+        "demand_kt": 668,
+        "inventory_kt": 135,
+        "capacity_kt": 900,
+        "safety_kt": 135,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "SAMCHEOK",
+        "month": "2027-03",
+        "demand_kt": 607,
+        "inventory_kt": 135,
+        "capacity_kt": 900,
+        "safety_kt": 135,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "TONGYEONG",
+        "month": "2027-01",
+        "demand_kt": 859,
+        "inventory_kt": 150,
+        "capacity_kt": 1000,
+        "safety_kt": 150,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "TONGYEONG",
+        "month": "2027-02",
+        "demand_kt": 835,
+        "inventory_kt": 183,
+        "capacity_kt": 1000,
+        "safety_kt": 150,
+        "shortage_kt": 0
+      },
+      {
+        "terminal": "TONGYEONG",
+        "month": "2027-03",
+        "demand_kt": 759,
+        "inventory_kt": 150,
+        "capacity_kt": 1000,
+        "safety_kt": 150,
+        "shortage_kt": 0
+      }
+    ],
+    "summary": [
+      {
+        "month": "2027-01",
+        "demand_kt": 4294,
+        "planned_kt": 2800,
+        "shortage_kt": 0,
+        "spot_cargoes": 0
+      },
+      {
+        "month": "2027-02",
+        "demand_kt": 4175,
+        "planned_kt": 4060,
+        "shortage_kt": 0,
+        "spot_cargoes": 17
+      },
+      {
+        "month": "2027-03",
+        "demand_kt": 3794,
+        "planned_kt": 3780,
+        "shortage_kt": 0,
+        "spot_cargoes": 13
+      }
+    ]
+  }
+}

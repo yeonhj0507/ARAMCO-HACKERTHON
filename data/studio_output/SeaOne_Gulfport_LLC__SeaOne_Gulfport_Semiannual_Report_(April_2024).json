@@ -1,0 +1,93 @@
+{
+  "docket": "14-83-CGL",
+  "project": "SeaOne Gulfport, LLC",
+  "report_date": "2024-04-01",
+  "progress_note": "SeaOne은 시장 개발 활동을 계속하는 한편 Gulfport 부지의 분진 문제로 CGL 생산·수출 시설을 앨라배마주 모바일항 지역으로 이전하기로 했고, 선박 설계와 FEED는 완료했으며 오프테이커 및 금융·개발 협상은 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Port of Mobile, Alabama",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9896,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9866,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "low",
+      "score": 0.9668,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0976,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9518,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9731,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9426,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9268,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "14-83-CGL"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "SeaOne Gulfport, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "SeaOne은 시장 개발 활동을 계속하는 한편 Gulfport 부지의 분진 문제로 CGL 생산·수출 시설을 앨라배마주 모바일항 지역으로 이전하기로 했고, 선박 설계와 FEED는 완료했으며 오프테이커 및 금융·개발 협상은 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Port of Mobile, Alabama"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "SeaOne_Gulfport_Semiannual_Report_(April_2024).pdf",
+  "source_folder": "SeaOne_Gulfport_LLC"
+}

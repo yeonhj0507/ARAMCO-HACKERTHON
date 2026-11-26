@@ -1,0 +1,89 @@
+{
+  "docket": "20-153-LNG",
+  "project": "Vista Pacifico LNG, S.A.P.I. de C.V., VPLNG Mid-Scale Project",
+  "report_date": "2024-10-01",
+  "progress_note": "VPLNG는 기술 및 프로젝트 구성 파트너를 선정했고 액화 및 해양시설의 Pre-FEED를 완료했으며 FEED 착수를 위해 EPC 업체와 협의 중이고, 멕시코에서 주요 인허가 신청 절차를 시작했으며 CFE와 장기 가스 공급 상업 조건에도 합의했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9904,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9485,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.992,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1528,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9709,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.8593,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9669,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.931,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-153-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Vista Pacifico LNG, S.A.P.I. de C.V., VPLNG Mid-Scale Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "VPLNG는 기술 및 프로젝트 구성 파트너를 선정했고 액화 및 해양시설의 Pre-FEED를 완료했으며 FEED 착수를 위해 EPC 업체와 협의 중이고, 멕시코에서 주요 인허가 신청 절차를 시작했으며 CFE와 장기 가스 공급 상업 조건에도 합의했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "VPLNGSemiAnnualDOEProjectStatusReportSeptember2024.pdf",
+  "source_folder": "Vista_Pacifico_LNG_S_A_P_I_de_C_V"
+}

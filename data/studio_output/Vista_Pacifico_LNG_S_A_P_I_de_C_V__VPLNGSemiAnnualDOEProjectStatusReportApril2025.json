@@ -1,0 +1,94 @@
+{
+  "docket": "20-153-LNG",
+  "project": "Vista Pacifico LNG, S.A.P.I. de C.V., VPLNG Mid-Scale Project",
+  "report_date": "2025-04-01",
+  "progress_note": "VPLNG는 기술 공급사·파트너를 선정하고 액화 및 해양시설의 Pre-FEED를 완료했으며 FEED 착수를 위해 EPC 업체들과 협의 중이고, 멕시코에서 주요 인허가를 제출해 장기 수출허가를 받았으며 CFE와 장기 가스공급 상업조건에도 합의했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Mexico",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9922,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9322,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9909,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.105,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9574,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.989,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9529,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9132,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-153-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Vista Pacifico LNG, S.A.P.I. de C.V., VPLNG Mid-Scale Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "VPLNG는 기술 공급사·파트너를 선정하고 액화 및 해양시설의 Pre-FEED를 완료했으며 FEED 착수를 위해 EPC 업체들과 협의 중이고, 멕시코에서 주요 인허가를 제출해 장기 수출허가를 받았으며 CFE와 장기 가스공급 상업조건에도 합의했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Mexico"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "VPLNGSemiAnnualDOEProjectStatusReportApril2025.pdf",
+  "source_folder": "Vista_Pacifico_LNG_S_A_P_I_de_C_V"
+}

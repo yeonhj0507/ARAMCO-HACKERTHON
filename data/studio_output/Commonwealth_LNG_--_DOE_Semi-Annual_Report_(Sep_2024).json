@@ -1,0 +1,87 @@
+{
+  "docket": "19-134-LNG",
+  "project": "Commonwealth LNG, LLC",
+  "report_date": "2024-10-01",
+  "progress_note": "커먼웰스는 장기 LNG 판매를 위한 상업 협의를 진행 중이며, 시설의 계획 및 개발이 진행되고 있고 초기 부지 준비와 건설을 향해 FERC 직원들과 협력하고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9943,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9932,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9967,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.4053,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9659,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9403,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9617,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9298,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "19-134-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Commonwealth LNG, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "커먼웰스는 장기 LNG 판매를 위한 상업 협의를 진행 중이며, 시설의 계획 및 개발이 진행되고 있고 초기 부지 준비와 건설을 향해 FERC 직원들과 협력하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "Commonwealth_LNG_--_DOE_Semi-Annual_Report_(Sep_2024).pdf"
+}

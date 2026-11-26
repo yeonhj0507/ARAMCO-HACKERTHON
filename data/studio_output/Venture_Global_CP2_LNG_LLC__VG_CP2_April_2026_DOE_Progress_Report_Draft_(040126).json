@@ -1,0 +1,194 @@
+{
+  "docket": "21-131-LNG",
+  "project": "Venture Global CP2 LNG, LLC",
+  "report_date": "2026-04-01",
+  "progress_note": "CP2 LNG 프로젝트는 FERC 허가와 추가 진행 통지를 받아 건설을 진행 중이며, 2025년 7월과 2026년 3월에 각 단계의 최종투자결정과 금융조달을 완료했다.",
+  "authorized_mtpa": 28,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "Naturgy LNG GOM Limited",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "Hanwha Aerospace Co., Ltd.",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9894,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9905,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9785,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0693,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.979,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9699,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.956,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9587,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "high",
+      "score": 0.9681,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9716,
+      "page": 4
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "low",
+      "score": 0.9603,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "low",
+      "score": 0.9561,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.952,
+      "page": -1
+    },
+    "long_term_contracts[1].mtpa": {
+      "confidence": "high",
+      "score": 0.9681,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer": {
+      "confidence": "low",
+      "score": 0.9647,
+      "page": 4
+    },
+    "long_term_contracts[1].start_year": {
+      "confidence": "low",
+      "score": 0.9603,
+      "page": 1
+    },
+    "long_term_contracts[1].term_years": {
+      "confidence": "low",
+      "score": 0.9561,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer_country": {
+      "confidence": "low",
+      "score": 0.952,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "21-131-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Venture Global CP2 LNG, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "CP2 LNG 프로젝트는 FERC 허가와 추가 진행 통지를 받아 건설을 진행 중이며, 2025년 7월과 2026년 3월에 각 단계의 최종투자결정과 금융조달을 완료했다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "28"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Naturgy LNG GOM Limited"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[1].buyer",
+      "text": "Hanwha Aerospace Co., Ltd."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "VG_CP2_April_2026_DOE_Progress_Report_Draft_(040126).pdf",
+  "source_folder": "Venture_Global_CP2_LNG_LLC"
+}

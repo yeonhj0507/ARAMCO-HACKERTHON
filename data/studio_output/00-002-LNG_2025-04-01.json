@@ -1,0 +1,31 @@
+{
+  "doc_type": "semi_annual_report",
+  "project": "US Project C (sample)",
+  "docket": "00-002-LNG",
+  "terminal_location": "Texas",
+  "report_date": "2025-04-01",
+  "authorized_mtpa": 12.0,
+  "expected_operational_date": "2027-03-01",
+  "progress_note": "Site preparation ongoing.",
+  "long_term_contracts": [
+    {
+      "buyer": "KOGAS",
+      "buyer_country": "KR",
+      "mtpa": 1.0,
+      "start_year": 2028,
+      "term_years": 10
+    }
+  ],
+  "uncontracted_mtpa": 5.0,
+  "evidence": [
+    {
+      "page": 1,
+      "text": "[SAMPLE] Site preparation ongoing."
+    },
+    {
+      "page": 2,
+      "text": "[SAMPLE] The facility is expected to be operational by 2027-03-01."
+    }
+  ],
+  "source_file": "sample_00-002-LNG_2025-04-01.pdf"
+}

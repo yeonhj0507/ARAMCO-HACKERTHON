@@ -1,0 +1,94 @@
+{
+  "docket": "13-69-LNG, 14-88-LNG, 15-25-LNG",
+  "project": "Venture Global Calcasieu Pass, LLC, Calcasieu Pass Project",
+  "report_date": "2025-04-01",
+  "progress_note": "Calcasieu Pass는 수출터미널 건설과 필요한 보수·복구·교체를 완료했고, 2025년 3월 25일 남은 시설의 in-service 승인을 FERC에 요청했으며, 2022년 3월 1일 첫 시운전 화물을 선적한 이후 시운전 수출을 진행해 왔다.",
+  "authorized_mtpa": 10,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2025-04-15",
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9169,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9089,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9905,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1488,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9866,
+      "page": 3
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9532,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9557,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "high",
+      "score": 0.9914,
+      "page": 3
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "13-69-LNG, 14-88-LNG, 15-25-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Venture Global Calcasieu Pass, LLC, Calcasieu Pass Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "Calcasieu Pass는 수출터미널 건설과 필요한 보수·복구·교체를 완료했고, 2025년 3월 25일 남은 시설의 in-service 승인을 FERC에 요청했으며, 2022년 3월 1일 첫 시운전 화물을 선적한 이후 시운전 수출을 진행해 왔다."
+    },
+    {
+      "page": 3,
+      "field": "authorized_mtpa",
+      "text": "10"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "expected_operational_date",
+      "text": "2025-04-15"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "commissioning",
+  "source_file": "VG_CPass_April_2025_DOE_Progress_Report_(final)_13-69._14-88._15-25.pdf",
+  "source_folder": "Venture_Global_Calcasieu_Pass_LLC"
+}

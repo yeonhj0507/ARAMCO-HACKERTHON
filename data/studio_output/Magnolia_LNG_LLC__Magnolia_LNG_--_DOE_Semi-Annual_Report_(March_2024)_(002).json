@@ -1,0 +1,89 @@
+{
+  "docket": "12-183-LNG and 13-131-LNG",
+  "project": "Magnolia LNG LLC",
+  "report_date": "2024-04-02",
+  "progress_note": "매그놀리아 LNG는 EPC 계약자 선정 절차를 재개해 우선협상대상자 선정을 추진 중이나, 추가 장기 오프테이크 계약이 확보되지 않아 최종투자결정 전까지 4개 트레인에 대한 건설을 시작하지 않았다.",
+  "authorized_mtpa": 8.8,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.8636,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9878,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9937,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.344,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9739,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9584,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.969,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9493,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-183-LNG and 13-131-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Magnolia LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-02"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "매그놀리아 LNG는 EPC 계약자 선정 절차를 재개해 우선협상대상자 선정을 추진 중이나, 추가 장기 오프테이크 계약이 확보되지 않아 최종투자결정 전까지 4개 트레인에 대한 건설을 시작하지 않았다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "8.8"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Magnolia_LNG_--_DOE_Semi-Annual_Report_(March_2024)_(002).pdf",
+  "source_folder": "Magnolia_LNG_LLC"
+}

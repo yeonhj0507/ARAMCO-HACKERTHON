@@ -1,0 +1,33 @@
+name: lng_agent_app
+description: LNG 공급망 통합 에이전트 데모 앱 (Upstage Studio 워크플로우 A, B, C + 배분 최적화)
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  file_picker: ^8.0.3
+  url_launcher: ^6.2.6
+  flutter_markdown_plus: ^1.0.12
+  window_manager: 0.4.3
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: fonts/Pretendard-Regular.otf
+          weight: 400
+        - asset: fonts/Pretendard-Medium.otf
+          weight: 500
+        - asset: fonts/Pretendard-SemiBold.otf
+          weight: 600
+        - asset: fonts/Pretendard-Bold.otf
+          weight: 700

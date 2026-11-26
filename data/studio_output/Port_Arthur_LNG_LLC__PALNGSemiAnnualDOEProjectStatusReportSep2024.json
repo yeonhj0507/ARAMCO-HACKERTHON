@@ -1,0 +1,89 @@
+{
+  "docket": "15-53-LNG, 15-96-LNG",
+  "project": "Port Arthur LNG, LLC",
+  "report_date": "2024-10-01",
+  "progress_note": "보고 기간 동안 액화 프로젝트의 건설이 계속되었으며 부지 정지, 토질 안정화, 파일링과 기초 공사, 콘크리트 및 시트파일 설치, LNG 탱크 건설, 지상·지하 배관 설치, 선석 준설, 철골 세우기, 침식 방지 장치 점검·유지보수가 진행되었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9614,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9514,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9924,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0738,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9569,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.955,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9558,
+      "page": 2
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9458,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-53-LNG, 15-96-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Port Arthur LNG, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "보고 기간 동안 액화 프로젝트의 건설이 계속되었으며 부지 정지, 토질 안정화, 파일링과 기초 공사, 콘크리트 및 시트파일 설치, LNG 탱크 건설, 지상·지하 배관 설치, 선석 준설, 철골 세우기, 침식 방지 장치 점검·유지보수가 진행되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "PALNGSemiAnnualDOEProjectStatusReportSep2024.pdf",
+  "source_folder": "Port_Arthur_LNG_LLC"
+}

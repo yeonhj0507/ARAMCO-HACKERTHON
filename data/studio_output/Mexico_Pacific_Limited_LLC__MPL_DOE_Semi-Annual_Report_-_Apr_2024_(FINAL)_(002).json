@@ -1,0 +1,199 @@
+{
+  "docket": "18-70-LNG, 22-167-LNG",
+  "project": "Mexico Pacific Limited LLC, MPL Facility",
+  "report_date": "2024-04-01",
+  "progress_note": "MPL 시설은 건설 개시를 위한 연방·주·지방 허가를 모두 확보했고, 파이프라인 협력·EPC 계약 및 추가 LNG 판매계약 체결과 자금조달·상업조건 협상을 진전시키고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "State of Sonora, Mexico",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 1.2,
+      "buyer": "ExxonMobil Asia Pacific Pte. Ltd.",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 1.3,
+      "buyer": "Woodside Energy Trading Singapore Pte. Ltd.",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.7308,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9161,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9922,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0657,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9696,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9865,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9648,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9576,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.961,
+      "page": 2
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "low",
+      "score": 0.9596,
+      "page": 2
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "low",
+      "score": 0.9633,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "low",
+      "score": 0.9571,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9513,
+      "page": -1
+    },
+    "long_term_contracts[1].mtpa": {
+      "confidence": "low",
+      "score": 0.961,
+      "page": 2
+    },
+    "long_term_contracts[1].buyer": {
+      "confidence": "low",
+      "score": 0.955,
+      "page": 2
+    },
+    "long_term_contracts[1].start_year": {
+      "confidence": "low",
+      "score": 0.9633,
+      "page": 1
+    },
+    "long_term_contracts[1].term_years": {
+      "confidence": "low",
+      "score": 0.9571,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer_country": {
+      "confidence": "low",
+      "score": 0.9513,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "18-70-LNG, 22-167-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Mexico Pacific Limited LLC, MPL Facility"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "MPL 시설은 건설 개시를 위한 연방·주·지방 허가를 모두 확보했고, 파이프라인 협력·EPC 계약 및 추가 LNG 판매계약 체결과 자금조달·상업조건 협상을 진전시키고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "State of Sonora, Mexico"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "1.2"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].buyer",
+      "text": "ExxonMobil Asia Pacific Pte. Ltd."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[1].mtpa",
+      "text": "1.3"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[1].buyer",
+      "text": "Woodside Energy Trading Singapore Pte. Ltd."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "MPL_DOE_Semi-Annual_Report_-_Apr_2024_(FINAL)_(002).pdf",
+  "source_folder": "Mexico_Pacific_Limited_LLC"
+}

@@ -1,0 +1,88 @@
+{
+  "docket": "14-96-LNG",
+  "project": "Alaska LNG Project LLC",
+  "report_date": "2024-04-01",
+  "progress_note": "AGDC는 프로젝트의 다음 단계인 FEED를 위한 자본 조달을 진행 중이며, 잠재 투자자들이 FEED 자금 제공 여부를 검토하기 위해 실사를 수행하고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9887,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9929,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9877,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.7133,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9566,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.8549,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9473,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9532,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "14-96-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Alaska LNG Project LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "AGDC는 프로젝트의 다음 단계인 FEED를 위한 자본 조달을 진행 중이며, 잠재 투자자들이 FEED 자금 제공 여부를 검토하기 위해 실사를 수행하고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "Alaska_LNG_Project_LLC_April_1_2024.pdf",
+  "source_folder": "Alaska_LNG_Project_LLC"
+}

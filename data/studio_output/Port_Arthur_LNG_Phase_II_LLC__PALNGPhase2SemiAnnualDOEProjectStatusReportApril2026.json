@@ -1,0 +1,89 @@
+{
+  "docket": "20-23-LNG",
+  "project": "Port Arthur LNG Phase II, LLC",
+  "report_date": "2026-04-01",
+  "progress_note": "보고 기간 동안 건설 활동은 부지 준비로서 말뚝 설치, 연직배수재 설치 및 지반 안정화로 이루어졌다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9896,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9912,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9931,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0616,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9725,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9493,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9687,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9422,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-23-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Port Arthur LNG Phase II, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "보고 기간 동안 건설 활동은 부지 준비로서 말뚝 설치, 연직배수재 설치 및 지반 안정화로 이루어졌다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "PALNGPhase2SemiAnnualDOEProjectStatusReportApril2026.pdf",
+  "source_folder": "Port_Arthur_LNG_Phase_II_LLC"
+}

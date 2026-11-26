@@ -1,0 +1,93 @@
+{
+  "docket": "22-110-LNG",
+  "project": "NFE Altamira FLNG, S. de R.L. de C.V.",
+  "report_date": "2026-04-01",
+  "progress_note": "프로젝트의 FLNG 1은 2024년 8월 9일 가동 개시되어 운영 중이며, 보고기간 동안 LNG 재수출이 계속되었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "off the coast of Altamira Tamaulipas, Mexico",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9924,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9768,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9905,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1792,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9588,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.8775,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9543,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9137,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "22-110-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "NFE Altamira FLNG, S. de R.L. de C.V."
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "프로젝트의 FLNG 1은 2024년 8월 9일 가동 개시되어 운영 중이며, 보고기간 동안 LNG 재수출이 계속되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "off the coast of Altamira Tamaulipas, Mexico"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "NFE_Altamira_Semi-Annual_Report_April_2026.pdf",
+  "source_folder": "NFE_Altamira_FLNG_S_de_R_L_de_C_V"
+}

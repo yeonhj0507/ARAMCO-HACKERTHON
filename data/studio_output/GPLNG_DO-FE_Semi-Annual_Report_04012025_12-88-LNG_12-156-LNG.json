@@ -1,0 +1,92 @@
+{
+  "docket": "12-88-LNG, 12-156-LNG",
+  "project": "Golden Pass LNG Terminal LLC, Golden Pass LNG Export Project",
+  "report_date": "2025-04-01",
+  "progress_note": "골든패스 LNG 프로젝트는 부지 전역에서 토목, 콘크리트, 철골, 배관, 전기 공사와 함께 Train 1 중심의 기계완성·시운전 준비를 지속적으로 진행했다.",
+  "authorized_mtpa": 18.1,
+  "terminal_location": "Sabine Pass, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9532,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9088,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.992,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1346,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9804,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9821,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9471,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9307,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-88-LNG, 12-156-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Golden Pass LNG Terminal LLC, Golden Pass LNG Export Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "골든패스 LNG 프로젝트는 부지 전역에서 토목, 콘크리트, 철골, 배관, 전기 공사와 함께 Train 1 중심의 기계완성·시운전 준비를 지속적으로 진행했다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "18.1"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Sabine Pass, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "GPLNG_DO-FE_Semi-Annual_Report_04012025_12-88-LNG_12-156-LNG.pdf"
+}

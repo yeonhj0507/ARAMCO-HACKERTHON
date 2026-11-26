@@ -1,0 +1,99 @@
+{
+  "docket": "11-145-LNG, 14-204-LNG, 15-36-LNG, 11-162-LNG, 15-67-LNG, 15-90-LNG",
+  "project": "Cameron LNG LLC, Cameron LNG, LLC",
+  "report_date": "2026-03-31",
+  "progress_note": "액화 프로젝트의 1~3호기는 2020년 8월 10일 기준 모두 상업 운전에 들어갔고, 확장 프로젝트는 추가 엔지니어링 후 EPC 재입찰과 2024년 말까지의 가치공학 작업을 거쳐 현재 추진 경로를 검토 중이며, 개정된 확장 시설의 건설 완료 기한은 2033년 3월 16일까지 연장되었다.",
+  "authorized_mtpa": 9.7812,
+  "terminal_location": "Cameron and Calcasieu Parishes, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2033-03-16",
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9373,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.448,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9939,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.212,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9831,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9836,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9927,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "high",
+      "score": 0.998,
+      "page": 3
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "11-145-LNG, 14-204-LNG, 15-36-LNG, 11-162-LNG, 15-67-LNG, 15-90-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Cameron LNG LLC, Cameron LNG, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-03-31"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "액화 프로젝트의 1~3호기는 2020년 8월 10일 기준 모두 상업 운전에 들어갔고, 확장 프로젝트는 추가 엔지니어링 후 EPC 재입찰과 2024년 말까지의 가치공학 작업을 거쳐 현재 추진 경로를 검토 중이며, 개정된 확장 시설의 건설 완료 기한은 2033년 3월 16일까지 연장되었다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "9.7812"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Cameron and Calcasieu Parishes, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "expected_operational_date",
+      "text": "2033-03-16"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "2026-04-01_Cameron_LNG_Semi-Annual_Report.pdf",
+  "source_folder": "Cameron_LNG_LLC"
+}

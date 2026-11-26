@@ -1,0 +1,92 @@
+{
+  "docket": "12-88-LNG, 12-156-LNG",
+  "project": "Golden Pass LNG Terminal LLC, Golden Pass LNG Export Project",
+  "report_date": "2024-04-08",
+  "progress_note": "골든패스 LNG 수출 프로젝트는 시험·전기·배관·강재·용기 설치와 영구 건물 및 제방 공사가 계속 진행 중이며, 트레인 3의 주요 콘크리트 기초와 부지 전역 포장 작업도 이어지고 있다.",
+  "authorized_mtpa": 18.1,
+  "terminal_location": "Sabine Pass, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9562,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8079,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9725,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9795,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.984,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9436,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9194,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-88-LNG, 12-156-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Golden Pass LNG Terminal LLC, Golden Pass LNG Export Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-08"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "골든패스 LNG 수출 프로젝트는 시험·전기·배관·강재·용기 설치와 영구 건물 및 제방 공사가 계속 진행 중이며, 트레인 3의 주요 콘크리트 기초와 부지 전역 포장 작업도 이어지고 있다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "18.1"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Sabine Pass, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "20240401_GPLNG_DOE_Semi_Annual_Report.pdf"
+}

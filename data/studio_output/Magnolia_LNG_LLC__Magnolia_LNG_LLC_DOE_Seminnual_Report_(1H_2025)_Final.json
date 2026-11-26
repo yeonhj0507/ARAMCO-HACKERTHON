@@ -1,0 +1,94 @@
+{
+  "docket": "12-183-LNG, 13-131-LNG",
+  "project": "Magnolia LNG LLC",
+  "report_date": "2025-09-30",
+  "progress_note": "지난 6개월 동안 Magnolia LNG는 DOE의 비FTA 수출 승인 보류로 EPC 계약자 선정은 중단된 상태이나, LDNR의 CUP 연장을 받았고 USACE 허가 연장 공고와 LDEQ 신규 수질인증 사전절차를 진행했다.",
+  "authorized_mtpa": 8.8,
+  "terminal_location": "Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9328,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9936,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9908,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.255,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.978,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9908,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9593,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9243,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-183-LNG, 13-131-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Magnolia LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-09-30"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "지난 6개월 동안 Magnolia LNG는 DOE의 비FTA 수출 승인 보류로 EPC 계약자 선정은 중단된 상태이나, LDNR의 CUP 연장을 받았고 USACE 허가 연장 공고와 LDEQ 신규 수질인증 사전절차를 진행했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "8.8"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Magnolia_LNG_LLC_DOE_Seminnual_Report_(1H_2025)_Final.pdf",
+  "source_folder": "Magnolia_LNG_LLC"
+}

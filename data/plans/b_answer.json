@@ -1,0 +1,67 @@
+{
+  "task": "장기 천연가스 수급계획에서 수급 최적화 모델의 수요와 기지 파라미터 추출",
+  "unit": "수급계획 문서 1건 = 케이스 1건",
+  "output_keys": [
+    "plan_name",
+    "plan_start_year",
+    "plan_end_year",
+    "base_demand_rows",
+    "mgmt_demand_rows",
+    "actual_demand_rows",
+    "terminal_rows",
+    "reserve_requirement",
+    "config_status",
+    "reason"
+  ],
+  "decision_values": [
+    "반영",
+    "검토 필요"
+  ],
+  "cases": [
+    {
+      "case_id": "P16",
+      "file": "제16차_장기_천연가스_수급계획.pdf",
+      "documents": [
+        "제16차 장기 천연가스 수급계획"
+      ],
+      "answer": {
+        "plan_name": "제16차 장기 천연가스 수급계획",
+        "plan_start_year": 2026,
+        "plan_end_year": 2038,
+        "base_demand_rows": [
+          "2026,23560,22350,45910",
+          "2032,27310,20820,48130",
+          "2038,28160,12840,41000"
+        ],
+        "mgmt_demand_rows": [
+          "2026,23560,24060,47620",
+          "2032,27310,23270,50580",
+          "2038,28160,19510,47670"
+        ],
+        "actual_demand_rows": [
+          "2021,22000,23730,45730",
+          "2022,22310,23090,45400",
+          "2023,21860,21970,43830",
+          "2024,23210,22930,46140",
+          "2025,23710,22640,46350"
+        ],
+        "terminal_rows": [
+          "INCHEON,KOGAS,1540,0",
+          "PYEONGTAEK,KOGAS,1500,0",
+          "TONGYEONG,KOGAS,1160,0",
+          "SAMCHEOK,KOGAS,1160,0",
+          "DANGJIN,KOGAS,0,1200",
+          "JEJU,KOGAS,40,0",
+          "BORYEONG,PRIVATE,620,0",
+          "GWANGYANG,PRIVATE,410,180",
+          "YEOSU,PRIVATE,0,360",
+          "ULSAN,PRIVATE,190,190",
+          "TONGYEONG_PRIVATE,PRIVATE,90,0"
+        ],
+        "reserve_requirement": "",
+        "config_status": "반영",
+        "reason": "제16차 계획(2026~2038)의 수요 전망과 기지 11곳을 반영했다."
+      }
+    }
+  ]
+}

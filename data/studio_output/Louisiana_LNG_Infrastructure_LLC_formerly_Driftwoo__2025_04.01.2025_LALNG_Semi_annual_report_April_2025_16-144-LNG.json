@@ -1,0 +1,89 @@
+{
+  "docket": "16-144-LNG",
+  "project": "Louisiana LNG Infrastructure LLC, Woodside Louisiana LNG Facility",
+  "report_date": "2025-04-01",
+  "progress_note": "보고기간 동안 프로젝트 건설이 계속되었으며 일반 부지 정지, 자재 하역 부두의 타이백 월 설치, 공정 구역의 머드 매트 설치·말뚝 시공·기초 타설·윅 드레인 설치와 비관할 건설 활동이 진행되었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9897,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9152,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9953,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.117,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9685,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9448,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9647,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9321,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "16-144-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Louisiana LNG Infrastructure LLC, Woodside Louisiana LNG Facility"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "보고기간 동안 프로젝트 건설이 계속되었으며 일반 부지 정지, 자재 하역 부두의 타이백 월 설치, 공정 구역의 머드 매트 설치·말뚝 시공·기초 타설·윅 드레인 설치와 비관할 건설 활동이 진행되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "2025_04.01.2025_LALNG_Semi_annual_report_April_2025_16-144-LNG.pdf",
+  "source_folder": "Louisiana_LNG_Infrastructure_LLC_formerly_Driftwoo"
+}

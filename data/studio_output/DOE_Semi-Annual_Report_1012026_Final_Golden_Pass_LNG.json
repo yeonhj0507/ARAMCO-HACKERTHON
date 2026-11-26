@@ -1,0 +1,87 @@
+{
+  "docket": "12-88-LNG, 12-156-LNG",
+  "project": "Golden Pass LNG Terminal LLC, Golden Pass LNG Export Project",
+  "report_date": "2026-10-01",
+  "progress_note": "골든패스 LNG 수출 프로젝트는 트레인 1의 시운전과 기동을 시작해 2026년 3월 30일 첫 LNG 생산을 달성했고, 트레인 2와 3의 건설 및 추가 시운전 작업이 계속 진행 중이다.",
+  "authorized_mtpa": 19.74,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9387,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.8844,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9932,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.3101,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.5198,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9642,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9673,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9561,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-88-LNG, 12-156-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Golden Pass LNG Terminal LLC, Golden Pass LNG Export Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "골든패스 LNG 수출 프로젝트는 트레인 1의 시운전과 기동을 시작해 2026년 3월 30일 첫 LNG 생산을 달성했고, 트레인 2와 3의 건설 및 추가 시운전 작업이 계속 진행 중이다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "19.74"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "DOE_Semi-Annual_Report_1012026_Final_Golden_Pass_LNG.pdf"
+}

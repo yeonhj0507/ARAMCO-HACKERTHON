@@ -1,0 +1,8 @@
+source,kind,annual_mtpa,price_usd_t,voyage_days,via_hormuz,top_ratio
+QATAR_LT,long_term,6.1,745,20,True,0.9
+OMAN_LT,long_term,4.0,700,18,False,0.9
+AUSTRALIA_LT,long_term,9.0,628,12,False,0.9
+MALAYSIA_LT,long_term,4.0,552,7,False,0.9
+OTHER_LT,long_term,12.0,650,12,False,0.85
+US_LT,long_term_forecast,0.0,549,30,False,0.9
+SPOT,spot,24.0,900,20,False,0.0

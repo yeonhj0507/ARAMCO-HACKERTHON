@@ -1,0 +1,89 @@
+{
+  "docket": "14-96-LNG",
+  "project": "Alaska LNG Project LLC",
+  "report_date": "2024-10-01",
+  "progress_note": "AGDC는 프로젝트의 다음 단계인 FEED를 위한 자본을 조달 중이며, 잠재 투자자들이 실사를 수행하고 있고 2024년 6월 4일에는 파이프라인을 LNG 시설보다 먼저 건설하는 단계적 건설 옵션을 추진한다고 발표했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9886,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9929,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9878,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.2477,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9566,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9561,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9473,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9532,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "14-96-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Alaska LNG Project LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-10-01"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "AGDC는 프로젝트의 다음 단계인 FEED를 위한 자본을 조달 중이며, 잠재 투자자들이 실사를 수행하고 있고 2024년 6월 4일에는 파이프라인을 LNG 시설보다 먼저 건설하는 단계적 건설 옵션을 추진한다고 발표했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "Alaska_LNG_Project_LLC_October_1_2024.pdf",
+  "source_folder": "Alaska_LNG_Project_LLC"
+}

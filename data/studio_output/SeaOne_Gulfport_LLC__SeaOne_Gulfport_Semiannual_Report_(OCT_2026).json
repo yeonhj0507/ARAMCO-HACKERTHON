@@ -1,0 +1,94 @@
+{
+  "docket": "14-83-CGL",
+  "project": "SeaOne Gulfport, LLC",
+  "report_date": "2026-09-30",
+  "progress_note": "SeaOne은 시장 개발과 장기 계약 협상을 계속하는 한편, 수출 시설을 앨라배마주 모바일항 인근으로 이전하고 관련 신청서류 준비, 선박 설계·FEED 완료를 진행 중이며 상업운전 개시는 2028년 4분기로 조정되었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "the area of the Port of Mobile, Alabama",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9894,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9858,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9887,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0724,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9518,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9598,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9426,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9268,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "14-83-CGL"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "SeaOne Gulfport, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-09-30"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "SeaOne은 시장 개발과 장기 계약 협상을 계속하는 한편, 수출 시설을 앨라배마주 모바일항 인근으로 이전하고 관련 신청서류 준비, 선박 설계·FEED 완료를 진행 중이며 상업운전 개시는 2028년 4분기로 조정되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "the area of the Port of Mobile, Alabama"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "operating",
+  "source_file": "SeaOne_Gulfport_Semiannual_Report_(OCT_2026).pdf",
+  "source_folder": "SeaOne_Gulfport_LLC"
+}

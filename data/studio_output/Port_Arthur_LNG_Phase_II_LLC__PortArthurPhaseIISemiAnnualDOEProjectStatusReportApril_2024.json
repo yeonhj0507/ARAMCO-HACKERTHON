@@ -1,0 +1,94 @@
+{
+  "docket": "20-23-LNG",
+  "project": "Port Arthur LNG Phase II, LLC",
+  "report_date": "2024-04-01",
+  "progress_note": "액화확장 프로젝트는 FERC 부지·건설·운영 승인을 받았고, 마케팅·금융 논의가 진행 중이며 지반공학 분석과 FEED가 완료되었다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Southeast Texas service area",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9869,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9867,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9866,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1043,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9417,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.5995,
+      "page": 2
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9406,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9179,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "20-23-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Port Arthur LNG Phase II, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "액화확장 프로젝트는 FERC 부지·건설·운영 승인을 받았고, 마케팅·금융 논의가 진행 중이며 지반공학 분석과 FEED가 완료되었다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "terminal_location",
+      "text": "Southeast Texas service area"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "PortArthurPhaseIISemiAnnualDOEProjectStatusReportApril_2024.pdf",
+  "source_folder": "Port_Arthur_LNG_Phase_II_LLC"
+}

@@ -1,0 +1,459 @@
+{
+  "docket": "11-59-LNG",
+  "project": "Lake Charles Exports, LLC, Lake Charles LNG Terminal",
+  "report_date": "2025-04-01",
+  "progress_note": "프로젝트는 2024년 9월 EPC 계약을 체결했지만 착공은 아직 진행되지 않았고, FERC 관련 변경 승인·환경 인허가 갱신·부지 및 배관 개조 등 일부 준비 작업이 계속 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Lake Charles, Louisiana",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "ENN Natural Gas, ENN Energy Holdings Limited",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "Gunvor Singapore Pte Ltd",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "SK Gas Trading LLC",
+      "start_year": null,
+      "term_years": 18,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "China Gas Hongda Energy Trading Co., LTD",
+      "start_year": null,
+      "term_years": 25,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "Shell NA LNG LLC",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "Gunvor International B.V., Amsterdam, Geneva Branch",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "Chevron U.S.A. Inc.",
+      "start_year": null,
+      "term_years": 20,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9883,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.4676,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9879,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.0721,
+      "page": 3
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9749,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9848,
+      "page": 5
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9693,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "high",
+      "score": 0.9896,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "high",
+      "score": 0.9737,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "low",
+      "score": 0.9573,
+      "page": 3
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.975,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.9796,
+      "page": 3
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": -1
+    },
+    "long_term_contracts[1].mtpa": {
+      "confidence": "high",
+      "score": 0.9738,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer": {
+      "confidence": "high",
+      "score": 0.9731,
+      "page": 4
+    },
+    "long_term_contracts[1].start_year": {
+      "confidence": "high",
+      "score": 0.975,
+      "page": 1
+    },
+    "long_term_contracts[1].term_years": {
+      "confidence": "high",
+      "score": 0.9796,
+      "page": 4
+    },
+    "long_term_contracts[1].buyer_country": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": -1
+    },
+    "long_term_contracts[2].mtpa": {
+      "confidence": "high",
+      "score": 0.9737,
+      "page": 1
+    },
+    "long_term_contracts[2].buyer": {
+      "confidence": "high",
+      "score": 0.9719,
+      "page": 4
+    },
+    "long_term_contracts[2].start_year": {
+      "confidence": "high",
+      "score": 0.975,
+      "page": 1
+    },
+    "long_term_contracts[2].term_years": {
+      "confidence": "high",
+      "score": 0.984,
+      "page": 4
+    },
+    "long_term_contracts[2].buyer_country": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": -1
+    },
+    "long_term_contracts[3].mtpa": {
+      "confidence": "high",
+      "score": 0.9737,
+      "page": 1
+    },
+    "long_term_contracts[3].buyer": {
+      "confidence": "high",
+      "score": 0.9775,
+      "page": 4
+    },
+    "long_term_contracts[3].start_year": {
+      "confidence": "high",
+      "score": 0.975,
+      "page": 1
+    },
+    "long_term_contracts[3].term_years": {
+      "confidence": "high",
+      "score": 0.9828,
+      "page": 4
+    },
+    "long_term_contracts[3].buyer_country": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": -1
+    },
+    "long_term_contracts[4].mtpa": {
+      "confidence": "high",
+      "score": 0.9738,
+      "page": 1
+    },
+    "long_term_contracts[4].buyer": {
+      "confidence": "high",
+      "score": 0.972,
+      "page": 4
+    },
+    "long_term_contracts[4].start_year": {
+      "confidence": "high",
+      "score": 0.975,
+      "page": 1
+    },
+    "long_term_contracts[4].term_years": {
+      "confidence": "high",
+      "score": 0.9796,
+      "page": 4
+    },
+    "long_term_contracts[4].buyer_country": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": -1
+    },
+    "long_term_contracts[5].mtpa": {
+      "confidence": "high",
+      "score": 0.9738,
+      "page": 1
+    },
+    "long_term_contracts[5].buyer": {
+      "confidence": "low",
+      "score": 0.9576,
+      "page": 4
+    },
+    "long_term_contracts[5].start_year": {
+      "confidence": "high",
+      "score": 0.975,
+      "page": 1
+    },
+    "long_term_contracts[5].term_years": {
+      "confidence": "high",
+      "score": 0.9796,
+      "page": 4
+    },
+    "long_term_contracts[5].buyer_country": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": -1
+    },
+    "long_term_contracts[6].mtpa": {
+      "confidence": "high",
+      "score": 0.9738,
+      "page": 1
+    },
+    "long_term_contracts[6].buyer": {
+      "confidence": "high",
+      "score": 0.9694,
+      "page": 4
+    },
+    "long_term_contracts[6].start_year": {
+      "confidence": "high",
+      "score": 0.975,
+      "page": 1
+    },
+    "long_term_contracts[6].term_years": {
+      "confidence": "high",
+      "score": 0.9796,
+      "page": 4
+    },
+    "long_term_contracts[6].buyer_country": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "11-59-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Lake Charles Exports, LLC, Lake Charles LNG Terminal"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 3,
+      "field": "progress_note",
+      "text": "프로젝트는 2024년 9월 EPC 계약을 체결했지만 착공은 아직 진행되지 않았고, FERC 관련 변경 승인·환경 인허가 갱신·부지 및 배관 개조 등 일부 준비 작업이 계속 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 5,
+      "field": "terminal_location",
+      "text": "Lake Charles, Louisiana"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[0].buyer",
+      "text": "ENN Natural Gas, ENN Energy Holdings Limited"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 3,
+      "field": "long_term_contracts[0].term_years",
+      "text": "20"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[1].buyer",
+      "text": "Gunvor Singapore Pte Ltd"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].start_year",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[1].term_years",
+      "text": "20"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[2].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[2].buyer",
+      "text": "SK Gas Trading LLC"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[2].start_year",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[2].term_years",
+      "text": "18"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[3].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[3].buyer",
+      "text": "China Gas Hongda Energy Trading Co., LTD"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[3].start_year",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[3].term_years",
+      "text": "25"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[4].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[4].buyer",
+      "text": "Shell NA LNG LLC"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[4].start_year",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[4].term_years",
+      "text": "20"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[5].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[5].buyer",
+      "text": "Gunvor International B.V., Amsterdam, Geneva Branch"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[5].start_year",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[5].term_years",
+      "text": "20"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[6].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[6].buyer",
+      "text": "Chevron U.S.A. Inc."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[6].start_year",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[6].term_years",
+      "text": "20"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "20250401_LCE_LCLNG-EXPORT-DOE_FE-Orders_3324_3324-A_S.A.Rpt_.pdf",
+  "source_folder": "Lake_Charles_Exports_LLC"
+}

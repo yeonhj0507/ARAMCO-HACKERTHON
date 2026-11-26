@@ -1,0 +1,164 @@
+{
+  "task": "미국 LNG 수출 프로젝트 DOE 보고서에서 수급 최적화 모델의 공급 파라미터 추출",
+  "unit": "프로젝트 1개의 연속 반기 보고서 2건 = 케이스 1건 = 파라미터 레코드 1건",
+  "output_keys": [
+    "docket",
+    "stage",
+    "operating",
+    "online_month",
+    "slip_months",
+    "kr_buyers",
+    "kr_mtpa",
+    "uncontracted_mtpa",
+    "config_status",
+    "reason"
+  ],
+  "decision_values": [
+    "반영",
+    "검토 필요"
+  ],
+  "cases": [
+    {
+      "case_id": "A",
+      "file": "팀명_최종제출_set01.pdf",
+      "documents": [
+        "반기 보고서 2026-04",
+        "반기 보고서 2026-10"
+      ],
+      "answer": {
+        "docket": "12-88-LNG",
+        "stage": "commissioning",
+        "operating": true,
+        "online_month": "2026-03",
+        "slip_months": 0,
+        "kr_buyers": [],
+        "kr_mtpa": 0,
+        "uncontracted_mtpa": 0,
+        "config_status": "반영",
+        "reason": "2026년 3월 30일 첫 LNG를 생산해 시운전 단계다. 한국 구매자 계약은 없다."
+      }
+    },
+    {
+      "case_id": "B",
+      "file": "팀명_최종제출_set02.pdf",
+      "documents": [
+        "반기 보고서 2026-04",
+        "반기 보고서 2026-10"
+      ],
+      "answer": {
+        "docket": "19-134-LNG",
+        "stage": "construction",
+        "operating": false,
+        "online_month": "2030-12",
+        "slip_months": 12,
+        "kr_buyers": [],
+        "kr_mtpa": 0,
+        "uncontracted_mtpa": 1.0,
+        "config_status": "반영",
+        "reason": "2026년 FID를 내려 건설 단계이고, 가동 목표가 2029년에서 2030년으로 12개월 밀렸다. 한국 구매자 계약은 없다."
+      }
+    },
+    {
+      "case_id": "C",
+      "file": "팀명_최종제출_set03.pdf",
+      "documents": [
+        "반기 보고서 2026-04",
+        "반기 보고서 2026-09 (스캔본)"
+      ],
+      "answer": {
+        "docket": "11-145-LNG",
+        "stage": "operating",
+        "operating": true,
+        "online_month": "2020-08",
+        "slip_months": 0,
+        "kr_buyers": [],
+        "kr_mtpa": 0,
+        "uncontracted_mtpa": 0,
+        "config_status": "반영",
+        "reason": "2020년 8월 10일부터 Train 1~3이 상업운전 중이라 운영 단계다. 한국 구매자 계약은 없다."
+      }
+    },
+    {
+      "case_id": "D",
+      "file": "팀명_최종제출_set04.pdf",
+      "documents": [
+        "반기 보고서 2025-10",
+        "반기 보고서 2026-04"
+      ],
+      "answer": {
+        "docket": "13-04-LNG",
+        "stage": "pre_fid",
+        "operating": false,
+        "online_month": "",
+        "slip_months": 0,
+        "kr_buyers": [
+          "SK Gas Trading LLC"
+        ],
+        "kr_mtpa": 0,
+        "uncontracted_mtpa": 0,
+        "config_status": "검토 필요",
+        "reason": "FID 전에 개발 중단이 발표됐는데 SK Gas Trading과의 LNG 구매 계약이 남아 있어 검토가 필요하다. 가동 시점은 착공 후 52개월로만 적혀 있어 정할 수 없다."
+      }
+    },
+    {
+      "case_id": "E",
+      "file": "팀명_최종제출_set05.pdf",
+      "documents": [
+        "반기 보고서 2026-04 (스캔본)",
+        "반기 보고서 2026-10 (스캔본)"
+      ],
+      "answer": {
+        "docket": "24-43-LNG",
+        "stage": "pre_fid",
+        "operating": false,
+        "online_month": "2031-12",
+        "slip_months": 12,
+        "kr_buyers": [],
+        "kr_mtpa": 0,
+        "uncontracted_mtpa": 0,
+        "config_status": "반영",
+        "reason": "FID 전이고, 상업운전 목표가 2030년 말에서 2031년 말로 12개월 밀렸다. 한국 구매자 계약은 없다."
+      }
+    },
+    {
+      "case_id": "F",
+      "file": "팀명_최종제출_set06.pdf",
+      "documents": [
+        "진행 보고서 2026-04",
+        "진행 보고서 2026-10"
+      ],
+      "answer": {
+        "docket": "16-28-LNG",
+        "stage": "commissioning",
+        "operating": true,
+        "online_month": "2024-12",
+        "slip_months": 0,
+        "kr_buyers": [],
+        "kr_mtpa": 0,
+        "uncontracted_mtpa": 0,
+        "config_status": "반영",
+        "reason": "2024년 12월 첫 LNG를 생산하고 시운전 카고를 수출해 시운전 단계다. 한국 구매자 계약은 없다."
+      }
+    },
+    {
+      "case_id": "G",
+      "file": "팀명_최종제출_set07.pdf",
+      "documents": [
+        "반기 보고서 2026-04 (Lake Charles Exports, 11-59-LNG)",
+        "반기 보고서 2026-10 (Lake Charles LNG Export, 13-04-LNG)"
+      ],
+      "answer": {
+        "docket": "13-04-LNG",
+        "stage": "pre_fid",
+        "operating": false,
+        "online_month": "",
+        "slip_months": 0,
+        "kr_buyers": [],
+        "kr_mtpa": 0,
+        "uncontracted_mtpa": 0,
+        "config_status": "검토 필요",
+        "reason": "두 보고서의 도켓이 11-59-LNG와 13-04-LNG로 달라 같은 허가의 연속 보고서로 볼 수 없어 검토가 필요하다. 최신 보고서 기준으로 FID 전이고 개발 중단 상태다."
+      }
+    }
+  ]
+}

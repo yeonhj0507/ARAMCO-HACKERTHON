@@ -1,0 +1,147 @@
+{
+  "docket": "15-062-LNG",
+  "project": "Texas LNG Brownsville LLC, Texas LNG Project",
+  "report_date": "2025-04-01",
+  "progress_note": "텍사스 LNG 프로젝트는 FEED 최적화와 EPC 일정 산정을 진행 중이며, FERC SEIS 대응과 각종 인허가·환경 조건 준수를 계속 추진하고 있고, EQT와 구속력 있는 LNG 톨링 서비스 계약을 체결한 상태다.",
+  "authorized_mtpa": 1.55344,
+  "terminal_location": "Port of Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "EQT",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9896,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9328,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9851,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1704,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.7238,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9828,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9493,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9385,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9515,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9944,
+      "page": 4
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "low",
+      "score": 0.9478,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "low",
+      "score": 0.9442,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.921,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-062-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Texas LNG Brownsville LLC, Texas LNG Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "텍사스 LNG 프로젝트는 FEED 최적화와 EPC 일정 산정을 진행 중이며, FERC SEIS 대응과 각종 인허가·환경 조건 준수를 계속 추진하고 있고, EQT와 구속력 있는 LNG 톨링 서비스 계약을 체결한 상태다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "1.55344"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Port of Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "long_term_contracts[0].buyer",
+      "text": "EQT"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "Texas_LNG_DOE_Progress_Report_(H2_2024)_(04.01.2025)_Final_15-62-LNG.pdf",
+  "source_folder": "Texas_LNG_Brownsville_LLC"
+}

@@ -1,0 +1,90 @@
+{
+  "docket": "13-69-LNG, 14-88-LNG, 15-25-LNG",
+  "project": "Venture Global Calcasieu Pass, LLC, Calcasieu Pass Project",
+  "report_date": "2026-10-01",
+  "progress_note": "캘커시유 패스 프로젝트는 최종투자결정과 금융종결 후 2022년 3월 1일 첫 시운전 화물을 적재했으며 2025년 4월 15일 상업운전을 시작했다.",
+  "authorized_mtpa": 10,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9227,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.919,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9926,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1473,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9672,
+      "page": 2
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9622,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9487,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9532,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "13-69-LNG, 14-88-LNG, 15-25-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Venture Global Calcasieu Pass, LLC, Calcasieu Pass Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-10-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "캘커시유 패스 프로젝트는 최종투자결정과 금융종결 후 2022년 3월 1일 첫 시운전 화물을 적재했으며 2025년 4월 15일 상업운전을 시작했다."
+    },
+    {
+      "page": 2,
+      "field": "authorized_mtpa",
+      "text": "10"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "operating",
+  "first_lng_date": "2025-04-15",
+  "source_file": "VG_Calcasieu_Pass_October_2026_DOE_Progress_Report.pdf",
+  "source_folder": "Venture_Global_Calcasieu_Pass_LLC"
+}

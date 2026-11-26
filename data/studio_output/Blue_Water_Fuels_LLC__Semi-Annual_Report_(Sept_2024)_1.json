@@ -1,0 +1,88 @@
+{
+  "docket": "18-27-LNG",
+  "project": "Blue Water Fuels, LLC",
+  "report_date": "2024-09-23",
+  "progress_note": "Blue Water Fuels, LLC는 현재 LNG 장기 판매계약과 장기 공급계약이 없으며 현재까지 LNG를 수출하지 않았다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9884,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9903,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9956,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1753,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9462,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9632,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.96,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9411,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "18-27-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Blue Water Fuels, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-09-23"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "Blue Water Fuels, LLC는 현재 LNG 장기 판매계약과 장기 공급계약이 없으며 현재까지 LNG를 수출하지 않았다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "Semi-Annual_Report_(Sept_2024)_1.pdf",
+  "source_folder": "Blue_Water_Fuels_LLC"
+}

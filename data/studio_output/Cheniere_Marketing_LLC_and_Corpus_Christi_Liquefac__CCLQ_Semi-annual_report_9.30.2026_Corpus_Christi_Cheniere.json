@@ -1,0 +1,251 @@
+{
+  "docket": "12-97-LNG, 12-99-LNG, 19-124-LNG, 18-78-LNG, 23-46-LNG, 26-32-LNG",
+  "project": "Corpus Christi Liquefaction Stage 3 Project, Corpus Christi Liquefaction Midscale Trains 8 & 9 Project, Cheniere Marketing, LLC, Corpus Christi Liquefaction, LLC, CCL Midscale 8-9, LLC, Corpus Christi Liquefaction Stage IV, LLC",
+  "report_date": "2026-09-30",
+  "progress_note": "코퍼스 크리스티 Stage 3 프로젝트는 2026년 8월 기준 전체 공정률 99.3%로 Train 7이 실질적 완료 상태이며, Midscale Trains 8 & 9 프로젝트는 전체 공정률 55.6%로 굴착·콘크리트·배관·구조물·전기덕트 공사가 진행 중이다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Corpus Christi, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "ENN LNG (Singapore) Pte. Ltd.",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "Shell International Trading Middle East Limited FZE",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    },
+    {
+      "mtpa": 0.0,
+      "buyer": "Cheniere Marketing International LLP",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9175,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.7886,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9877,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1684,
+      "page": 63
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9607,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9831,
+      "page": 4
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9621,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9633,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "high",
+      "score": 0.9749,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "low",
+      "score": 0.8723,
+      "page": 2
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.976,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.9761,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9222,
+      "page": -1
+    },
+    "long_term_contracts[1].mtpa": {
+      "confidence": "high",
+      "score": 0.9749,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer": {
+      "confidence": "low",
+      "score": 0.2621,
+      "page": 2
+    },
+    "long_term_contracts[1].start_year": {
+      "confidence": "high",
+      "score": 0.976,
+      "page": 1
+    },
+    "long_term_contracts[1].term_years": {
+      "confidence": "high",
+      "score": 0.9761,
+      "page": 1
+    },
+    "long_term_contracts[1].buyer_country": {
+      "confidence": "low",
+      "score": 0.9222,
+      "page": -1
+    },
+    "long_term_contracts[2].mtpa": {
+      "confidence": "high",
+      "score": 0.9748,
+      "page": 1
+    },
+    "long_term_contracts[2].buyer": {
+      "confidence": "low",
+      "score": 0.9441,
+      "page": 2
+    },
+    "long_term_contracts[2].start_year": {
+      "confidence": "high",
+      "score": 0.976,
+      "page": 1
+    },
+    "long_term_contracts[2].term_years": {
+      "confidence": "high",
+      "score": 0.9761,
+      "page": 1
+    },
+    "long_term_contracts[2].buyer_country": {
+      "confidence": "low",
+      "score": 0.9222,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "12-97-LNG, 12-99-LNG, 19-124-LNG, 18-78-LNG, 23-46-LNG, 26-32-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Corpus Christi Liquefaction Stage 3 Project, Corpus Christi Liquefaction Midscale Trains 8 & 9 Project, Cheniere Marketing, LLC, Corpus Christi Liquefaction, LLC, CCL Midscale 8-9, LLC, Corpus Christi Liquefaction Stage IV, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-09-30"
+    },
+    {
+      "page": 63,
+      "field": "progress_note",
+      "text": "코퍼스 크리스티 Stage 3 프로젝트는 2026년 8월 기준 전체 공정률 99.3%로 Train 7이 실질적 완료 상태이며, Midscale Trains 8 & 9 프로젝트는 전체 공정률 55.6%로 굴착·콘크리트·배관·구조물·전기덕트 공사가 진행 중이다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 4,
+      "field": "terminal_location",
+      "text": "Corpus Christi, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[0].buyer",
+      "text": "ENN LNG (Singapore) Pte. Ltd."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[1].buyer",
+      "text": "Shell International Trading Middle East Limited FZE"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[1].term_years",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[2].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 2,
+      "field": "long_term_contracts[2].buyer",
+      "text": "Cheniere Marketing International LLP"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[2].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[2].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "source_file": "CCLQ_Semi-annual_report_9.30.2026_Corpus_Christi_Cheniere.pdf",
+  "source_folder": "Cheniere_Marketing_LLC_and_Corpus_Christi_Liquefac"
+}

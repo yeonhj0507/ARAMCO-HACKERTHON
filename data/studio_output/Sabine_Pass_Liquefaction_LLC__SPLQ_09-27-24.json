@@ -1,0 +1,142 @@
+{
+  "docket": "10-85-LNG, 10-111-LNG, 13-30-LNG, 13-42-LNG, 13-121-LNG, 14-92-LNG, 15-63-LNG, 19-125-LNG",
+  "project": "Sabine Pass Liquefaction, LLC",
+  "report_date": "2024-09-27",
+  "progress_note": "보고 기간 중 Sabine Pass LNG Terminal의 장기 LNG 수출과 관련해 Cheniere Marketing, LLC가 Galp Trading S.A.와 신규 장기 매매계약을 체결했고, Sabine Pass는 Kaiser Marketing Appalachian LLC와 신규 장기 가스 공급계약을 체결했다고 보고했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [
+    {
+      "mtpa": 0.0,
+      "buyer": "Galp Trading S.A.",
+      "start_year": null,
+      "term_years": null,
+      "buyer_country": null
+    }
+  ],
+  "_confidence": {
+    "docket": {
+      "confidence": "low",
+      "score": 0.9074,
+      "page": 1
+    },
+    "project": {
+      "confidence": "high",
+      "score": 0.9871,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9928,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.3375,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9614,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.949,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.96,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9309,
+      "page": -1
+    },
+    "long_term_contracts[0].mtpa": {
+      "confidence": "low",
+      "score": 0.9607,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer": {
+      "confidence": "high",
+      "score": 0.9883,
+      "page": 1
+    },
+    "long_term_contracts[0].start_year": {
+      "confidence": "high",
+      "score": 0.9825,
+      "page": 1
+    },
+    "long_term_contracts[0].term_years": {
+      "confidence": "high",
+      "score": 0.9772,
+      "page": 1
+    },
+    "long_term_contracts[0].buyer_country": {
+      "confidence": "low",
+      "score": 0.9204,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "10-85-LNG, 10-111-LNG, 13-30-LNG, 13-42-LNG, 13-121-LNG, 14-92-LNG, 15-63-LNG, 19-125-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Sabine Pass Liquefaction, LLC"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2024-09-27"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "보고 기간 중 Sabine Pass LNG Terminal의 장기 LNG 수출과 관련해 Cheniere Marketing, LLC가 Galp Trading S.A.와 신규 장기 매매계약을 체결했고, Sabine Pass는 Kaiser Marketing Appalachian LLC와 신규 장기 가스 공급계약을 체결했다고 보고했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].buyer",
+      "text": "Galp Trading S.A."
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].start_year",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "long_term_contracts[0].term_years",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "pre_fid",
+  "source_file": "SPLQ_09-27-24.pdf",
+  "source_folder": "Sabine_Pass_Liquefaction_LLC"
+}

@@ -1,0 +1,95 @@
+{
+  "docket": "15-190-LNG",
+  "project": "Rio Grande LNG, LLC, Rio Grande LNG Terminal Project",
+  "report_date": "2025-04-01",
+  "progress_note": "보고 기간 동안 Rio Grande는 부지 전역의 토목·기초·철골·배관·제티 공사와 LNG 저장탱크, 주변 제방 및 보안 울타리 공사를 계속 진행했으며 첫 LNG 수출은 2027년 9월로 예상된다고 보고했다.",
+  "authorized_mtpa": 0,
+  "terminal_location": "Brownsville, Texas",
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": "2027-12-01",
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9912,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9144,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9942,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.1313,
+      "page": 1
+    },
+    "authorized_mtpa": {
+      "confidence": "low",
+      "score": 0.9589,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "high",
+      "score": 0.9865,
+      "page": 1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "low",
+      "score": 0.9543,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9163,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "15-190-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "Rio Grande LNG, LLC, Rio Grande LNG Terminal Project"
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2025-04-01"
+    },
+    {
+      "page": 1,
+      "field": "progress_note",
+      "text": "보고 기간 동안 Rio Grande는 부지 전역의 토목·기초·철골·배관·제티 공사와 LNG 저장탱크, 주변 제방 및 보안 울타리 공사를 계속 진행했으며 첫 LNG 수출은 2027년 9월로 예상된다고 보고했다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "terminal_location",
+      "text": "Brownsville, Texas"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "stage": "construction",
+  "expected_operational_date_inferred": true,
+  "source_file": "Rio_Grande_-_Semi-Annual_Report_to_DOE_(April_1_2025)_15-190-LNG.pdf",
+  "source_folder": "Rio_Grande_LNG_LLC"
+}

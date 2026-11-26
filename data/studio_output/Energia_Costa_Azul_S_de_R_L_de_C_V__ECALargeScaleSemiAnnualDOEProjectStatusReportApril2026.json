@@ -1,0 +1,88 @@
+{
+  "docket": "18-145-LNG",
+  "project": "ECA Large-Scale Project, Energa Costa Azul, S. de R.L. de C.V.",
+  "report_date": "2026-04-01",
+  "progress_note": "ECA는 LNG 수출 구매자 관심을 바탕으로 프로젝트에 가장 적합한 기술 구성과 운영 대안을 계속 검토하고 있으며, 천연가스 공급 및 운송 방안을 구체화하기 위해 상대방들과 협의를 진행하면서 프로젝트 진전에 상당한 진척을 이루고 있다.",
+  "authorized_mtpa": 0,
+  "terminal_location": null,
+  "uncontracted_mtpa": 0,
+  "expected_operational_date": null,
+  "long_term_contracts": [],
+  "_confidence": {
+    "docket": {
+      "confidence": "high",
+      "score": 0.9914,
+      "page": 1
+    },
+    "project": {
+      "confidence": "low",
+      "score": 0.9116,
+      "page": 1
+    },
+    "report_date": {
+      "confidence": "high",
+      "score": 0.9933,
+      "page": 1
+    },
+    "progress_note": {
+      "confidence": "low",
+      "score": 0.4031,
+      "page": 2
+    },
+    "authorized_mtpa": {
+      "confidence": "high",
+      "score": 0.9727,
+      "page": 1
+    },
+    "terminal_location": {
+      "confidence": "low",
+      "score": 0.9463,
+      "page": -1
+    },
+    "uncontracted_mtpa": {
+      "confidence": "high",
+      "score": 0.9689,
+      "page": 1
+    },
+    "expected_operational_date": {
+      "confidence": "low",
+      "score": 0.9346,
+      "page": -1
+    }
+  },
+  "evidence": [
+    {
+      "page": 1,
+      "field": "docket",
+      "text": "18-145-LNG"
+    },
+    {
+      "page": 1,
+      "field": "project",
+      "text": "ECA Large-Scale Project, Energa Costa Azul, S. de R.L. de C.V."
+    },
+    {
+      "page": 1,
+      "field": "report_date",
+      "text": "2026-04-01"
+    },
+    {
+      "page": 2,
+      "field": "progress_note",
+      "text": "ECA는 LNG 수출 구매자 관심을 바탕으로 프로젝트에 가장 적합한 기술 구성과 운영 대안을 계속 검토하고 있으며, 천연가스 공급 및 운송 방안을 구체화하기 위해 상대방들과 협의를 진행하면서 프로젝트 진전에 상당한 진척을 이루고 있다."
+    },
+    {
+      "page": 1,
+      "field": "authorized_mtpa",
+      "text": "0"
+    },
+    {
+      "page": 1,
+      "field": "uncontracted_mtpa",
+      "text": "0"
+    }
+  ],
+  "doc_type": "semi_annual_report",
+  "source_file": "ECALargeScaleSemiAnnualDOEProjectStatusReportApril2026.pdf",
+  "source_folder": "Energia_Costa_Azul_S_de_R_L_de_C_V"
+}
