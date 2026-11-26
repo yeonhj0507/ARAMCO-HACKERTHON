@@ -53,7 +53,7 @@ def _write_order(res: dict, tables: dict, plan_id: str, studio: dict, status: st
     order_id = datetime.now().strftime("%Y%m%d") + "-" + uuid.uuid4().hex[:6]
     a = res["allocation"]
     a = a[a.month.isin(tables["months"])]
-    purchases = a[a.source.isin(["SPOT", "US_UNCONTRACTED"])]
+    purchases = a[(a.source == "SPOT") | a.source.str.startswith("US_NEW_")]  # 기존 계약 밖에서 새로 사는 물량
     order = {
         "order_id": order_id, "status": status, "created_at": datetime.now().isoformat(timespec="seconds"),
         "plan_id": plan_id, "scenario": res["scenario"]["name"], "scenario_label": planner.scenario_label(res["scenario"]),

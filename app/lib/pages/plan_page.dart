@@ -130,7 +130,7 @@ class _PlanPageState extends State<PlanPage> {
     final history = [for (final h in (r['history'] as List? ?? [])) Map<String, dynamic>.from(h)];
     final purchases = [for (final p in (r['purchase_requests'] as List? ?? [])) Map<String, dynamic>.from(p)];
     final spot = purchases.where((p) => p['source'] == 'SPOT').fold<num>(0, (a, p) => a + ((p['cargoes'] as num?) ?? 0));
-    final usUnc = purchases.where((p) => p['source'] == 'US_UNCONTRACTED').fold<num>(0, (a, p) => a + ((p['cargoes'] as num?) ?? 0));
+    final usUnc = purchases.where((p) => p['source'].toString().startsWith('US_NEW_')).fold<num>(0, (a, p) => a + ((p['cargoes'] as num?) ?? 0));
     final shortage = List<String>.from(check['shortage_rows'] ?? const []);
     final status = r['status']?.toString();
     final (ok, title) = switch (status) {
@@ -152,7 +152,7 @@ class _PlanPageState extends State<PlanPage> {
           child: StatRow([
             BigStat('3개월 계획 물량', num0(check['total_planned_kt']), unit: 'kt'),
             BigStat('현물 구매', num0(spot), unit: '척'),
-            BigStat('미국 미계약 구매', num0(usUnc), unit: '척'),
+            BigStat('미국 신규 계약', num0(usUnc), unit: '척'),
           ]),
         ),
         Box(

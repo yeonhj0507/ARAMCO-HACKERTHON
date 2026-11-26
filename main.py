@@ -42,11 +42,11 @@ def demo():
         planner.Scenario(name="hormuz_6m_tight_spot", hormuz_blocked_months=6, spot_price_multiplier=1.8,
                          spot_volume_multiplier=0.25),
     ]
-    print(f"{'scenario':<24}{'cost(M$)':>12}{'spot':>7}{'US_unc':>8}{'short(kt)':>11}  note")
+    print(f"{'scenario':<24}{'cost(M$)':>12}{'spot':>7}{'US_new':>8}{'short(kt)':>11}  note")
     for sc in scenarios:
         s = planner.summarize(planner.run(sc))
-        print(f"{s['scenario']:<24}{s['total_cost_musd']:>12,.0f}{s['spot_cargoes']:>7}{s['us_uncontracted_cargoes']:>8}{s['total_shortage_kt']:>11,.1f}  {'시간제한 해' if s['time_limited'] else ''}")
-    print("\n* 모든 입력은 샘플 데이터입니다 (data/sample, data/studio_output).")
+        print(f"{s['scenario']:<24}{s['total_cost_musd']:>12,.0f}{s['spot_cargoes']:>7}{s['new_us_cargoes']:>8}{s['total_shortage_kt']:>11,.1f}  {'시간제한 해' if s['time_limited'] else ''}")
+    print("\n* cost = 2027~2031 실제 비용(벌점 제외), spot = 현물 카고, US_new = 미국 신규 계약 카고")
 
 
 def chat(offline: bool):

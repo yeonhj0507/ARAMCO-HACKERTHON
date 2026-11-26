@@ -19,6 +19,12 @@ SOURCE_NAMES = {"QATAR_LT": "카타르 장기", "OMAN_LT": "오만 장기", "AUS
                 "OTHER_LT": "기타 장기", "US_LT": "미국 장기", "US_UNCONTRACTED": "미국 미계약", "SPOT": "현물"}
 
 
+def source_name(s: str) -> str:
+    if s.startswith("US_NEW_"):
+        return "미국 신규 " + s[len("US_NEW_"):].replace("_LLC", "").replace("_", " ")
+    return SOURCE_NAMES.get(s, s)
+
+
 def build_tables(res: dict, months: int = EXEC_MONTHS) -> dict:
     """planner.run 결과에서 실행안 표 세 개를 만든다."""
     ms = sorted(res["inventory"]["month"].unique())[:months]
@@ -138,7 +144,7 @@ def write_pdf(t: dict, path: Path, plan_id: str, scenario_text: str, scenario: d
              Paragraph(f"단위: 물량 kt(천 톤), 카고 1척 = {int(CARGO_KT)} kt. 안전재고 = 저장용량의 {int(SAFETY_RATIO * 100)}%", body),
              Paragraph("1. 공급원별 카고 계획", h2),
              table(["공급원", "코드", "월", "가용 카고", "계획 카고", "계획 물량(kt)"],
-                   [[SOURCE_NAMES.get(x["source"], x["source"]), x["source"], x["month"], x["avail_cargoes"], x["plan_cargoes"],
+                   [[source_name(x["source"]), x["source"], x["month"], x["avail_cargoes"], x["plan_cargoes"],
                      f"{x['plan_kt']:,}"] for x in t["supply"]], [70, 105, 55, 55, 55, 70]),
              Paragraph("2. 기지별 월말 재고", h2),
              table(["기지", "월", "수요(kt)", "월말 재고(kt)", "저장용량(kt)", "안전재고(kt)", "부족(kt)"],

@@ -39,7 +39,7 @@ def write_report(res: dict, base: dict, month: str, order_id: str, out_dir: Path
         "## 1. 요약",
         f"- 총비용 {s['total_cost_musd']:,} 백만 달러 (기본 대비 {s['total_cost_musd'] - b['total_cost_musd']:+,.1f})",
         f"- 현물 카고 {s['spot_cargoes']}척 (기본 대비 {s['spot_cargoes'] - b['spot_cargoes']:+d})",
-        f"- 미국 미계약 물량 협상 카고 {s['us_uncontracted_cargoes']}척",
+        f"- 미국 신규 계약 카고 {s['new_us_cargoes']}척",
         f"- 공급 부족 {s['total_shortage_kt']} kt",
         "",
         f"## 2. {month} 배분안",

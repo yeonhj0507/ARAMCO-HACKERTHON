@@ -101,7 +101,7 @@ def create_order_draft(scenario: str, month: str) -> dict:
     if a.empty:
         return {"error": f"{scenario} 시나리오의 {month} 배분이 없습니다."}
     order_id = datetime.now().strftime("%Y%m%d") + "-" + uuid.uuid4().hex[:6]
-    purchases = a[a.source.isin(["SPOT", "US_UNCONTRACTED"])]
+    purchases = a[(a.source == "SPOT") | a.source.str.startswith("US_NEW_")]
     order = {
         "order_id": order_id,
         "status": "PENDING_APPROVAL",
