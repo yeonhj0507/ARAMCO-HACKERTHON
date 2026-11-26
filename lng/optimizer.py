@@ -7,7 +7,9 @@
   u[t,m]    공급 부족량 (kt)
   f[a,b,m]  주배관망으로 기지 a -> b 이송량 (kt)
 
-목적: 구매비 + 운송비 + 재고유지비 + 배관이송비 + 부족 페널티 최소화 (단위: 백만 달러)
+목적 (사전식 2단계)
+  1단계: 공급 부족량 합계 최소화
+  2단계: 부족량을 1단계 값으로 묶고, 구매비 + 운송비 + 재고유지비 + 배관이송비 + 장기 80% 원칙 위반 벌점 최소화 (백만 달러)
 
 단순화 가정 (발표 때 명시)
   - 카고는 선적한 달에 도착한다고 본다 (리드타임 무시).
@@ -29,7 +31,10 @@ from .schemas import CARGO_KT
 SHIP_COST_USD_T_PER_DAY = 1.2
 HOLD_COST_USD_T_MONTH = 2.0
 PIPE_COST_USD_T = 5.0
-SHORTAGE_PENALTY_USD_T = 20000.0  # 공급 중단의 사회적 비용을 크게 둠 (가정)
+SHORTAGE_PENALTY_USD_T = 20000.0  # 공급 중단의 사회적 비용을 크게 둠 (가정). 2단계에서는 보조 역할만 한다
+# 비용 단계 MIP 상대 갭. 5년 총비용이 17만 백만 달러 규모라 0.5%면 시나리오 간 차이(수백 백만 달러)가 갭에 묻힌다
+MIP_GAP = 0.0002
+SHORTAGE_TOL_KT = 1.0  # 2단계에서 1단계 최소 부족량보다 더 허용하는 양 (수치 오차 흡수)
 PIPE_CAP_KT = 400.0
 # 공급 안정성 원칙: 연간 조달의 80% 이상은 장기계약(안정), 단기(현물)는 20% 이하로 수익성을 노린다.
 # 장기계약이 모자라 원칙을 못 지키는 만큼은 '안정성 부족' 물량으로 두고 벌점을 매긴다 (그 해에 더 필요한 장기계약 물량).
@@ -45,8 +50,8 @@ def _solver(time_limit: int):
     """HiGHS(파이썬 안에서 실행, 외부 exe 없음)를 먼저 쓰고, 없으면 CBC. 환경변수 LNG_SOLVER=cbc로 강제 가능."""
     choice = os.getenv("LNG_SOLVER", "").lower()
     if choice != "cbc" and "HiGHS" in pulp.listSolvers(onlyAvailable=True):
-        return pulp.HiGHS(msg=False, timeLimit=time_limit, gapRel=0.005)
-    return pulp.PULP_CBC_CMD(msg=False, timeLimit=time_limit, gapRel=0.005, threads=1)
+        return pulp.HiGHS(msg=False, timeLimit=time_limit, gapRel=MIP_GAP)
+    return pulp.PULP_CBC_CMD(msg=False, timeLimit=time_limit, gapRel=MIP_GAP, threads=1)
 
 
 def solver_name() -> str:
@@ -151,7 +156,20 @@ def solve(inp: OptInputs, time_limit: int = 30) -> dict:
             prob += pulp.lpSum(x[s][t][m] for s in S) <= CARGO_KT * term.loc[t, "max_cargo_per_month"], f"berth_{t}_{m}"
         prob += I[t][M[-1]] >= END_INV_RATIO * cap
 
+    # 사전식(lexicographic) 2단계 풀이
+    #   1단계: 공급 부족량 합계만 최소화한다 (비용은 보지 않음).
+    #   2단계: 부족량을 1단계 최솟값 이하로 묶어 두고, 비용(+ 안정성 원칙 벌점)을 최소화한다.
+    # 한 번에 벌점을 섞어 풀면 상대 갭 0.5% 안에서 피할 수 있는 부족을 남긴 해를 받아들일 수 있어서 나눴다.
+    cost_obj = prob.objective
+    short_total = pulp.lpSum(u[t][m] for t in T for m in M)
     t0 = time.time()
+    prob.setObjective(short_total)
+    prob.solve(_solver(max(10, time_limit // 3)))
+    min_short = pulp.value(short_total)
+    if min_short is None:
+        return {"status": pulp.LpStatus[prob.status]}
+    prob += short_total <= min_short + SHORTAGE_TOL_KT, "lex_shortage"
+    prob.setObjective(cost_obj)
     prob.solve(_solver(time_limit))
     solve_sec = round(time.time() - t0, 1)
     status = pulp.LpStatus[prob.status]
@@ -175,7 +193,8 @@ def solve(inp: OptInputs, time_limit: int = 30) -> dict:
         "stability_gap_kt": {y: round(g.value() or 0.0, 1) for y, g in gap.items()},
         "min_stable_share": alpha,
         "solve_seconds": solve_sec,
-        "time_limited": solve_sec >= time_limit - 0.5,  # True면 최적 보장 없이 시간 제한에서 멈춘 해
+        "time_limited": solve_sec >= time_limit + max(10, time_limit // 3) - 0.5,  # True면 최적 보장 없이 시간 제한에서 멈춘 해
+        "min_shortage_kt": round(min_short, 1),
         "objective_musd": round(prob.objective.value(), 1),
         # 부족 벌점과 안정성 원칙 벌점은 실제로 내는 돈이 아니라서 따로 둔다 (실제 비용 = objective - penalty)
         "penalty_musd": round(sum(SHORTAGE_PENALTY_USD_T / 1000.0 * (u[t][m].value() or 0) for t in T for m in M)

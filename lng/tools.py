@@ -7,11 +7,10 @@
 from __future__ import annotations
 
 import json
-import uuid
 from datetime import datetime
 from pathlib import Path
 
-from . import planner, report
+from . import planner
 from .studio_client import search_documents as _search
 
 ORDERS_DIR = Path(__file__).resolve().parents[1] / "orders"
@@ -93,32 +92,6 @@ def get_allocation(scenario: str = "baseline", month: str | None = None, termina
 
 
 # 명령 (초안만) -----------------------------------------------------------------
-def create_order_draft(scenario: str, month: str) -> dict:
-    """예전 방식 (단월 초안, Studio C 검사 없음). 에이전트 도구에서 뺐고 승인도 막힌다. 계획은 make_plan을 쓴다."""
-    res = _get(scenario)
-    a = res["allocation"]
-    a = a[a.month == month]
-    if a.empty:
-        return {"error": f"{scenario} 시나리오의 {month} 배분이 없습니다."}
-    order_id = datetime.now().strftime("%Y%m%d") + "-" + uuid.uuid4().hex[:6]
-    purchases = a[(a.source == "SPOT") | a.source.str.startswith("US_NEW_")]
-    order = {
-        "order_id": order_id,
-        "status": "PENDING_APPROVAL",
-        "created_at": datetime.now().isoformat(timespec="seconds"),
-        "scenario": scenario,
-        "month": month,
-        "allocation_instructions": a[["source", "terminal", "cargoes", "kt"]].to_dict(orient="records"),
-        "purchase_requests": purchases[["source", "terminal", "cargoes", "kt", "cost_musd"]].to_dict(orient="records"),
-    }
-    ORDERS_DIR.mkdir(exist_ok=True)
-    (ORDERS_DIR / f"{order_id}.json").write_text(json.dumps(order, ensure_ascii=False, indent=2), encoding="utf-8")
-    rpt = report.write_report(res, _get("baseline"), month, order_id, ORDERS_DIR)
-    return {"order_id": order_id, "status": "PENDING_APPROVAL", "report_path": str(rpt),
-            "purchase_cargoes": round(float(purchases["cargoes"].sum()), 1), "instruction_rows": len(order["allocation_instructions"]),
-            "note": "승인은 담당자가 `python main.py approve <order_id>`로 직접 합니다."}
-
-
 def approve_order(order_id: str, approver: str) -> dict:
     """사람용. LLM 도구 목록에는 넣지 않는다. Studio C가 '승인 요청'으로 본 초안만 승인한다."""
     p = ORDERS_DIR / f"{order_id}.json"
