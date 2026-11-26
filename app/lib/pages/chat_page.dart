@@ -313,7 +313,8 @@ class _ChatPageState extends State<ChatPage> {
             padding: const EdgeInsets.only(top: 6),
             child: SelectionArea(
               child: MarkdownBody(
-                data: m.text,
+                // '2027~2029'의 물결표가 취소선으로 그려지지 않게 비슷한 모양의 기호로 바꾼다
+                data: m.text.replaceAll('~', '∼'),
                 styleSheet: _md(context),
                 onTapLink: (text, href, title) {
                   if (href != null) openUrl(Uri.parse(href));

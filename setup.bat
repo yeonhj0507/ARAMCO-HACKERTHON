@@ -45,8 +45,9 @@ if not exist .vscode\settings.json (
 
 echo.
 echo Done. Next steps:
-echo   - Put UPSTAGE_API_KEY and UPSTAGE_MODEL in .env
-echo   - run.bat demo / run.bat chat --offline / run.bat chat
+echo   1. run.bat api        (backend, keep this window open)
+echo   2. cd app ^&^& flutter pub get ^&^& flutter run -d windows
+echo   Optional: put UPSTAGE_API_KEY in .env for Solar chat
 goto :eof
 
 :error

@@ -1,0 +1,460 @@
+{
+  "kind": "studio.workflow-config-draft",
+  "schemaVersion": 4,
+  "exportedAt": "2026-11-26T11:17:37.632Z",
+  "exportedFrom": {
+    "workflowId": "agt_V55bx46qw9jxBF4wEiRjPU",
+    "workflowName": "LNG-Agent",
+    "configId": "cfg_JJzzeqHAARv6Qup5ujY3G2",
+    "configVer": 7
+  },
+  "workflowConfig": {
+    "workflow_name": "LNG-Agent",
+    "pipelineType": "instruct",
+    "documentParseConfiguration": {
+      "modelName": "document-parse",
+      "mode": "auto",
+      "ocrMode": "force",
+      "lang": "",
+      "chartRecognition": false,
+      "coordinates": true,
+      "mergeMultipageTables": false,
+      "outputFormats": [
+        "html",
+        "text"
+      ],
+      "base64Encoding": [
+        "figure"
+      ]
+    },
+    "informationExtractConfiguration": {
+      "modelName": "",
+      "schemas": [
+        {
+          "type": "json_schema",
+          "json_schema": {
+            "name": "공급 사실 추출",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "reports": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "suspended": {
+                        "type": "boolean",
+                        "description": "개발 중단이나 보류 발표가 있으면 true"
+                      },
+                      "fid_status": {
+                        "type": "string",
+                        "description": "최종투자결정(FID)을 내렸으면 taken, 목표나 계획만 있으면 not_taken"
+                      },
+                      "report_date": {
+                        "type": "string",
+                        "description": "보고서 서신 날짜. 없으면 RECEIVED 도장 날짜. YYYY-MM-DD"
+                      },
+                      "docket_first": {
+                        "type": "string",
+                        "description": "Re: 줄이나 제목에 처음 나오는 FE Docket 번호를 NN-NN-LNG 형식으로. \"Docket #24-43-LNG\"는 24-43-LNG"
+                      },
+                      "project_name": {
+                        "type": "string",
+                        "description": "프로젝트 또는 시설 이름"
+                      },
+                      "secured_mtpa": {
+                        "type": "number",
+                        "description": "확보 물량 합계가 한 숫자로 직접 적혀 있을 때만 넣는다(예: secured approximately 8.5 of the 9.5 MTPA). 개별 계약 물량을 더하지 않는다. 없으면 비워둔다"
+                      },
+                      "first_lng_date": {
+                        "type": "string",
+                        "description": "LNG를 처음 생산한 날짜(first LNG production, began producing LNG, 시운전 카고 포함). 월만 있으면 1일, 분기만 있으면 그 분기 마지막 달 1일(4분기는 12-01). 예정이면 넣지 않는다"
+                      },
+                      "permitted_mtpa": {
+                        "type": "number",
+                        "description": "보고서에 허가(authorized, permitted) 용량이 MTPA 숫자로 직접 적혀 있을 때만 넣는다. 트레인 용량을 곱하거나(three 5.5 MTPA trains) Bcf/yr를 환산하지 않는다. 없으면 비워둔다"
+                      },
+                      "fully_contracted": {
+                        "type": "boolean",
+                        "description": "명판 용량 전량이 계약됐다고 적혀 있으면 true"
+                      },
+                      "target_date_text": {
+                        "type": "string",
+                        "description": "아직 가동 전일 때 가동 예정 시점 문구 원문 그대로(commercial operations targeted for 2030, first exports anticipated in 2029, COD late 2031). FERC/DOE 허가 기한과 기한 연장(deadline, extension of time)은 넣지 않는다 여러 단계(Phase)나 트레인의 시점이 함께 있으면 문구를 모두 그대로 넣는다"
+                      },
+                      "commercial_service_date": {
+                        "type": "string",
+                        "description": "이미 상업운전 중이라고 적힌 시작 날짜(in commercial service as of, commencement of commercial operations was achieved). 월이나 분기만 있으면 first_lng_date와 같은 방식으로. 트레인이 여럿이면 가장 이른 트레인. 예정이면 넣지 않는다"
+                      }
+                    }
+                  },
+                  "description": "파일에 든 DOE 반기(진행) 보고서 1건당 1행. 표지 서신과 본문은 같은 보고서다. 한 파일에 도켓이 다른 보고서가 합본으로 들어 있으면 도켓마다 따로 행을 만든다"
+                },
+                "counterparties": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "mtpa": {
+                        "type": "number",
+                        "description": "이 회사 계약의 물량 MTPA가 따로 적혀 있을 때만 넣는다. 여러 계약을 합친 총량(예: twelve SPAs for a total of approximately 16 MTPA)은 넣지 않는다. 없으면 비워둔다"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "보고서에 적힌 회사명 그대로. 괄호 안 약칭(\"SK Gas\")은 빼고 정식 명칭만"
+                      },
+                      "role": {
+                        "type": "string",
+                        "description": "LNG를 사는 SPA/offtake 상대는 lng_buyer. 원료가스를 파는 gas supply 계약은 gas_supplier. 설계와 시공(EPC, FEED)은 epc"
+                      },
+                      "status": {
+                        "type": "string",
+                        "description": "계약을 체결했다(entered into, executed, signed)고 적혀 있으면 executed. 해지(terminated)면 terminated. 의향서, HOA, MOU면 loi. SPA를 맺었다고만 나와도 executed다"
+                      },
+                      "country": {
+                        "type": "string",
+                        "description": "회사 본사 국가 ISO 2자리 코드. 보고서에 없으면 회사명으로 판단(SK Gas, KOGAS, POSCO는 KR)"
+                      },
+                      "term_years": {
+                        "type": "integer",
+                        "description": "계약 기간(년)"
+                      },
+                      "report_date": {
+                        "type": "string",
+                        "description": "이 회사가 나온 보고서의 날짜(reports.report_date와 같은 값)"
+                      }
+                    }
+                  },
+                  "description": "보고서에 이름이 나오는 계약 상대방 1곳당 1행. 같은 회사가 두 보고서에 나오면 보고서마다 따로 적는다."
+                }
+              }
+            }
+          },
+          "mode": "standard",
+          "modelName": "",
+          "schemaLayout": {
+            "version": 1,
+            "columns": [
+              {
+                "name": "suspended",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "fid_status",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "report_date",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "docket_first",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "project_name",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "secured_mtpa",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "first_lng_date",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "permitted_mtpa",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "fully_contracted",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "target_date_text",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "commercial_service_date",
+                "source": "group_table",
+                "groupTableKey": "reports"
+              },
+              {
+                "name": "mtpa",
+                "source": "group_table",
+                "groupTableKey": "counterparties"
+              },
+              {
+                "name": "name",
+                "source": "group_table",
+                "groupTableKey": "counterparties"
+              },
+              {
+                "name": "role",
+                "source": "group_table",
+                "groupTableKey": "counterparties"
+              },
+              {
+                "name": "status",
+                "source": "group_table",
+                "groupTableKey": "counterparties"
+              },
+              {
+                "name": "country",
+                "source": "group_table",
+                "groupTableKey": "counterparties"
+              },
+              {
+                "name": "term_years",
+                "source": "group_table",
+                "groupTableKey": "counterparties"
+              },
+              {
+                "name": "report_date",
+                "source": "group_table",
+                "groupTableKey": "counterparties"
+              }
+            ]
+          },
+          "addNullTypeToNumericTypes": true,
+          "userSystemPrompt": "표와 필드 설명을 그대로 따르세요. 날짜 필드는 YYYY-MM-DD 문자열로 반환하고 없으면 빈 문자열로 반환하세요. 수치가 없으면 null로 반환하고 0으로 대체하지 마세요. 없는 불리언은 false, 없는 표는 []로 반환하세요. 모든 필드 키와 원문 행 순서를 유지하세요."
+        }
+      ],
+      "categorySchemaMapping": {}
+    },
+    "instructConfiguration": {
+      "nodes": [
+        {
+          "name": "공급 파라미터 생성",
+          "modelName": "",
+          "prompt": "너는 LNG 수급 최적화 모델에 넣을 공급 파라미터를 만드는 담당자다.\n입력은 reports 표(보고서별 사실)와 counterparties 표(계약 상대방)다.\n문서에 없는 값은 추측하지 말고 아래 규칙의 기본값을 쓴다.\n\n[0] 보고서 순서\n- report_date가 늦은 행이 최신 보고서, 이른 행이 직전 보고서다.\n- reports 행이 2개가 아니거나 두 행의 docket_first가 다르면 \"불일치\"다.\n  불일치면 아래 모든 값을 최신 보고서 한 건과 그 보고서의 counterparties만으로 정한다.\n\n[1] docket: 최신 보고서의 docket_first.\n\n[2] stage: 두 보고서를 함께 보고 위에서부터 처음 맞는 것\n- commercial_service_date가 있으면 operating\n- first_lng_date가 있으면 commissioning\n- fid_status가 taken이면 construction\n- 그 밖에는 pre_fid (suspended여도 pre_fid)\n\n[3] operating: first_lng_date나 commercial_service_date가 있으면 true, 없으면 false.\n\n[4] online_month (YYYY-MM)\n- first_lng_date가 있으면 그 월\n- 없고 commercial_service_date가 있으면 그 월\n- 둘 다 없으면 최신 보고서의 target_date_text를 월로 바꾼다.\n  월이 있으면 그 월.\n  연도만 있거나 late, end of, Q4, fourth quarter면 그 해 12월.\n  mid면 06월, early나 Q1이면 03월.\n- \"착공 후 52개월\"처럼 상대 일정이거나 문구가 없으면 \"\".\n\n[5] slip_months\n- operating이 true이거나 불일치면 0.\n- 두 보고서의 target_date_text를 [4]의 방법으로 각각 월로 바꾼 뒤 (최신 - 직전) 개월 수. 앞당겨졌으면 음수.\n- 한쪽이라도 월로 바꿀 수 없으면 0.\n- FERC/DOE 허가 기한 연장은 일정 변경이 아니다.\n\n[6] kr_buyers\n- counterparties에서 role이 lng_buyer, country가 KR이고 status가 terminated나 loi가 아닌 name (status가 비어 있어도 포함).\n- 어느 보고서에서든 terminated로 나온 회사는 뺀다. 중복은 하나로, 표기는 보고서 그대로.\n- 없으면 [].\n\n[7] kr_mtpa: [6] 회사들의 mtpa 합. 적힌 값이 없으면 0.\n\n[8] uncontracted_mtpa: 최신 보고서 기준\n- fully_contracted가 true면 0.\n- permitted_mtpa와 secured_mtpa가 둘 다 있으면 permitted_mtpa - secured_mtpa (소수 첫째 자리).\n- 그 밖에는 0.\n\n[9] config_status (문자열, \"반영\" 또는 \"검토 필요\")\n- 검토 필요: 불일치이거나, 최신 보고서의 docket_first를 읽지 못했거나,\n  어느 보고서에든 suspended가 true인데 kr_buyers가 비어 있지 않을 때.\n- 반영: 그 밖의 경우.\n\n[10] reason: 한국어 1~2문장. 아래 순서로 문서의 사실만 쓴다.\n- 단계를 정한 근거 (첫 LNG 생산일, 상업운전 시작일, FID 여부, 개발 중단 발표)\n- 가동 목표가 바뀌었으면 직전 → 최신과 지연 개월 수\n- 한국 LNG 구매자 계약 (회사명). 없으면 \"한국 구매자 계약은 없다\"\n- 검토 필요면 그 이유 (도켓 불일치, 개발 중단인데 한국 계약이 남아 있음 등)\n표의 필드 이름(docket_first, first_lng_date, suspended 등), true/false, 보고서 날짜 나열은 쓰지 않는다.\n\n결과는 출력 필드 10개에 하나씩 넣는다. JSON이나 코드 블록을 한 필드에 통째로 넣지 않는다.\n각 값에는 출처 표시나 각주(【†1】 같은 것)를 붙이지 않는다.\n값 예시:\n{\"docket\": \"12-88-LNG\", \"stage\": \"commissioning\", \"operating\": true, \"online_month\": \"2026-03\", \"slip_months\": 0, \"kr_buyers\": [], \"kr_mtpa\": 0, \"uncontracted_mtpa\": 0, \"config_status\": \"반영\", \"reason\": \"...\"}\n각 값에는 출처 표시나 각주(【†1】 같은 것)를 붙이지 않는다. 값은 정해진 형식 그대로만 쓴다.",
+          "structuredOutput": true,
+          "structuredOutputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"docket\": {\n      \"type\": \"string\",\n      \"description\": \"NN-NN-LNG 형식 도켓 번호만\"\n    },\n    \"stage\": {\n      \"type\": \"string\",\n      \"description\": \"pre_fid, construction, commissioning, operating 중 하나\"\n    },\n    \"operating\": {\n      \"type\": \"boolean\",\n      \"description\": \"true 또는 false\"\n    },\n    \"online_month\": {\n      \"type\": \"string\",\n      \"description\": \"YYYY-MM 또는 빈 문자열\"\n    },\n    \"slip_months\": {\n      \"type\": \"integer\",\n      \"description\": \"정수\"\n    },\n    \"kr_buyers\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\"\n      },\n      \"description\": \"회사명 목록, 없으면 빈 목록\"\n    },\n    \"kr_mtpa\": {\n      \"type\": \"number\",\n      \"description\": \"숫자, 없으면 0\"\n    },\n    \"uncontracted_mtpa\": {\n      \"type\": \"number\",\n      \"description\": \"숫자, 없으면 0\"\n    },\n    \"config_status\": {\n      \"type\": \"string\",\n      \"description\": \"반영 또는 검토 필요\"\n    },\n    \"reason\": {\n      \"type\": \"string\",\n      \"description\": \"한국어 1~2문장\"\n    }\n  },\n  \"required\": [\n    \"docket\",\n    \"stage\",\n    \"operating\",\n    \"online_month\",\n    \"slip_months\",\n    \"kr_buyers\",\n    \"kr_mtpa\",\n    \"uncontracted_mtpa\",\n    \"config_status\",\n    \"reason\"\n  ],\n  \"additionalProperties\": false\n}"
+        }
+      ],
+      "connectionMapping": {}
+    },
+    "pipelineEdges": [
+      {
+        "id": "e0",
+        "source": {
+          "nodeType": "parse"
+        },
+        "target": {
+          "nodeType": "extract",
+          "name": "공급 사실 추출"
+        }
+      },
+      {
+        "id": "e1",
+        "source": {
+          "nodeType": "extract",
+          "name": "공급 사실 추출"
+        },
+        "target": {
+          "nodeType": "validate",
+          "name": "출력 검증"
+        }
+      },
+      {
+        "id": "e2",
+        "source": {
+          "nodeType": "validate",
+          "name": "출력 검증"
+        },
+        "target": {
+          "nodeType": "instruct",
+          "name": "공급 파라미터 생성"
+        },
+        "condition": {
+          "conditionName": "green"
+        }
+      },
+      {
+        "id": "e3",
+        "source": {
+          "nodeType": "validate",
+          "name": "출력 검증"
+        },
+        "target": {
+          "nodeType": "instruct",
+          "name": "공급 파라미터 생성"
+        },
+        "condition": {
+          "conditionName": "yellow"
+        }
+      },
+      {
+        "id": "e4",
+        "source": {
+          "nodeType": "validate",
+          "name": "출력 검증"
+        },
+        "target": {
+          "nodeType": "instruct",
+          "name": "공급 파라미터 생성"
+        },
+        "condition": {
+          "conditionName": "red"
+        }
+      }
+    ],
+    "validateChecksByName": {
+      "출력 검증": [
+        {
+          "name": "Exactly two reports",
+          "severity": "error",
+          "condition": {
+            "left": {
+              "nodeType": "extract",
+              "nodeName": "공급 사실 추출",
+              "field": "reports",
+              "attr": "length"
+            },
+            "operator": "eq",
+            "right": {
+              "const": 2
+            }
+          }
+        },
+        {
+          "name": "Docket format and presence in every report",
+          "severity": "error",
+          "condition": {
+            "left": {
+              "nodeType": "extract",
+              "nodeName": "공급 사실 추출",
+              "field": "reports",
+              "rowField": "docket_first",
+              "scope": "all"
+            },
+            "operator": "matches",
+            "right": {
+              "const": "^[0-9]{2}-[0-9]{2}-LNG$"
+            }
+          }
+        },
+        {
+          "name": "Both reports have the same docket",
+          "severity": "error",
+          "condition": {
+            "left": {
+              "path": "length(unique(\"공급 사실 추출\".reports[].docket_first))"
+            },
+            "operator": "eq",
+            "right": {
+              "const": 1
+            }
+          }
+        },
+        {
+          "name": "Report date confidence",
+          "severity": "warning",
+          "condition": {
+            "logic": "or",
+            "conditions": [
+              {
+                "left": {
+                  "nodeType": "extract",
+                  "nodeName": "공급 사실 추출",
+                  "field": "reports",
+                  "rowField": "report_date"
+                },
+                "operator": "empty"
+              },
+              {
+                "left": {
+                  "nodeType": "extract",
+                  "nodeName": "공급 사실 추출",
+                  "field": "reports",
+                  "rowField": "report_date",
+                  "attr": "confidence",
+                  "scope": "all"
+                },
+                "operator": "gte",
+                "right": {
+                  "const": 0.8
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "First LNG date confidence",
+          "severity": "warning",
+          "condition": {
+            "logic": "or",
+            "conditions": [
+              {
+                "left": {
+                  "nodeType": "extract",
+                  "nodeName": "공급 사실 추출",
+                  "field": "reports",
+                  "rowField": "first_lng_date"
+                },
+                "operator": "empty"
+              },
+              {
+                "left": {
+                  "nodeType": "extract",
+                  "nodeName": "공급 사실 추출",
+                  "field": "reports",
+                  "rowField": "first_lng_date",
+                  "attr": "confidence",
+                  "scope": "all"
+                },
+                "operator": "gte",
+                "right": {
+                  "const": 0.8
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Commercial service date confidence",
+          "severity": "warning",
+          "condition": {
+            "logic": "or",
+            "conditions": [
+              {
+                "left": {
+                  "nodeType": "extract",
+                  "nodeName": "공급 사실 추출",
+                  "field": "reports",
+                  "rowField": "commercial_service_date"
+                },
+                "operator": "empty"
+              },
+              {
+                "left": {
+                  "nodeType": "extract",
+                  "nodeName": "공급 사실 추출",
+                  "field": "reports",
+                  "rowField": "commercial_service_date",
+                  "attr": "confidence",
+                  "scope": "all"
+                },
+                "operator": "gte",
+                "right": {
+                  "const": 0.8
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
