@@ -1,0 +1,18 @@
+{
+  "docket": "10-85-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-09-30이고 직전 보고서는 2026-04-01이며, 두 보고서의 docket_first가 모두 10-85-LNG이다. first_lng_date, commercial_service_date, fid_status(taken)가 없어 단계는 pre_fid이고, 최신 보고서의 계약 상대방에는 한국 구매자가 없다.",
+  "case_key": "Sabine_Pass_Liquefaction_LLC",
+  "source_file": "Sabine_Pass_Liquefaction_LLC.pdf",
+  "processed_at": "2026-11-25T14:22:16",
+  "review": {
+    "status": "auto"
+  }
+}

@@ -62,6 +62,13 @@ class _PlanDetailViewState extends State<PlanDetailView> {
     final terms = _l(m['terminals']);
     final buys = _l(m['purchases']);
     final bySrc = _l(m['by_source']);
+    final buyTotals = <String, List<num>>{};
+    for (final b in buys) {
+      final v = buyTotals.putIfAbsent(b['source'].toString(), () => [0, 0, 0]);
+      v[0] += _n(b['cargoes']);
+      v[1] += _n(b['kt']);
+      v[2] += _n(b['cost_musd']);
+    }
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       if (months.length > 1) ...[
         Choices<int>(
@@ -81,43 +88,33 @@ class _PlanDetailViewState extends State<PlanDetailView> {
           margin: const EdgeInsets.only(top: 12),
           padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(color: C.redLight, borderRadius: BorderRadius.circular(12)),
-          child: Text('현물까지 최대로 사도 ${num0(short)} kt가 모자라요. 다시 계획해도 줄지 않는 양이라 Studio C는 기록만 하고 승인 요청을 냈어요. '
+          child: Text('현물까지 최대로 사도 ${num0(short)} kt가 모자라요. 다시 계획해도 줄지 않는 양이라 검증 시스템은 기록만 하고 승인 요청을 냈어요. '
               '수요 조정이나 다른 기관과의 물량 교환이 필요해요.', style: T.sub.copyWith(color: C.g900)),
         ),
-      const SizedBox(height: 20),
-      const Text('공급원별', style: T.h3),
-      const SizedBox(height: 10),
-      Wrap(spacing: 8, runSpacing: 8, children: [
-        for (final s in bySrc)
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-            decoration: BoxDecoration(
-                color: s['source'] == 'SPOT' || s['source'] == 'US_UNCONTRACTED' ? C.blueLight : C.g100,
-                borderRadius: BorderRadius.circular(10)),
-            child: Text('${sName(s['source'])}  ${_c(s['cargoes'])}척', style: T.sub.copyWith(color: C.g900, fontWeight: FontWeight.w600)),
-          ),
-      ]),
       const SizedBox(height: 24),
-      const Text('기지별 입고와 월말 재고', style: T.h3),
+      const Text('어디서 사나', style: T.h3),
       const SizedBox(height: 4),
-      for (final t in terms) _TerminalTile(t),
-      const SizedBox(height: 16),
-      Text('추가 구매 ${buys.isEmpty ? '없음' : '${buys.length}건'}', style: T.h3),
+      for (final s in bySrc) _SourceRow(s, kind: _kind(s['source'])),
+      const SizedBox(height: 20),
+      Text(buyTotals.isEmpty ? '추가 구매 없음' : '추가 구매 비용', style: T.h3),
       const SizedBox(height: 4),
-      for (final b in buys)
+      for (final e in buyTotals.entries)
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 8),
           child: Row(children: [
-            Container(
-              width: 8,
-              height: 8,
-              margin: const EdgeInsets.only(right: 12),
-              decoration: const BoxDecoration(color: C.blue, shape: BoxShape.circle),
-            ),
-            Expanded(child: Text('${sName(b['source'])} → ${tName(b['terminal'])}', style: T.body.copyWith(fontSize: 15))),
-            Text('${_c(b['cargoes'])}척 · ${num0(b['kt'])} kt · ${num0(b['cost_musd'])}M\$', style: T.sub),
+            Expanded(child: Text(sName(e.key), style: T.body.copyWith(fontSize: 15))),
+            Text('${_c(e.value[0])}척 · ${num0(e.value[1])} kt · ', style: T.sub),
+            Text('${num0(e.value[2])} M\$', style: T.body.copyWith(fontSize: 15, fontWeight: FontWeight.w700)),
           ]),
         ),
+      Details(
+        title: '받는 기지와 월말 재고 (하역 가능 여부 검토)',
+        child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+          const Text('산 물량을 실제로 받을 수 있는지(저장 용량, 안전재고, 하역 횟수) 확인하는 참고 정보예요. 검증 시스템이 이 기준으로 실행안을 검사해요.',
+              style: T.small),
+          for (final t in terms) _TerminalTile(t),
+        ]),
+      ),
     ]);
   }
 }
@@ -227,7 +224,7 @@ Future<void> planDetailSheet(BuildContext context, String orderId) async {
         padding: const EdgeInsets.all(28),
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           Row(children: [
-            const Expanded(child: Text('배분 상세', style: T.h2)),
+            const Expanded(child: Text('조달 상세', style: T.h2)),
             IconButton(onPressed: () => Navigator.pop(c), icon: const Icon(Icons.close_rounded)),
           ]),
           Text('${scen(data)} · 추가 구매 ${_c(_m(data['purchase_total'])['cargoes'])}척, ${num0(_m(data['purchase_total'])['cost_musd'])}M\$',
@@ -238,4 +235,35 @@ Future<void> planDetailSheet(BuildContext context, String orderId) async {
       ),
     ),
   );
+}
+
+String _kind(dynamic s) {
+  final v = s?.toString() ?? '';
+  if (v == 'SPOT') return '현물 (단기)';
+  if (v.startsWith('US_NEW_')) return '신규 장기계약';
+  return '장기계약';
+}
+
+class _SourceRow extends StatelessWidget {
+  const _SourceRow(this.s, {required this.kind});
+  final Map<String, dynamic> s;
+  final String kind;
+
+  @override
+  Widget build(BuildContext context) {
+    final spot = kind.startsWith('현물');
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Row(children: [
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+          margin: const EdgeInsets.only(right: 12),
+          decoration: BoxDecoration(color: spot ? C.orangeLight : C.blueLight, borderRadius: BorderRadius.circular(6)),
+          child: Text(kind, style: T.small.copyWith(color: spot ? C.orange : C.blue, fontWeight: FontWeight.w700)),
+        ),
+        Expanded(child: Text(sName(s['source']), style: T.body.copyWith(fontSize: 15))),
+        Text('${_c(s['cargoes'])}척 · ${num0(s['kt'])} kt', style: T.sub),
+      ]),
+    );
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "docket": "16-98-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-09-30, 직전 보고서는 2026-03-30이며 두 보고서의 도켓은 모두 16-98-LNG이다. 두 보고서 모두 first LNG date와 commercial service date가 없고 fid_status가 not_taken이며 계약 상대방 정보도 없어 pre_fid로 판단했다.",
+  "case_key": "Carib_Energy_USA_LLC",
+  "source_file": "Carib_Energy_USA_LLC.pdf",
+  "processed_at": "2026-11-25T14:14:04",
+  "review": {
+    "status": "auto"
+  }
+}

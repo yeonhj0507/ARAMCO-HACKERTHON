@@ -1,0 +1,18 @@
+{
+  "docket": "14-83-CGL",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2028-12",
+  "slip_months": 6,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-09-30, 직전 보고서는 2026-03-31이며 두 보고서 모두 docket은 14-83-CGL이다. first_lng_date와 commercial_service_date가 없고 fid_status가 not_taken이므로 단계는 pre_fid이며, 목표 일정은 2028년 2분기에서 2028년 4분기로 6개월 지연되었다.",
+  "case_key": "SeaOne_Gulfport_LLC",
+  "source_file": "SeaOne_Gulfport_LLC.pdf",
+  "processed_at": "2026-11-25T14:22:55",
+  "review": {
+    "status": "auto"
+  }
+}

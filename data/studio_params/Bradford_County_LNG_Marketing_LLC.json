@@ -1,0 +1,18 @@
+{
+  "docket": "20-131-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2027-12",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-09-29, 직전 보고서는 2026-03-30이며 두 보고서 모두 도켓 20-131-LNG로 일치합니다. 두 보고서 모두 FID 미실행이고 첫 LNG/상업운전일이 없으며 목표 일정은 2027년 이후로만 제시되어 pre_fid로 판단했고, 한국 구매자 계약 정보도 없습니다.",
+  "case_key": "Bradford_County_LNG_Marketing_LLC",
+  "source_file": "Bradford_County_LNG_Marketing_LLC.pdf",
+  "processed_at": "2026-11-25T14:13:38",
+  "review": {
+    "status": "auto"
+  }
+}

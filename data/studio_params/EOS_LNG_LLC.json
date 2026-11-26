@@ -1,0 +1,18 @@
+{
+  "docket": "13-115-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2031-06",
+  "slip_months": 6,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-08, 직전 보고서는 2026-04-22이며 두 보고서 모두 docket이 13-115-LNG이다. FID 미실시 상태라 pre_fid로 판단했고, 최신 보고서의 목표 가동 시점 Q2 2031을 2031-06으로, 직전 보고서의 Q4 2030 대비 6개월 지연으로 보았다.",
+  "case_key": "EOS_LNG_LLC",
+  "source_file": "EOS_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:16:57",
+  "review": {
+    "status": "auto"
+  }
+}

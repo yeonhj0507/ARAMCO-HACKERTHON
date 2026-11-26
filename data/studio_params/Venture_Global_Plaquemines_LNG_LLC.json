@@ -1,0 +1,18 @@
+{
+  "docket": "16-28-LNG",
+  "stage": "commissioning",
+  "operating": true,
+  "online_month": "2024-12",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01이고 직전 보고서는 2026-04-01이며 두 보고서의 docket_first는 모두 16-28-LNG이다. first_lng_date가 2024-12-01로 확인되어 단계는 commissioning, online_month는 2024-12, operating은 true로 판단했고 최신 보고서 기준 fully_contracted가 true라 미계약 물량은 0이다.",
+  "case_key": "Venture_Global_Plaquemines_LNG_LLC",
+  "source_file": "Venture_Global_Plaquemines_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:23:34",
+  "review": {
+    "status": "auto"
+  }
+}

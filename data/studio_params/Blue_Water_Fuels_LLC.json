@@ -1,0 +1,18 @@
+{
+  "docket": "18-27-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-09-28, 직전 보고서는 2026-03-31이며 두 보고서의 docket은 모두 18-27-LNG이다. first_lng_date, commercial_service_date, fid_status가 없고 장기 판매계약 및 수출 실적도 없어 단계는 pre_fid로 판단한다.",
+  "case_key": "Blue_Water_Fuels_LLC",
+  "source_file": "Blue_Water_Fuels_LLC.pdf",
+  "processed_at": "2026-11-25T14:12:56",
+  "review": {
+    "status": "auto"
+  }
+}

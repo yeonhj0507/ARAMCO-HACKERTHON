@@ -1,0 +1,18 @@
+{
+  "docket": "12-97-LNG",
+  "stage": "construction",
+  "operating": false,
+  "online_month": "",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2024-09-27, 직전 보고서는 2024-04-01이며 두 보고서의 docket_first는 모두 12-97-LNG이다. 두 보고서 모두 fid_status가 taken이고 first_lng_date 및 commercial_service_date가 없으며, 확인된 신규 계약 상대는 Galp Trading S.A.와 Foran Energy Group Co. Ltd.로 한국 구매자는 없다.",
+  "case_key": "Corpus_Christi_Liquefaction_LLC_CCL_Midscale_8_9_L",
+  "source_file": "Corpus_Christi_Liquefaction_LLC_CCL_Midscale_8_9_L.pdf",
+  "processed_at": "2026-11-25T14:15:52",
+  "review": {
+    "status": "auto"
+  }
+}

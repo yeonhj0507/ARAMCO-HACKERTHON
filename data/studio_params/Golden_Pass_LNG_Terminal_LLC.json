@@ -1,0 +1,18 @@
+{
+  "docket": "12-88-LNG",
+  "stage": "commissioning",
+  "operating": true,
+  "online_month": "2026-03",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01, 직전 보고서는 2026-04-01이며 두 보고서의 docket_first는 모두 12-88-LNG이다. 두 보고서 모두 first_lng_date가 2026-03-30으로 확인되어 단계는 commissioning, 가동 여부는 true로 판단했고, 한국 LNG 구매자 계약은 없다.",
+  "case_key": "Golden_Pass_LNG_Terminal_LLC",
+  "source_file": "Golden_Pass_LNG_Terminal_LLC.pdf",
+  "processed_at": "2026-11-25T14:17:59",
+  "review": {
+    "status": "auto"
+  }
+}

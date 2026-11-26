@@ -1,0 +1,18 @@
+{
+  "docket": "25-155-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2029-09",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "보고서는 2026-10-12자 1건뿐이어서 불일치로 보고 최신 보고서만 사용했다. 해당 보고서에서 fid_status는 not_taken이므로 단계는 pre_fid이고, 목표 가동 시점은 Q3 2029로 읽혀 2029-09로 변환했으며 한국 LNG 구매자는 확인되지 않았다.",
+  "case_key": "ST_LNG_LLC",
+  "source_file": "ST_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:21:44",
+  "review": {
+    "status": "auto"
+  }
+}

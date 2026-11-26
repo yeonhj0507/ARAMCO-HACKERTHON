@@ -1,0 +1,18 @@
+{
+  "docket": "12-47-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2030-12",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01이고 직전 보고서는 2026-04-01이며 두 보고서의 docket_first가 모두 12-47-LNG이다. first_lng_date·commercial_service_date가 없고 fid_status가 not_taken이어서 단계는 pre_fid이며, 목표 시점 문구가 두 보고서 모두 2030년 말 이전이라 online_month는 2030-12이고 slip_months는 0이다.",
+  "case_key": "Gulf_LNG_Liquefaction_Company_LLC",
+  "source_file": "Gulf_LNG_Liquefaction_Company_LLC.pdf",
+  "processed_at": "2026-11-25T14:18:24",
+  "review": {
+    "status": "auto"
+  }
+}

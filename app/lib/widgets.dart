@@ -322,16 +322,16 @@ class Working extends StatelessWidget {
         const SizedBox(height: 20),
         Text(log.isEmpty ? '시작하고 있어요' : _friendly(log.last), style: T.h3, textAlign: TextAlign.center),
         const SizedBox(height: 6),
-        Text('Upstage Studio가 문서를 읽는 데 30초에서 1분쯤 걸려요', style: T.small, textAlign: TextAlign.center),
+        Text('AI가 문서를 판독하는 데 30초에서 1분쯤 걸려요', style: T.small, textAlign: TextAlign.center),
         const SizedBox(height: 12),
       ]),
     );
   }
 
   static String _friendly(String l) {
-    if (l.contains('워크플로우')) return '문서를 읽고 있어요';
+    if (l.contains('워크플로우') || l.contains('판독')) return '문서를 판독하고 있어요';
     if (l.contains('재계획') || l.contains('다시 돌')) return '문제가 있어 다시 계획하고 있어요';
-    if (l.contains('Studio') && l.contains('코드 검산')) return '실행안을 검사했어요';
+    if (l.contains('검증 시스템') || (l.contains('Studio') && l.contains('검산'))) return '실행안을 검증했어요';
     return l.length > 40 ? '${l.substring(0, 40)}…' : l;
   }
 }

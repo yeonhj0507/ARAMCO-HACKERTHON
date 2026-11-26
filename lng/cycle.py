@@ -81,7 +81,7 @@ def run_cycle(sc: planner.Scenario, max_replans: int = 2, log=print, origin: dic
         step = {"attempt": attempt, "plan_id": plan_id, "pdf": str(pdf), "studio_decision": studio.get("decision"),
                 "code_decision": code["decision"], "disagree": diff}
         history.append(step)
-        log(f"[{attempt}] {plan_id}: Studio {studio.get('decision')} / 코드 검산 {code['decision']}"
+        log(f"[{attempt}] {plan_id}: 검증 시스템 {studio.get('decision')} / 교차 검산 {code['decision']}"
             + (f" / 다른 항목 {diff}" if diff else ""))
         if diff:
             order = _write_order(res, tables, plan_id, studio, "NEEDS_REVIEW",
@@ -107,11 +107,11 @@ def check_plan(pdf: str | Path, log=print) -> dict:
         code = execdoc.check_tables(meta["tables"], plan_id)
         out["code_check"] = code
         out["disagree"] = execdoc.compare_checks(studio, code)
-    log(f"{plan_id}: Studio {studio.get('decision')}" + (f" / 코드 검산 {out['code_check']['decision']}" if "code_check" in out else ""))
+    log(f"{plan_id}: 검증 시스템 {studio.get('decision')}" + (f" / 교차 검산 {out['code_check']['decision']}" if "code_check" in out else ""))
     if studio.get("decision") == "재계획 필요":
         if meta.get("scenario") is not None:
             log("  걸린 항목: " + ", ".join(k for k in execdoc.DECISION_KEYS[:-1] if studio.get(k)))
-            log("  같은 시나리오 조건으로, 지금 가진 최신 입력(Studio A, B)을 써서 최적화를 다시 돌립니다.")
+            log("  같은 시나리오 조건으로, 지금 가진 최신 입력(보고서 판독 결과, 수요 기준 자료)을 써서 최적화를 다시 돌립니다.")
             sc = scenario_from_dict({**meta["scenario"], "use_studio": True})
             violations = {k: studio.get(k) for k in execdoc.DECISION_KEYS[:-1] if studio.get(k)}
             out["replan"] = run_cycle(sc, log=log, origin={"plan_id": plan_id, "file": pdf.name, "violations": violations})

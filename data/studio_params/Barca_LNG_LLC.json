@@ -1,0 +1,18 @@
+{
+  "docket": "13-117-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2031-06",
+  "slip_months": 6,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-08, 직전 보고서는 2026-04-22이며 둘 다 도켓 13-117-LNG입니다. 두 보고서 모두 FID 미실시(not_taken)이고 첫 LNG/상업운전일이 없어 pre_fid로 판단했으며, 목표 시점은 Q4 2030에서 Q2 2031로 6개월 지연되었습니다.",
+  "case_key": "Barca_LNG_LLC",
+  "source_file": "Barca_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:12:54",
+  "review": {
+    "status": "auto"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "docket": "12-06-LNG",
+  "stage": "operating",
+  "operating": true,
+  "online_month": "2019-12",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "2026-04-01과 2026-10-01 보고서에서 공통으로 나타나는 도켓 중 상업운전 개시일이 있는 12-06-LNG를 선택했다. 이 도켓은 commercial_service_date가 2019-12-01로 확인되어 operating으로 분류했고, 한국 구매자 계약은 확인되지 않았다.",
+  "case_key": "Freeport_LNG_Expansion_L_P_FLNG_Liquefaction_LLC",
+  "source_file": "Freeport_LNG_Expansion_L_P_FLNG_Liquefaction_LLC.pdf",
+  "processed_at": "2026-11-25T14:47:15",
+  "review": {
+    "status": "auto"
+  },
+  "previous_review": {
+    "status": "approved",
+    "approver": "연현중",
+    "note": "합본 보고서, 본 설비 Train 1~3 기준",
+    "at": "2026-11-25T14:38:16",
+    "overrides": {
+      "docket": {
+        "studio": "18-26-LNG",
+        "reviewer": "12-06-LNG"
+      },
+      "stage": {
+        "studio": "pre_fid",
+        "reviewer": "operating"
+      },
+      "operating": {
+        "studio": false,
+        "reviewer": true
+      },
+      "online_month": {
+        "studio": "",
+        "reviewer": "2019-12"
+      }
+    },
+    "docket": "12-06-LNG",
+    "stage": "operating",
+    "operating": true,
+    "online_month": "2019-12",
+    "slip_months": 0,
+    "kr_buyers": [],
+    "kr_mtpa": 0,
+    "uncontracted_mtpa": 0,
+    "config_status": "검토 필요",
+    "reason": "reports에 2026-04-01 기준 12-06-LNG와 18-26-LNG, 2026-10-01 기준 12-06-LNG와 18-26-LNG가 함께 있어 두 보고서를 한 쌍으로 특정할 수 없어 불일치로 판단했다. 불일치 규칙에 따라 최신 보고서 1건만 사용했으며, 최신 18-26-LNG 보고서는 FID not taken이고 상업운전일·first LNG일이 없어 pre_fid로 분류했다."
+  }
+}

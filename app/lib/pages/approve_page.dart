@@ -52,7 +52,7 @@ class _ApprovePageState extends State<ApprovePage> {
           : pending.isEmpty
               ? '승인할 계획이 없어요'
               : '승인할 계획이 ${pending.length}건 있어요',
-      subtitle: 'Studio C가 문제 없다고 본 계획만 승인할 수 있어요. 에이전트는 초안까지만 만들어요.',
+      subtitle: '검증 시스템이 문제 없다고 본 계획만 승인할 수 있어요. 에이전트는 초안까지만 만들어요.',
       children: [
         if (pending.isNotEmpty) list(pending),
         if (needs.isNotEmpty) ...[const SizedBox(height: 8), const Text('사람 확인이 필요해요', style: T.h3), const SizedBox(height: 12), list(needs)],
@@ -75,7 +75,7 @@ class OrderRow extends StatelessWidget {
       icon: o['replan_of'] != null ? Icons.autorenew_rounded : Icons.receipt_long_rounded,
       iconColor: toneOf(o['status']?.toString()) == Tone.warn ? C.orange : C.blue,
       title: '${months.isEmpty ? '' : '${months.first} ~ ${months.last}'} · ${scen(o)}',
-      subtitle: o['studio_checked'] == false ? 'Studio C 검사 없음 (예전 방식 초안)' : o['reason']?.toString(),
+      subtitle: o['studio_checked'] == false ? '검증 안 됨 (예전 방식 초안)' : o['reason']?.toString(),
       trailing: o['studio_checked'] == false
           ? const Pill('검사 없음', tone: Tone.bad)
           : Pill.of(Live.orderStatus(o['order_id'], o['status'])),

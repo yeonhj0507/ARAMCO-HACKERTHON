@@ -1,0 +1,18 @@
+{
+  "docket": "18-145-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01이고 직전 보고서는 2026-04-01이며 두 보고서의 도켓은 모두 18-145-LNG이다. 두 보고서 모두 FID not_taken이고 first LNG일과 상업운전일, 한국 구매자 계약 정보가 없어 단계는 pre_fid로 판단했다.",
+  "case_key": "Energia_Costa_Azul_S_de_R_L_de_C_V",
+  "source_file": "Energia_Costa_Azul_S_de_R_L_de_C_V.pdf",
+  "processed_at": "2026-11-25T14:17:29",
+  "review": {
+    "status": "auto"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "docket": "14-96-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2029-12",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01, 직전 보고서는 2026-03-27이며 두 보고서의 도켓은 모두 14-96-LNG이다. FID는 not_taken이고 상업운전일·첫 LNG일이 없어 pre_fid로 판단했으며, 최신 보고서의 목표 문구는 2029년 first gas 인도라 online_month는 2029-12로 보되 한국 구매자인 POSCO International은 LOI 상태라 제외했다.",
+  "case_key": "Alaska_LNG_Project_LLC",
+  "source_file": "Alaska_LNG_Project_LLC.pdf",
+  "processed_at": "2026-11-25T14:12:19",
+  "review": {
+    "status": "auto"
+  }
+}

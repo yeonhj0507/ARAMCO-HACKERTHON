@@ -1,0 +1,48 @@
+{
+  "docket": "21-131-LNG",
+  "stage": "construction",
+  "operating": false,
+  "online_month": "2029-12",
+  "slip_months": 0,
+  "kr_buyers": [
+    "Hanwha Aerospace Co., Ltd."
+  ],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 10.5,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01, 직전 보고서는 2026-04-01이며 두 보고서의 docket_first가 모두 21-131-LNG이다. 두 보고서 모두 first_lng_date와 commercial_service_date는 없고 fid_status가 taken이므로 construction으로 판단했으며, 목표 시점은 둘 다 Phase 1 late 2029로 읽혀 2029-12이고 한국 구매자는 Hanwha Aerospace Co., Ltd.이다.",
+  "case_key": "Venture_Global_CP2_LNG_LLC",
+  "source_file": "Venture_Global_CP2_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:46:56",
+  "review": {
+    "status": "auto"
+  },
+  "previous_review": {
+    "status": "approved",
+    "approver": "연현중",
+    "note": "16 MTPA는 SPA 12건 합계, 1단계 기준",
+    "at": "2026-11-25T14:38:35",
+    "overrides": {
+      "kr_mtpa": {
+        "studio": 16,
+        "reviewer": 0.0
+      },
+      "online_month": {
+        "studio": "2030-12",
+        "reviewer": "2029-12"
+      }
+    },
+    "docket": "21-131-LNG",
+    "stage": "construction",
+    "operating": false,
+    "online_month": "2029-12",
+    "slip_months": 0,
+    "kr_buyers": [
+      "Hanwha Aerospace Co., Ltd."
+    ],
+    "kr_mtpa": 0.0,
+    "uncontracted_mtpa": 10.5,
+    "config_status": "반영",
+    "reason": "최신 보고서는 2026-10-01이고 직전 보고서는 2026-04-01이며 docket은 동일하게 21-131-LNG이다. 두 보고서 모두 first_lng_date와 commercial_service_date는 없고 fid_status가 taken이므로 단계는 construction이며, 목표 시점 문구는 동일해 지연은 0개월이고 한국 계약자는 Hanwha Aerospace Co., Ltd. 1건이다."
+  }
+}

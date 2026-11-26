@@ -63,7 +63,7 @@ class _PlanPageState extends State<PlanPage> {
           child: Column(children: const [
             RowItem(icon: Icons.hub_rounded, title: '배분 최적화', subtitle: '공급원, 기지, 월별로 카고를 나눠요'),
             RowItem(icon: Icons.picture_as_pdf_rounded, title: '실행안 만들기', subtitle: '앞 3개월분을 승인용 문서로 만들어요'),
-            RowItem(icon: Icons.rule_rounded, iconColor: C.orange, title: 'Studio C 검사', subtitle: '용량, 안전재고, 계약, 합계를 확인해요'),
+            RowItem(icon: Icons.rule_rounded, iconColor: C.orange, title: '검증 시스템', subtitle: '용량, 안전재고, 계약, 합계를 확인해요'),
           ]),
         ),
       ]);
@@ -72,7 +72,7 @@ class _PlanPageState extends State<PlanPage> {
 
     return PageScaffold(
       title: '어떤 상황을 대비할까요?',
-      subtitle: '고른 상황으로 1년 배분을 최적화하고, 앞 3개월 실행안을 Studio C가 검사해요.',
+      subtitle: '고른 상황으로 5년 조달을 최적화하고, 앞 3개월 실행안을 검증 시스템이 검사해요.',
       bottom: Row(children: [
         Expanded(child: SecondaryButton('비용만 먼저 볼게요', onPressed: _busy ? null : _quick)),
         const SizedBox(width: 12),
@@ -135,7 +135,7 @@ class _PlanPageState extends State<PlanPage> {
     final status = r['status']?.toString();
     final (ok, title) = switch (status) {
       'PENDING_APPROVAL' => (true, '승인을 요청할 준비가 됐어요'),
-      'NEEDS_REVIEW' => (false, 'Studio와 코드 검산이 달라\n사람 확인이 필요해요'),
+      'NEEDS_REVIEW' => (false, '검증 시스템과 교차 검산이 달라\n사람 확인이 필요해요'),
       _ => (false, '다시 계획해도 문제가 남아\n담당자에게 넘겼어요'),
     };
 
@@ -169,7 +169,7 @@ class _PlanPageState extends State<PlanPage> {
                 icon: Icons.picture_as_pdf_rounded,
                 iconColor: (h['studio_decision'] == '승인 요청') ? C.green : C.orange,
                 title: '${h['attempt']}번째 실행안 · ${label(h['studio_decision']?.toString())}',
-                subtitle: 'Studio C ${h['studio_decision']} / 코드 검산 ${h['code_decision']}',
+                subtitle: '검증 시스템 ${label(h['studio_decision']?.toString())} / 교차 검산 ${label(h['code_decision']?.toString())}',
                 onTap: () => openUrl(Api.instance.fileUrl(h['pdf'].toString())),
               ),
           ]),

@@ -5,6 +5,7 @@ import 'api.dart';
 import 'pages/approve_page.dart';
 import 'plan_detail.dart';
 import 'procurement.dart';
+import 'verify_view.dart';
 import 'theme.dart';
 import 'widgets.dart';
 
@@ -98,7 +99,7 @@ class _DocCardState extends State<_DocCard> {
   Widget build(BuildContext context) {
     final c = widget.c;
     final f = _m(c['fields']);
-    final tag = 'Studio ${c['kind']} · ${c['file']}';
+    final tag = '${c['kind'] == 'C' ? '실행안 검증' : '보고서 판독'} · ${c['file']}';
     switch (c['kind']) {
       case 'A':
         final pending = Live.reviewPending(c['case_key'], c['review_status'] == 'pending') && !_handled;
@@ -111,7 +112,7 @@ class _DocCardState extends State<_DocCard> {
             BigStat('한국 계약', '${f['kr_mtpa'] ?? 0}', unit: 'MTPA'),
           ]),
           if ((f['reason'] ?? '').toString().isNotEmpty) ...[const SizedBox(height: 12), Text(f['reason'].toString(), style: T.sub)],
-          Details(title: 'Studio 출력 원본', child: RawFields(f)),
+          Details(title: '판독 결과 원본', child: RawFields(f)),
           if (pending)
             PrimaryButton('값 확인하고 반영하기', onPressed: () async {
               if (await reviewSheet(context, {'case_key': c['case_key'], ...f})) {
@@ -140,15 +141,16 @@ class _DocCardState extends State<_DocCard> {
             BigStat('걸린 항목', '${issues.length}', unit: '종류', color: issues.isEmpty ? null : C.orange),
           ]),
           const SizedBox(height: 12),
-          if (issues.isNotEmpty) Text(issues.join(', '), style: T.sub.copyWith(color: C.orange, fontWeight: FontWeight.w600)),
+
           Text(f['reason']?.toString() ?? '', style: T.sub),
           const SizedBox(height: 6),
           Row(children: [
             Icon(agree ? Icons.check_circle_rounded : Icons.error_rounded, size: 16, color: agree ? C.green : C.orange),
             const SizedBox(width: 6),
-            Text(agree ? '코드 검산도 같은 판정이에요' : '코드 검산은 "${label(c['code_decision']?.toString())}"로 달라요', style: T.small),
+            Text(agree ? '교차 검산도 같은 판정이에요' : '교차 검산은 "${label(c['code_decision']?.toString())}"로 달라요', style: T.small),
           ]),
-          Details(title: 'Studio 출력 원본', child: RawFields(f)),
+          const SizedBox(height: 8),
+          CheckView(f),
           if (replan != null) ...[
             const Divider(height: 24),
             const Text('같은 조건으로 다시 계획했어요', style: T.h3),
@@ -184,7 +186,7 @@ class _ReviewsCardState extends State<_ReviewsCard> {
     }
     final left = items.where((r) => !_done.contains(r['case_key'])).length;
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-      _Head('Studio A 사람 확인', left == 0 ? '모두 처리했어요' : '$left건을 봐주세요', icon: Icons.task_alt_rounded),
+      _Head('보고서 판독 결과 확인', left == 0 ? '모두 처리했어요' : '$left건을 봐주세요', icon: Icons.task_alt_rounded),
       for (final r in items)
         RowItem(
           icon: _done.contains(r['case_key']) ? Icons.check_rounded : Icons.priority_high_rounded,
@@ -317,7 +319,7 @@ class _PlanBodyState extends State<_PlanBody> {
     final title = switch (status) {
       'PENDING_APPROVAL' => '승인할 준비가 됐어요',
       'APPROVED' => '승인했어요',
-      'NEEDS_REVIEW' => 'Studio와 코드 판정이 달라요',
+      'NEEDS_REVIEW' => '검증 시스템과 교차 검산 결과가 달라요',
       _ => '다시 계획해도 문제가 남았어요',
     };
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
@@ -342,7 +344,7 @@ class _PlanBodyState extends State<_PlanBody> {
           icon: Icons.picture_as_pdf_rounded,
           iconColor: h['studio_decision'] == '승인 요청' ? C.green : C.orange,
           title: '${h['attempt']}번째 실행안 · ${label(h['studio_decision']?.toString())}',
-          subtitle: 'Studio C ${h['studio_decision']} / 코드 검산 ${h['code_decision']}',
+          subtitle: '검증 시스템 ${label(h['studio_decision']?.toString())} / 교차 검산 ${label(h['code_decision']?.toString())}',
           onTap: () => openUrl(Api.instance.fileUrl(h['pdf'].toString())),
         ),
       if (order['procurement'] is Map && _m(order['procurement']).isNotEmpty)
@@ -407,7 +409,7 @@ class _OverviewCard extends StatelessWidget {
         const Divider(height: 28),
       ] else
         const Padding(padding: EdgeInsets.only(bottom: 12), child: Text('수요 기준 자료가 없어요', style: T.sub)),
-      const Text('미국 프로젝트 (Studio A)', style: T.small),
+      const Text('미국 프로젝트 (보고서 판독 결과)', style: T.small),
       const SizedBox(height: 8),
       StatRow([
         BigStat('반영된 프로젝트', '${us['projects'] ?? 0}', unit: '곳'),
@@ -438,7 +440,7 @@ class _PlanDetailCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final tot = _m(c['purchase_total']);
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-      _Head('배분 상세 · ${scen(c)}', '추가 구매 ${tot['cargoes']}척, ${num0(tot['cost_musd'])}M\$',
+      _Head('조달 상세 · ${scen(c)}', '추가 구매 ${tot['cargoes']}척, ${num0(tot['cost_musd'])}M\$',
           pill: Pill.of(Live.orderStatus(c['order_id'], c['status'])), icon: Icons.local_shipping_rounded),
       PlanDetailView(c),
     ]);

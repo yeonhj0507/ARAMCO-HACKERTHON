@@ -1,0 +1,18 @@
+{
+  "docket": "17-105-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2024-04-01자이며 도켓은 17-105-LNG이다. first_lng_date와 commercial_service_date가 없고 fid_status가 not_taken이므로 단계는 pre_fid이며, 한국 구매자 계약 정보도 없다.",
+  "case_key": "Fourchon_LNG_LLC",
+  "source_file": "Fourchon_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:17:35",
+  "review": {
+    "status": "auto"
+  }
+}

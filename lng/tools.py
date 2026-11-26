@@ -125,8 +125,8 @@ def approve_order(order_id: str, approver: str) -> dict:
     order = json.loads(p.read_text(encoding="utf-8"))
     decision = (order.get("studio_check") or {}).get("decision")
     if decision != "승인 요청":
-        raise ValueError("Studio C 검사를 통과한 초안만 승인할 수 있습니다"
-                         + (" (Studio C 검사 없이 만든 예전 방식 초안)" if not order.get("studio_check") else f" (판정: {decision})"))
+        raise ValueError("검증 시스템을 통과한 초안만 승인할 수 있습니다"
+                         + (" (검증 없이 만든 예전 방식 초안)" if not order.get("studio_check") else f" (판정: {decision})"))
     order.update(status="APPROVED", approver=approver, approved_at=datetime.now().isoformat(timespec="seconds"))
     p.write_text(json.dumps(order, ensure_ascii=False, indent=2), encoding="utf-8")
     return order
@@ -272,7 +272,7 @@ def get_supply_outlook(project: str = "") -> dict:
 
     ps = workflows.load_params()
     if not ps:
-        return {"source": "Studio A 결과 없음", "projects": []}
+        return {"source": "보고서 판독 결과 없음", "projects": []}
     prof = supply.profiles_from_params(ps)
     dec = pd.Timestamp("2027-12-01")
     q = _norm(project)
@@ -295,7 +295,7 @@ def get_supply_outlook(project: str = "") -> dict:
         "korean_contract_mtpa_total": round(sum(float(r["kr_mtpa"] or 0) for r in rows), 2),
         "uncontracted_mtpa_total": round(sum(float(r["uncontracted_mtpa"] or 0) for r in rows), 2),
     }
-    return {"source": f"Studio A {len(ps)}건 (사람 확인 대기는 제외)", "summary": summary, "projects": rows}
+    return {"source": f"보고서 판독 {len(ps)}건 (사람 확인 대기는 제외)", "summary": summary, "projects": rows}
 
 
 def get_overview() -> dict:
@@ -364,7 +364,7 @@ def get_plan_detail(order_id: str = "", month: str = "") -> dict:
     orders = [o for o in list_orders()["orders"] if o["studio_checked"]]
     if not order_id:
         if not orders:
-            return {"error": "Studio C 검사를 거친 계획 초안이 없습니다. make_plan으로 먼저 계획을 세우세요."}
+            return {"error": "검증 시스템을 거친 계획 초안이 없습니다. make_plan으로 먼저 계획을 세우세요."}
         order_id = orders[0]["order_id"]
     p = ORDERS_DIR / f"{order_id}.json"
     if not p.exists():
@@ -413,7 +413,7 @@ def get_plan_detail(order_id: str = "", month: str = "") -> dict:
     return {"order_id": order_id, "status": o.get("status"), "scenario": o.get("scenario"),
             "scenario_label": order_label(o), "plan_id": o.get("plan_id"),
             "months": out_months, "purchase_total": tot,
-            "shortage_note": "부족은 현물까지 최대로 사도 못 채우는 양이다. 재계획으로 줄지 않으므로 Studio C는 기록만 하고 승인 요청을 낸다."
+            "shortage_note": "부족은 현물까지 최대로 사도 못 채우는 양이다. 재계획으로 줄지 않으므로 검증 시스템은 기록만 하고 승인 요청을 낸다."
             if any(mm["shortage_kt"] for mm in out_months) else None}
 
 
@@ -451,12 +451,12 @@ TOOL_SPECS = [
     _fn("list_documents", "읽을 수 있는 문서 목록. A 미국 DOE 반기 보고서, C 배분 실행안, uploaded 사용자가 올린 파일. "
         "사용자가 문서 이름만 말하면 이걸로 경로를 찾는다.",
         {"query": {"type": "string", "description": "파일 이름 일부 (예: Golden_Pass, Cameron). 비우면 전부"}}),
-    _fn("read_document", "Upstage Studio 워크플로우로 문서를 읽고 결과를 저장한다. A면 프로젝트 가동 시점, 한국 계약 물량을 최적화 입력으로 저장하고 "
+    _fn("read_document", "문서를 판독(Upstage Studio)해서 결과를 저장한다. A면 프로젝트 가동 시점, 한국 계약 물량을 최적화 입력으로 저장하고 "
         "애매하면 사람 확인으로 넘긴다. 미계약 물량은 신규 조달 후보가 된다. C면 실행안을 검사하고 재계획 필요면 다시 계획한다. 30초~2분 걸린다.",
         {"path": {"type": "string", "description": "list_documents의 경로, 또는 첨부 경로"},
          "kind": {"type": "string", "enum": ["A", "C"], "description": "모르면 비운다 (자동 판별)"}}, ["path"]),
-    _fn("list_reviews", "Studio A가 사람 확인으로 넘긴 프로젝트 목록과 이유. 사람이 카드에서 반영 또는 제외한다."),
-    _fn("get_supply_outlook", "Studio A 결과로 본 미국 프로젝트별 단계, 가동 시점, 한국 계약 물량, 2027년 12월 가동 확률. "
+    _fn("list_reviews", "보고서 판독에서 사람 확인으로 넘긴 프로젝트 목록과 이유. 사람이 카드에서 반영 또는 제외한다."),
+    _fn("get_supply_outlook", "보고서 판독 결과로 본 미국 프로젝트별 단계, 가동 시점, 한국 계약 물량, 2027년 12월 가동 확률. "
         "summary에 전체 합계가 있고 projects는 가동 확률 높은 순이다. 특정 프로젝트는 project로 거른다.",
         {"project": {"type": "string", "description": "프로젝트 이름 일부. 비우면 전부"}}),
     _fn("forecast_demand", "전국 용도별(도시가스, 발전) 월별 수요 예측 (kt). 수급계획 B의 연간 목표에 맞춘 값."),
@@ -465,15 +465,15 @@ TOOL_SPECS = [
         {"name": {"type": "string", "description": "시나리오 이름 (영문, 공백 없이)"}, **_SCEN,
          "allow_new_contracts": {"type": "boolean", "description": "false면 미국 신규 계약 없이 기존 계약과 현물로만. 기본 true"},
          "min_stable_share": {"type": "number", "description": "장기(안정) 계약 최소 비중. 기본 0.8 (장기 80%, 현물 20% 원칙). 0이면 원칙 없이"}}, ["name"]),
-    _fn("make_plan", "실제 계획 주기: 2027~2031 조달 최적화, 앞 3개월 실행안 PDF 작성, Studio C 검사, 문제가 있으면 최대 2번 재계획, 마지막에 승인 대기 초안을 만든다. "
+    _fn("make_plan", "실제 계획 주기: 2027~2031 조달 최적화, 앞 3개월 실행안 PDF 작성, 검증 시스템 검사, 문제가 있으면 최대 2번 재계획, 마지막에 승인 대기 초안을 만든다. "
         "1~3분 걸린다. 승인은 사람이 카드에서 한다.", {"name": {"type": "string"}, **_SCEN}),
-    _fn("get_plan_detail", "계획 초안의 구체적인 배분: 월별로 기지마다 어느 공급원에서 몇 척(kt)이 들어가는지, 월말 재고와 안전재고, 부족량, "
-        "추가 구매(현물, 미국 무계약)의 기지와 비용. order_id를 비우면 가장 최근 계획. 어디로 얼마나 가는지 물으면 이걸 쓴다.",
+    _fn("get_plan_detail", "계획 초안의 앞 3개월 조달 상세: 월별로 어느 공급원에서 몇 척(kt)을 사는지(장기계약, 현물), 현물 추가 구매 비용, 부족량. "
+        "기지별 입고와 재고는 하역 가능 여부를 보는 참고 정보로 같이 있다. order_id를 비우면 가장 최근 계획.",
         {"order_id": {"type": "string"}, "month": {"type": "string", "description": "YYYY-MM. 비우면 3개월 전부"}}),
     _fn("list_orders", "계획 초안 목록 (승인 대기 PENDING_APPROVAL, 사람 확인 NEEDS_REVIEW, 넘김 ESCALATED, 승인 APPROVED).",
         {"status": {"type": "string", "description": "특정 상태만 볼 때"}}),
     _fn("get_allocation", "최근 시나리오의 공급원-기지-월별 카고 배분 결과.",
         {"scenario": {"type": "string"}, "month": {"type": "string", "description": "YYYY-MM"}, "terminal": {"type": "string"}}),
-    _fn("search_documents", "Studio로 추출한 보고서에서 근거 문장을 찾는다.",
+    _fn("search_documents", "판독한 보고서에서 근거 문장을 찾는다.",
         {"query": {"type": "string"}, "top_k": {"type": "integer"}}, ["query"]),
 ]

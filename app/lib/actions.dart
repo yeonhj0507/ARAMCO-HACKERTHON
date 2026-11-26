@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'api.dart';
 import 'plan_detail.dart';
+import 'verify_view.dart';
 import 'theme.dart';
 import 'widgets.dart';
 
@@ -60,7 +61,7 @@ Future<bool> reviewSheet(BuildContext context, Map<String, dynamic> r) async {
             const SizedBox(height: 20),
             const Text('원문을 보고 값이 틀렸으면 고쳐주세요', style: T.h3),
             const SizedBox(height: 4),
-            const Text('고친 값과 Studio가 낸 값이 둘 다 기록에 남아요.', style: T.small),
+            const Text('고친 값과 AI가 판독한 값이 둘 다 기록에 남아요.', style: T.small),
             const SizedBox(height: 12),
             for (final e in edits.entries)
               Padding(
@@ -155,7 +156,7 @@ Future<bool> orderSheet(BuildContext context, String id) async {
               margin: const EdgeInsets.only(bottom: 16),
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(color: C.redLight, borderRadius: BorderRadius.circular(14)),
-              child: const Text('Studio C 검사 없이 만든 예전 방식 초안이에요. 승인할 수 없어요.\n대화에서 "계획 세워줘"라고 하면 검사까지 거친 계획을 다시 만들어요.',
+              child: const Text('검증 시스템을 거치지 않은 예전 방식 초안이에요. 승인할 수 없어요.\n대화에서 "계획 세워줘"라고 하면 검사까지 거친 계획을 다시 만들어요.',
                   style: T.sub),
             ),
           if (replan != null)
@@ -163,7 +164,12 @@ Future<bool> orderSheet(BuildContext context, String id) async {
               margin: const EdgeInsets.only(bottom: 16),
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(color: C.orangeLight, borderRadius: BorderRadius.circular(14)),
-              child: Text('${replan['file']}이 검사에서 걸려서 다시 세운 계획이에요.\n걸린 항목: ${fmt(replan['violations'])}', style: T.sub),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                Text('${replan['file']} 실행안이 검증에서 걸려서 같은 조건으로 다시 세운 계획이에요. 이전 실행안에서 걸린 항목:',
+                    style: T.sub.copyWith(color: C.g900)),
+                const SizedBox(height: 4),
+                ViolationList(replan['violations'] is Map ? replan['violations'] as Map : const {}),
+              ]),
             ),
           StatRow([
             BigStat('계획 물량', num0(check['total_planned_kt']), unit: 'kt'),
@@ -171,8 +177,11 @@ Future<bool> orderSheet(BuildContext context, String id) async {
             BigStat('구매 요청', '${purchases.length}', unit: '건'),
           ]),
           const SizedBox(height: 16),
-          Text(check['reason']?.toString() ?? '', style: T.sub),
-          Details(title: 'Studio C 검사 결과 보기', child: RawFields(check)),
+          if (check.isNotEmpty) ...[
+            const Text('검증 결과', style: T.h3),
+            const SizedBox(height: 10),
+            CheckView(check),
+          ],
           if (check.isNotEmpty)
             Padding(
               padding: const EdgeInsets.only(bottom: 12),

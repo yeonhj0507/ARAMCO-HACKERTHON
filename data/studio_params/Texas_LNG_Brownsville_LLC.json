@@ -1,0 +1,18 @@
+{
+  "docket": "15-062-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-09-30, 직전 보고서는 2026-04-01이며 두 보고서 모두 docket은 15-062-LNG이다. 최신 보고서에서 first_lng_date와 commercial_service_date가 없고 fid_status도 not_taken이므로 단계는 pre_fid이며, 한국 구매자 계약은 확인되지 않는다.",
+  "case_key": "Texas_LNG_Brownsville_LLC",
+  "source_file": "Texas_LNG_Brownsville_LLC.pdf",
+  "processed_at": "2026-11-25T14:23:21",
+  "review": {
+    "status": "auto"
+  }
+}

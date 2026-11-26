@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../api.dart';
 import '../theme.dart';
+import '../verify_view.dart';
 import '../widgets.dart';
 
 const _kinds = {
@@ -84,7 +85,7 @@ class _ReadPageState extends State<ReadPage> {
     if (_kind == null) {
       return PageScaffold(
         title: '어떤 문서를 읽을까요?',
-        subtitle: 'Upstage Studio 워크플로우가 문서를 읽고 최적화에 넣을 값으로 바꿔요.',
+        subtitle: 'AI가 문서를 판독해서 최적화에 넣을 값으로 바꾸거나, 실행안을 검증해요.',
         children: [
           Box(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
@@ -94,7 +95,7 @@ class _ReadPageState extends State<ReadPage> {
                   icon: e.value.$3,
                   iconColor: e.value.$4,
                   title: e.value.$1,
-                  subtitle: '워크플로우 ${e.key} · ${e.value.$2}',
+                  subtitle: e.value.$2,
                   onTap: () => setState(() => _kind = e.key),
                 ),
             ]),
@@ -199,39 +200,20 @@ class _ReadPageState extends State<ReadPage> {
           ok: ok,
           title: ok ? '문제 없어요. 승인을 요청할게요' : '문제가 있어 다시 계획해야 해요',
           body: f['reason']?.toString());
-      final issues = <(String, String, List)>[
-        ('계약보다 많이 잡은 카고', 'over_contract_rows', f['over_contract_rows'] as List? ?? []),
-        ('저장용량을 넘는 재고', 'capacity_rows', f['capacity_rows'] as List? ?? []),
-        ('안전재고보다 낮은 재고', 'safety_rows', f['safety_rows'] as List? ?? []),
-        ('표끼리 맞지 않는 합계', 'mismatch_rows', f['mismatch_rows'] as List? ?? []),
-        ('부족한 물량', 'shortage_rows', f['shortage_rows'] as List? ?? []),
-      ];
       children.add(Box(
         child: StatRow([
           BigStat('계획 물량', num0(f['total_planned_kt']), unit: 'kt'),
           BigStat('현물 구매', '${f['spot_cargoes'] ?? 0}', unit: '척'),
         ]),
       ));
-      children.add(Box(
-        title: '검사 항목',
-        padding: const EdgeInsets.fromLTRB(24, 24, 24, 12),
-        child: Column(children: [
-          for (final (name, _, rows) in issues)
-            RowItem(
-              icon: rows.isEmpty ? Icons.check_circle_rounded : Icons.error_rounded,
-              iconColor: rows.isEmpty ? C.green : C.orange,
-              title: name,
-              subtitle: rows.isEmpty ? '없어요' : rows.join('  ·  '),
-            ),
-        ]),
-      ));
+      children.add(Box(title: '검사 항목', child: CheckView(f, showRaw: false)));
       if (r['code_check'] != null) {
         children.add(Box(
           child: RowItem(
             icon: disagree.isEmpty ? Icons.handshake_rounded : Icons.compare_arrows_rounded,
             iconColor: disagree.isEmpty ? C.green : C.red,
-            title: disagree.isEmpty ? '코드로 다시 계산해도 같은 판정이에요' : 'Studio와 코드 검산이 달라요',
-            subtitle: disagree.isEmpty ? 'Studio 판정과 규칙 계산을 서로 맞춰봤어요' : '다른 항목: ${disagree.join(', ')}',
+            title: disagree.isEmpty ? '교차 검산도 같은 판정이에요' : '검증 시스템과 교차 검산이 달라요',
+            subtitle: disagree.isEmpty ? '검증 결과를 규칙 계산으로 한 번 더 맞춰봤어요' : '다른 항목: ${disagree.join(', ')}',
           ),
         ));
       }
@@ -241,7 +223,7 @@ class _ReadPageState extends State<ReadPage> {
           child: RowItem(
             icon: Icons.autorenew_rounded,
             title: '최신 입력으로 다시 계획했어요',
-            subtitle: '새 실행안도 Studio C로 검사했어요 · 주문 초안 ${(replan['order'] as Map?)?['order_id']}',
+            subtitle: '새 실행안도 검증 시스템으로 검사했어요 · 주문 초안 ${(replan['order'] as Map?)?['order_id']}',
             trailing: Pill.of(replan['status']?.toString()),
           ),
         ));
@@ -264,7 +246,7 @@ class _ReadPageState extends State<ReadPage> {
       children: [
         head,
         ...children,
-        Box(child: Details(title: 'Studio 출력 원본 보기', child: RawFields(f, highlight: Set<String>.from(r['disagree'] ?? const [])))),
+        Box(child: Details(title: '결과 원본 보기', child: RawFields(f, highlight: Set<String>.from(r['disagree'] ?? const [])))),
       ],
     );
   }

@@ -1,0 +1,18 @@
+{
+  "docket": "19-147-CGL",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2028-06",
+  "slip_months": 6,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-09-30, 직전 보고서는 2026-03-31이며 두 보고서의 도켓은 모두 19-147-CGL이다. first_lng_date와 commercial_service_date가 없고 fid_status가 not_taken이므로 단계는 pre_fid이며, 목표 상업운전 시점은 2027년 4분기에서 2028년 2분기로 6개월 지연되었다.",
+  "case_key": "SeaOne_Corpus_Christi_LLC",
+  "source_file": "SeaOne_Corpus_Christi_LLC.pdf",
+  "processed_at": "2026-11-25T14:22:27",
+  "review": {
+    "status": "auto"
+  }
+}

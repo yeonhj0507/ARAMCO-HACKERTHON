@@ -23,12 +23,12 @@ __pycache__/
 htmlcov/
 
 # ---------- 실행하면 생기는 결과물 (다시 만들 수 있음) ----------
+# data/studio_params/ (미국 프로젝트 53건 판독 결과)는 일부러 올린다. 없으면 Studio를 다시 돌려야 데모가 된다.
 orders/
 data/uploads/
 data/exec/
 data/studio_raw/
 data/studio_raw_v1/
-data/studio_params/
 data/plan_params/
 submission/runs/
 data/*/runs/

@@ -1,0 +1,18 @@
+{
+  "docket": "26-28-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2030-03",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 20,
+  "config_status": "반영",
+  "reason": "보고서는 2026-10-01 1건만 있어 불일치 규칙에 따라 최신 보고서만 사용했다. 해당 보고서는 fid_status가 not_taken이라 pre_fid이고, 목표 일정 문구가 Q1 2030이며 한국 구매자는 없고 secured 5 MTPA 대비 permitted 25 MTPA로 미계약 물량은 20이다.",
+  "case_key": "Argent_LNG_LLC",
+  "source_file": "Argent_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:12:55",
+  "review": {
+    "status": "auto"
+  }
+}

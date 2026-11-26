@@ -1,0 +1,18 @@
+{
+  "docket": "24-43-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2031-12",
+  "slip_months": 12,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-05, 직전 보고서는 2026-03-31이며 두 보고서의 도켓은 모두 24-43-LNG이다. 두 보고서 모두 FID 미실행 상태라 pre_fid로 판단했고, COD 목표가 late 2030에서 late 2031로 변경되어 일정은 12개월 지연으로 보며, 한국 계약상대는 Samsung E&A뿐이고 LNG 구매자는 없다.",
+  "case_key": "Gato_Negro_Permitium_Uno_S_A_P_I_de_C_V",
+  "source_file": "Gato_Negro_Permitium_Uno_S_A_P_I_de_C_V.pdf",
+  "processed_at": "2026-11-25T14:17:53",
+  "review": {
+    "status": "auto"
+  }
+}

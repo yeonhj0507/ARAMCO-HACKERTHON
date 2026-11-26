@@ -1,0 +1,18 @@
+{
+  "docket": "19-134-LNG",
+  "stage": "construction",
+  "operating": false,
+  "online_month": "2030-12",
+  "slip_months": 12,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 1,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01이고 직전 보고서는 2026-04-01이며 두 보고서의 도켓은 모두 19-134-LNG이다. 최신 보고서에서 FID가 taken이므로 단계는 construction이고, 목표 시점은 직전 2029에서 최신 2030으로 12개월 지연되었으며 한국 구매자 계약은 확인되지 않는다.",
+  "case_key": "Commonwealth_LNG_LLC",
+  "source_file": "Commonwealth_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:13:56",
+  "review": {
+    "status": "auto"
+  }
+}

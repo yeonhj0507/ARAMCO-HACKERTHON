@@ -1,0 +1,18 @@
+{
+  "docket": "12-183-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 8.8,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-09-30, 직전 보고서는 2026-03-31이며 두 보고서의 docket_first는 모두 12-183-LNG이다. 두 보고서 모두 first_lng_date와 commercial_service_date가 없고 fid_status가 not_taken이므로 단계는 pre_fid이며, 최신 보고서 기준 permitted 8.8 MTPA 대비 secured 0 MTPA로 미계약 물량은 8.8 MTPA이고 한국 구매자 계약 정보는 없다.",
+  "case_key": "Magnolia_LNG_LLC",
+  "source_file": "Magnolia_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:19:58",
+  "review": {
+    "status": "auto"
+  }
+}

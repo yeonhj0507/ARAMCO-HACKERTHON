@@ -53,7 +53,7 @@ def build_inputs(sc: Scenario):
     params = workflows.load_params() if sc.use_studio else []
     if params:  # 워크플로우 A 결과 (검토 필요는 승인된 것만)
         us_avail, profiles, prob_detail = supply_mod.us_supply_from_params(params, months_ts, sc.us_extra_delay_months)
-        supply_source = f"Studio A 파라미터 {len(params)}건"
+        supply_source = f"보고서 판독 결과 {len(params)}건"
     else:  # 예전 경로: 보고서별 추출 레코드
         records = load_extractions()
         us_avail, profiles, prob_detail = supply_mod.us_supply_forecast(records, months_ts, sc.us_extra_delay_months)

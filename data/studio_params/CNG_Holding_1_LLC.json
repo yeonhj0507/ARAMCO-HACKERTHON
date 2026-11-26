@@ -1,0 +1,18 @@
+{
+  "docket": "22-13-CNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2025-10-01, 직전 보고서는 2025-04-01이며 두 보고서 모두 docket은 22-13-CNG이다. 두 보고서 모두 FID 미실행(not_taken)이고 first LNG일과 상업운전일이 없어 단계는 pre_fid이며, 확인된 한국 구매자 계약도 없다.",
+  "case_key": "CNG_Holding_1_LLC",
+  "source_file": "CNG_Holding_1_LLC.pdf",
+  "processed_at": "2026-11-25T14:13:27",
+  "review": {
+    "status": "auto"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "docket": "13-129-LNG",
+  "stage": "construction",
+  "operating": false,
+  "online_month": "2031-06",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01, 직전 보고서는 2026-04-01이며 두 보고서의 docket_first는 모두 13-129-LNG이다. 최신 보고서에서 fid_status가 taken이므로 단계는 construction이고, 두 보고서 모두 목표 시점이 first half of 2031이라 온라인 월은 2031-06, 지연 개월 수는 0이다.",
+  "case_key": "Delfin_LNG_LLC",
+  "source_file": "Delfin_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:17:09",
+  "review": {
+    "status": "auto"
+  }
+}

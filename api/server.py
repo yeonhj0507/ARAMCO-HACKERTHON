@@ -132,7 +132,7 @@ def status():
 
 # ---------- 문서 처리 (워크플로우 A, B, C) ----------
 def _run_doc(kind: str, path: Path, key: str, log=print) -> dict:
-    log(f"워크플로우 {kind} 실행: {path.name}")
+    log(f"문서 판독 중: {path.name}")
     if kind == "A":
         out = workflows.ingest_a(path, key)
     elif kind == "B":
@@ -239,7 +239,7 @@ def supply_outlook():
         rows.append({"project": p["project"], "docket": p["docket"], "stage": p["stage"], "operating": bool(p["operating"]),
                      "online_month": p["latest_expected"], "tau_months": p["tau_months"], "kr_mtpa": p["kr_mtpa"],
                      "uncontracted_mtpa": p["uncontracted_mtpa"], "p_2027_12": round(probs[-1], 2)})
-    return _jsonable({"source": f"Studio A {len(ps)}건", "projects": rows})
+    return _jsonable({"source": f"보고서 판독 {len(ps)}건", "projects": rows})
 
 
 @app.get("/plan")
@@ -349,14 +349,14 @@ def chat(req: ChatReq):
 TOOL_LABELS = {
     "get_overview": ("수급 현황 요약", "수급 현황을 모으고 있어요"),
     "list_documents": ("문서 목록 확인", "문서를 찾고 있어요"),
-    "read_document": ("Studio로 문서 읽기", "Studio 워크플로우로 문서를 읽고 있어요"),
+    "read_document": ("문서 판독", "AI가 문서를 판독하고 있어요"),
     "list_reviews": ("확인할 항목 조회", "사람 확인이 필요한 항목을 보고 있어요"),
     "get_supply_outlook": ("공급 전망 조회", "프로젝트별 가동 전망을 보고 있어요"),
     "forecast_demand": ("수요 예측 조회", "수요 예측을 보고 있어요"),
     "run_scenario": ("조달 최적화", "2027~2031 조달 계획을 최적화하고 있어요"),
-    "make_plan": ("계획 세우고 Studio C 검사", "계획을 세우고 실행안을 Studio C로 검사하고 있어요"),
+    "make_plan": ("계획 수립과 검증", "계획을 세우고 검증 시스템으로 실행안을 검사하고 있어요"),
     "list_orders": ("계획 초안 조회", "계획 초안을 보고 있어요"),
-    "get_plan_detail": ("배분 계획 조회", "기지별 배분 계획을 보고 있어요"),
+    "get_plan_detail": ("조달 상세 조회", "월별 조달 상세를 보고 있어요"),
     "get_allocation": ("배분 결과 조회", "배분 결과를 보고 있어요"),
     "search_documents": ("근거 검색", "보고서에서 근거를 찾고 있어요"),
 }

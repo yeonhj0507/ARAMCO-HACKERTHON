@@ -1,0 +1,18 @@
+{
+  "docket": "18-144-LNG",
+  "stage": "construction",
+  "operating": false,
+  "online_month": "2026-12",
+  "slip_months": 6,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01, 직전 보고서는 2026-04-01이며 두 보고서 모두 도켓은 18-144-LNG이다. first_lng_date와 commercial_service_date는 비어 있고 fid_status는 taken이므로 stage는 construction이며, 일정 문구는 summer of 2026에서 2026-06, fourth quarter of 2026에서 2026-12로 읽혀 6개월 지연이다.",
+  "case_key": "ECA_Liquefaction_S_de_R_L_de_C_V",
+  "source_file": "ECA_Liquefaction_S_de_R_L_de_C_V.pdf",
+  "processed_at": "2026-11-25T14:16:37",
+  "review": {
+    "status": "auto"
+  }
+}

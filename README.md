@@ -1,78 +1,61 @@
-# LNG 공급망 배분 에이전트 (해커톤 MVP)
+# LNG 조달 다원화 에이전트
 
-DOE LNG 수출 서류를 Upstage Studio로 추출해서 미국산 공급을 예측하고, 수요를 예측한 뒤,
-MILP로 공급원별, 기지별, 월별 배분을 정하고, 구매 요청서 초안과 근거 보고서까지 만든다.
-Solar Pro 채팅으로 조사, 분석, 명령을 할 수 있다.
+Aramco × 고려대학교 × Upstage AI Hackathon
 
-> 지금 들어 있는 데이터는 전부 **샘플**이다. 구조 테스트용이라 실제 값이 아니다.
+미국 DOE에 제출된 LNG 수출 프로젝트 반기 보고서를 Upstage Studio로 판독해 신규 공급처 후보(가동 시점, 한국 계약, 미계약 물량)를 만들고,
+2027~2031년 조달 최적화로 **어디서 얼마나 더 사고 비용은 얼마인지**를 계산합니다.
+장기계약 80% 이상, 현물 20% 이하 원칙을 지키는지, 중동(호르무즈) 의존도가 얼마나 줄어드는지도 함께 봅니다.
+앞 3개월 실행안은 Studio 검증 워크플로우가 검사하고, 승인은 사람이 합니다.
 
-## Windows에서 처음 세팅
+## 빠르게 실행 (Windows)
 
 ```bat
-setup.bat                 :: .venv 생성, 패키지 설치, 샘플 데이터, 테스트까지
-run.bat demo
-run.bat chat --offline
-run.bat chat              :: .env에 UPSTAGE_API_KEY, UPSTAGE_MODEL 넣은 뒤
-run.bat ingest docs\doe   :: .env에 UPSTAGE_STUDIO_AGENT_ID 넣은 뒤, 폴더 안 PDF를 Studio로 처리
+setup.bat              :: .venv 생성, 패키지 설치, 테스트, .env 파일 만들기
+run.bat api            :: 백엔드 http://localhost:8000
 ```
 
-VS Code로 폴더를 열면 `.venv` 인터프리터와 `.env`를 자동으로 잡는다.
-
-## 실행 (직접)
-
-```bash
-pip install -r requirements.txt
-python scripts/make_sample_data.py      # 샘플 데이터 다시 만들기
-python main.py demo                     # 기본 vs 호르무즈 시나리오 비교
-python main.py chat --offline           # 키 없이 도구 호출 체험
-export UPSTAGE_API_KEY=...              # Console에서 발급
-export UPSTAGE_MODEL=...                # Console Models 페이지에서 tool calling 지원 모델 확인
-python main.py chat                     # Solar 오케스트레이터
-python main.py approve <order_id> --approver 이름   # 사람만 승인
-python -m pytest -q tests               # 최적해 제약 검증
+```powershell
+cd app
+flutter pub get
+flutter run -d windows
 ```
 
-## 구조
+- 저장소에는 미국 프로젝트 53건의 판독 결과(`data/studio_params/`)와 수요 기준 자료(`data/reference/`)가 들어 있어서, **키 없이도 조달 최적화와 앱이 동작**합니다.
+- `.env`에 `UPSTAGE_API_KEY`를 넣으면 채팅이 Solar로 답합니다. 키가 없으면 키워드로 도구를 고르는 오프라인 모드로 동작합니다.
+- 새 보고서를 판독하거나 실행안을 검증하려면 `.env`에 Studio 에이전트 ID와 설정 번호가 필요합니다 (`.env.example` 참고).
 
+## 구성
+
+| 단계 | 하는 일 | 위치 |
+|---|---|---|
+| 보고서 판독 (Studio 워크플로우 A, 채점 대상) | DOE 반기 보고서 2건에서 docket, 단계, 가동 시점, 지연, 한국 계약, 미계약 물량, 반영 여부 | `lng/workflows.py`, `submission/` |
+| 공급 전망 | 단계와 지연 이력으로 가동 확률 계산, 미계약 물량을 신규 계약 후보로 | `lng/supply.py` |
+| 수요 | 제16차 장기 천연가스 수급계획 전망에 맞춘 월별 예측 (전산 기준 자료) | `lng/demand.py`, `data/reference/demand_plan.json` |
+| 조달 최적화 | MILP. 신규 계약 규모, 현물 구매, 기지 하역과 재고, 장기 80% 원칙 | `lng/optimizer.py`, `lng/planner.py` |
+| 실행안 검증 (Studio 워크플로우 C) | 앞 3개월 실행안 PDF의 계약 한도, 저장 용량, 안전재고, 합계 검사. 걸리면 재계획 | `lng/cycle.py`, `lng/execdoc.py` |
+| 채팅 에이전트 | Solar tool calling, 결과는 카드로 표시, 승인과 반영은 사람이 버튼으로 | `lng/orchestrator.py`, `lng/tools.py`, `api/server.py` |
+| 앱 | Flutter (Windows, 웹) | `app/` |
+
+## 자주 쓰는 명령
+
+```bat
+run.bat eval-studio                 :: 제출 케이스 7건을 Studio로 돌려 정답지와 비교 (제출 점검 포함)
+run.bat ingest-a                    :: data\a_cases의 보고서를 판독해 data\studio_params에 저장
+run.bat review                      :: 사람 확인이 필요한 판독 결과
+run.bat run-cycle --hormuz 3        :: 계획 수립, 실행안 검증, 승인 대기 초안
+.venv\Scripts\python -m pytest -q tests
 ```
-lng/
-  schemas.py        Studio Extract 필드 스키마 (Studio 화면에 그대로 등록)
-  studio_client.py  Studio 결과 JSON 로더, 근거 문장 검색, API 연동 자리(TODO)
-  supply.py         반기 보고서 가동일 지연 이력 -> 가동 확률 -> 한국향 월별 가용 물량
-  demand.py         Holt-Winters 수요 예측, 기지별 분할
-  optimizer.py      MILP (PuLP + CBC)
-  planner.py        시나리오 -> 공급/수요 -> 최적화 한 번에
-  tools.py          채팅 도구 (조사, 분석, 명령 초안). 승인 함수는 LLM에 노출 안 함
-  report.py         승인용 근거 보고서 마크다운
-  orchestrator.py   Solar tool calling 루프, 오프라인 키워드 라우터
-data/sample/        기지, 공급원, 수요 이력 (샘플)
-data/studio_output/ Studio Extract 결과 (샘플)
-orders/             생성된 지시서, 보고서 (실행 시 생김)
-```
 
-## 실데이터로 바꿀 곳
+## 저장소에 없는 것
 
-| 파일 | 실데이터 출처 |
-|---|---|
-| data/studio_output/*.json | DOE 반기 보고서를 Studio Classify -> Extract로 처리한 결과 |
-| data/sample/demand_history.csv | 공공데이터포털 한국가스공사 생산기지 용도별 월 공급량 |
-| data/sample/terminals.csv | 16차 장기 천연가스 수급계획 별첨 인프라 현황 |
-| data/sample/sources.csv | 가스공사 도입계약 공개 보도, 국가별 수입단가 |
+- `.env` (API 키, 에이전트 ID)
+- `data/doe/` DOE 보고서 원본과 `data/a_cases/` 합본 케이스: 용량이 커서 뺐습니다. `scripts/make_a_cases.py`로 다시 만듭니다.
+- 실행하면 생기는 결과물: `orders/`, `data/exec/`, Studio 원본 응답(`data/studio_raw*`), 평가 결과(`*/runs/`)
 
-Studio 쪽 순서
-1. Studio에서 에이전트 생성: Parse -> Classify(`schemas.DOC_TYPES`) -> Extract(`schemas.EXTRACT_SCHEMA`)
-2. DOE PDF 몇 건으로 테스트하고 결과 JSON을 `data/studio_output/`에 저장
-3. 결과 키 이름이 다르면 `studio_client.normalize_record()`만 고친다
-4. API로 돌릴 때는 `.env`에 `UPSTAGE_STUDIO_AGENT_ID`(agt_...)를 넣고 `run.bat ingest <PDF 또는 폴더>`
-   원본 응답은 `data/studio_raw/`, 변환 결과는 `data/studio_output/`에 저장된다
+## 가정 (발표 때 밝힐 것)
 
-## 모델 가정 (발표 때 명시)
-
-- 카고는 도착월 기준, 리드타임은 무시
-- 공급원-월 단위로 카고 수는 정수, 기지 간에는 분할 하역 허용 (계산 속도 때문)
-- 장기계약 연간 물량 안에서 월별 유연성 허용, take-or-pay 하한 적용
-- 호르무즈 경유 물량은 차단 개월 동안 0, take-or-pay도 그만큼 줄어듦 (불가항력 가정)
-- 기지 간 주배관 이송 쌍별 월 400kt 상한, 제주는 통영에서 내항선으로만 공급
-- 공급 부족 페널티 20,000 $/t (공급 중단 비용을 크게 둠)
-- 미국 프로젝트 가동 시점 = 최신 예정일 + 지수분포 지연, 평균은 과거 지연 이력으로 추정
-- 미국 미계약 물량 중 30%를 한국이 협상으로 확보 가능, 단가 +60 $/t
+- 한국이 미국 프로젝트 미계약 물량의 30%까지 계약할 수 있다고 봅니다.
+- 신규 계약 단가 = 미국 장기계약 단가 + 60 $/t, 계약 물량의 90%는 take-or-pay.
+- FID 전 프로젝트의 가동 시점 불확실성을 크게 둡니다 (tau 12개월 이상).
+- 기존 장기계약은 2031년까지 유지된다고 봅니다.
+- 장기계약이 모자라 80% 원칙을 못 지키는 해는 필요한 추가 물량만 보여줍니다. 그 공백을 메울 다른 공급처 자료는 아직 없습니다.

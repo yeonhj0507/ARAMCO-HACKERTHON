@@ -1,0 +1,18 @@
+{
+  "docket": "15-190-LNG",
+  "stage": "construction",
+  "operating": false,
+  "online_month": "2027-09",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "최신 보고서는 2026-10-01, 직전 보고서는 2026-04-01이며 두 보고서의 도켓은 모두 15-190-LNG이다. first_lng_date와 commercial_service_date는 없고 fid_status가 taken이므로 단계는 construction이며, 두 보고서 모두 첫 LNG 수출 예상 시점이 2027년 9월로 동일해 일정 지연은 0개월이다.",
+  "case_key": "Rio_Grande_LNG_LLC",
+  "source_file": "Rio_Grande_LNG_LLC.pdf",
+  "processed_at": "2026-11-25T14:21:51",
+  "review": {
+    "status": "auto"
+  }
+}

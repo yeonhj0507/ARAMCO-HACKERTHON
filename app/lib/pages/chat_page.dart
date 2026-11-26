@@ -205,7 +205,7 @@ class _ChatPageState extends State<ChatPage> {
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           const Text('무엇을 할까요?', style: T.h1),
           const SizedBox(height: 8),
-          const Text('상황을 말하면 어디서 얼마나 더 사고 비용이 얼마인지 최적화로 답해요. 미국 프로젝트 보고서를 첨부하면 Studio가 읽어 신규 계약 후보로 넣어요.\n반영과 승인은 결과 카드에서 직접 해요.',
+          const Text('상황을 말하면 어디서 얼마나 더 사고 비용이 얼마인지 최적화로 답해요. 미국 프로젝트 보고서를 첨부하면 AI가 판독해서 신규 계약 후보로 넣어요.\n반영과 승인은 결과 카드에서 직접 해요.',
               style: T.sub),
           const SizedBox(height: 28),
           Wrap(spacing: 8, runSpacing: 8, children: [

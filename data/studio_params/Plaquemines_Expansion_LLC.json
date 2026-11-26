@@ -1,0 +1,18 @@
+{
+  "docket": "25-143-LNG",
+  "stage": "pre_fid",
+  "operating": false,
+  "online_month": "2029-12",
+  "slip_months": 0,
+  "kr_buyers": [],
+  "kr_mtpa": 0,
+  "uncontracted_mtpa": 0,
+  "config_status": "반영",
+  "reason": "보고서는 2026-10-01자 1건만 있어 최신 보고서 기준으로 판단했다. first_lng_date와 commercial_service_date가 없고 fid_status가 not_taken이므로 pre_fid이며, 목표 일정은 2029년으로만 제시되어 online_month는 2029-12, 장기 LNG 매매계약 및 한국 구매자는 없다.",
+  "case_key": "Plaquemines_Expansion_LLC",
+  "source_file": "Plaquemines_Expansion_LLC.pdf",
+  "processed_at": "2026-11-25T14:20:47",
+  "review": {
+    "status": "auto"
+  }
+}

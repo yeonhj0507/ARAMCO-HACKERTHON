@@ -94,7 +94,7 @@ class _SupplyPageState extends State<SupplyPage> {
           Box(
             title: '수요와 기지 · ${_plan['plan_name']}',
             child: Details(
-              title: 'Studio B가 읽은 값 보기',
+              title: '수요 기준 자료 보기 (제16차 수급계획)',
               child: RawFields({
                 '기준수요 (연도, 도시가스, 발전, 합계 kt)': _plan['base_demand_rows'],
                 '기지 (코드, 운영주체, 운영 kt, 계획 kt)': _plan['terminal_rows'],
